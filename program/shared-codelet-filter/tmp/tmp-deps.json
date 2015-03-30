@@ -1,0 +1,34 @@
+{
+  "compiler": {
+    "bat": "call D:\\Work1\\CK\\ck-repos\\fgg-local-win\\env\\a2aae29bf1e0257d\\env.bat\n", 
+    "cus": {
+      "languages": [
+        "C", 
+        "CPP", 
+        "F77", 
+        "F90", 
+        "F95"
+      ], 
+      "path_install": "D:\\!FGG\\Installations\\GCC-4.7.2-x86\\etc\\gcc-4.7.2-bin", 
+      "build_dir_name": "gcc", 
+      "skip_add_to_ld_path": "yes", 
+      "retarget": "no", 
+      "add_m32": "no", 
+      "build-dir-name": "gcc", 
+      "tool_prefix_configured": "yes", 
+      "path_bin": "D:\\!FGG\\Installations\\GCC-4.7.2-x86\\etc\\gcc-4.7.2-bin\\bin", 
+      "add_extra_path": "\\..\\..\\bin", 
+      "version": "4.7.2", 
+      "extra_dir": "etc\\gcc-4.7.2-bin", 
+      "tool_prefix": "", 
+      "env_prefix": "CK_ENV_COMPILER_GCC", 
+      "version_int": 40702
+    }, 
+    "tags": "compiler,lang-c", 
+    "build_dir_name": "gcc", 
+    "num_entries": 3, 
+    "uoa": "a2aae29bf1e0257d", 
+    "ver": "4.7.2", 
+    "local": "yes"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "compiler": {
+    "bat": "call D:\\Work1\\CK\\ck-repos\\fgg-local-win\\env\\0a8da1441d8b0bbc\\env.bat\n", 
+    "cus": {
+      "languages": [
+        "C", 
+        "CPP"
+      ], 
+      "path_install": "D:\\!FGG\\Installations\\LLVM-3.6.0", 
+      "build_dir_name": "llvm", 
+      "skip_add_to_ld_path": "yes", 
+      "retarget": "no", 
+      "build-dir-name": "llvm", 
+      "path_bin": "D:\\!FGG\\Installations\\LLVM-3.6.0\\bin", 
+      "version_int": 30600, 
+      "version": "3.6.0", 
+      "extra_dir": "", 
+      "tool_prefix": "", 
+      "env_prefix": "CK_ENV_COMPILER_LLVM"
+    }, 
+    "tags": "compiler,lang-c", 
+    "build_dir_name": "llvm", 
+    "num_entries": 7, 
+    "uoa": "0a8da1441d8b0bbc", 
+    "ver": "3.6.0", 
+    "local": "yes"
+  }
+}
