@@ -5,13 +5,13 @@
       "-O3 -fno-if-conversion",
       "-O2",
       "-O1",
-      "-Os",
-      "-Os -fno-if-conversion"
+      "-Os"
     ]
   }, 
   "program_uoa": "3a2498cb437a87aa",
   "dataset_uoas": [
    "image-raw-bin-fgg-office-day-gray",
    "image-raw-bin-fgg-office-night-gray"
-  ]
+  ],
+  "stat_repeat":3
 }

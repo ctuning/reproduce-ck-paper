@@ -5,12 +5,12 @@
     "compression": "", 
     "format": "JPEG", 
     "height": 1536, 
+    "hour_taken": 13, 
     "mode": "L", 
     "total_size": 10024269, 
     "width": 1536, 
     "xdpi": 72, 
-    "ydpi": 72,
-    "hour_taken":13
+    "ydpi": 72
   }, 
   "tags": [
     "dataset", 

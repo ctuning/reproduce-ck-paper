@@ -9,6 +9,7 @@
 #
 
 import os
+import sys
 
 print('')
 print('We found considerable execution times speedups')
@@ -24,4 +25,12 @@ print('')
 print('This motivates our continuous crowd-tuning approach')
 print('combined with public repository of optimization knowledge.')
 
-os.system('ck reproduce program.experiment.speedup @reproduce1.json')
+arg=sys.argv
+sarg=''
+for q in sys.argv:
+    if sarg=='': sarg=' ' # Pass first entry
+    else: sarg+=' '+q
+
+print sarg
+
+os.system('ck reproduce program.experiment.speedup @reproduce1.json'+sarg)
