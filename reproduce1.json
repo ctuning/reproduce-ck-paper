@@ -9,5 +9,9 @@
       "-Os -fno-if-conversion"
     ]
   }, 
-  "program_uoa": "3a2498cb437a87aa"
+  "program_uoa": "3a2498cb437a87aa",
+  "dataset_uoas": [
+   "image-raw-bin-fgg-office-day-gray",
+   "image-raw-bin-fgg-office-night-gray"
+  ]
 }
