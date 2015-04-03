@@ -83,6 +83,10 @@ int main(int argc, const char **argv)
     return 1;
   }
 
+#ifdef XOPENME
+  program_start();
+#endif
+
   /* FGG adding kernel repetition */
   if (getenv("CT_REPEAT_MAIN")!=NULL) r=atol(getenv("CT_REPEAT_MAIN"));
 
@@ -96,13 +100,23 @@ int main(int argc, const char **argv)
      }
   }
 
+#ifdef XOPENME
+  clock_start();
+#endif
   for (rr=0; rr<r; rr++) {
     filter_codelet(image_buffer1, image_buffer2);
   }
+#ifdef XOPENME
+  clock_end();
+#endif
 
   /* Store binary image. */
 
   output_dsp(image_buffer2, N*N);
+
+#ifdef XOPENME
+  program_end();
+#endif
 
   return 0;
 }

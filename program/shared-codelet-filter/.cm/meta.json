@@ -1,4 +1,7 @@
 {
+  "build_compiler_vars": {
+    "XOPENME": "" 
+  },
   "compile_deps": {
     "compiler": {
       "local": "yes", 
@@ -20,6 +23,7 @@
       "hot_functions": [], 
       "ignore_return_code": "no", 
       "run_time": {
+        "fine_grain_timer_file": "tmp-ck-timer.json", 
         "run_cmd_main": "$#BIN_FILE#$ $#dataset_path#$$#dataset_filename#$", 
         "run_cmd_out1": "tmp-output1.tmp", 
         "run_cmd_out2": "tmp-output2.tmp", 
@@ -28,7 +32,8 @@
         ], 
         "run_input_files": [], 
         "run_output_files": [
-          "image_output.bin"
+          "image_output.bin",
+          "tmp-ck-timer.json"
         ]
       }
     }
@@ -54,6 +59,7 @@
     }
   }, 
   "source_files": [
+    "ctuning.c",
     "filter.c", 
     "filter_codelet.c"
   ], 
