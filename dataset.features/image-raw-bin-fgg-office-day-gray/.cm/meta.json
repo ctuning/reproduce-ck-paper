@@ -1,0 +1,21 @@
+{
+  "dataset_uid": "c8848a1b1fb1775e", 
+  "dataset_uoa": "image-raw-bin-fgg-office-day-gray", 
+  "features": {
+    "compression": "", 
+    "format": "JPEG", 
+    "height": 1536, 
+    "mode": "L", 
+    "total_size": 10024269, 
+    "width": 1536, 
+    "xdpi": 72, 
+    "ydpi": 72,
+    "hour_taken":13
+  }, 
+  "tags": [
+    "dataset", 
+    "image", 
+    "raw-bin", 
+    "rgb"
+  ]
+}

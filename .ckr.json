@@ -6,5 +6,13 @@
     "shared": "git"
   }, 
   "data_alias": "paper-ck-2015", 
-  "data_uoa": "paper-ck-2015"
+  "data_uoa": "paper-ck-2015",
+  "tags": [
+    "experiment", 
+    "gfursin", 
+    "adaptation", 
+    "shared", 
+    "artifacts", 
+    "optimization"
+  ]
 }
