@@ -2,11 +2,11 @@
   "data_uid": "8f3741434566b104", 
   "data_name": "Shared CK artifacts for CK paper, CPC'2015", 
   "dict": {
-    "url": "https://github.com/ctuning/paper-ck-2015.git", 
+    "url": "https://github.com/ctuning/ck-reproduce-paper-cm-2014-ck-2015.git", 
     "shared": "git"
   }, 
-  "data_alias": "paper-ck-2015", 
-  "data_uoa": "paper-ck-2015",
+  "data_alias": "ck-reproduce-paper-cm-2014-ck-2015", 
+  "data_uoa": "ck-reproduce-paper-cm-2014-ck-2015",
   "tags": [
     "experiment", 
     "gfursin", 
