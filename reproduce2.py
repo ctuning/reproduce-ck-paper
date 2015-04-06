@@ -91,6 +91,9 @@ ck.out('with the same data set executed multiple times with different')
 ck.out('CPU frequency.')
 
 ck.out('')
+ck.out('Note: Please, check that SciPy and NumPy are installed!')
+
+ck.out('')
 
 # Select number of repetitions
 ck.out(sep)
@@ -170,6 +173,20 @@ ii['data_uoa']=euoa2
 r=run(ii)
 if r['return']>0:
    ck.err(r)
+
+########################
+ck.out(sep)
+ck.inp({'text':'Experiments finished. Press Enter to analyze them'})
+
+r=ck.access({'action':'load',
+             'module_uoa':'experiment',
+             'data_uoa':euoa0})
+if r['return']>0: ck.err(r)
+
+ck.out(sep)
+ck.inp({'text':'Experiments finished. Press Enter to analyze them'})
+
+os.system("python reproduce2_analyze")
 
 exit(0)
 

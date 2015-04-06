@@ -12,6 +12,8 @@
 
   "plot_type":"mpl_1d_density",
 
+  "bins":100,
+
   "title":"Powered by Collective Knowledge",
 
   "axis_x_desc":"Execution time",
