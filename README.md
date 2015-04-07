@@ -2,6 +2,18 @@
 Shared artifacts for our project and papers
 on "Collective Mind" and "Collective Knowledge".
 
+# Contact
+* Grigori Fursin, Grigori.Fursin@cTuning.org
+
+# Compatibility
+* Linux, Windows, Android
+
+# Dependencies:
+CK
+* http://github.com/ctuning/ck
+Various python packages:
+* Linux: sudo apt-get install python-numpy python-scipy python-matplotlib 
+
 # Installation using CK
 ck pull repo:paper-ck-2015
 ck pull repo:ck-env
