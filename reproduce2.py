@@ -27,7 +27,7 @@ def run(i):
     euoa=i['data_uoa']
     n=i['repetitions']
     repeat=i.get('repeat',-1)
-    
+
     for k in range(0,n):
         ck.out(sep)
         ck.out('Statistical repetition '+str(k+1)+' out of '+str(n)+' ...')
@@ -47,7 +47,7 @@ def run(i):
 
         rs=misc['run_success']
         if rs!='yes':
-           return {'return':1, 'error':'execution failed! Check above output'}
+           return {'return':1, 'error':'execution failed! Check above output and report to authors if needed'}
 
         repeat=ch['repeat']
         et=ch['execution_time']
@@ -95,6 +95,8 @@ ck.out('Note: Please, check that SciPy and NumPy are installed!')
 
 ck.out('')
 
+curdir=os.getcwd()
+
 # Select number of repetitions
 ck.out(sep)
 r=ck.inp({'text':'Select number of repetitions of the experiment (or Press Enter for 10): '})
@@ -115,6 +117,10 @@ r=ck.access({'action':'compile',
              'clean':'yes'})
 if r['return']>0:
    ck.err(r)
+
+cmisc=r['misc']
+if cmisc.get('compilation_success','')!='yes':
+   ck.err({'return':1, 'error':'compilation failed - please check above logs and report to authors if needed'})
 
 # Check if data already exists and ask if should be cleaned
 r=ck.access({'action':'load',
@@ -178,15 +184,8 @@ if r['return']>0:
 ck.out(sep)
 ck.inp({'text':'Experiments finished. Press Enter to analyze them'})
 
-r=ck.access({'action':'load',
-             'module_uoa':'experiment',
-             'data_uoa':euoa0})
-if r['return']>0: ck.err(r)
-
-ck.out(sep)
-ck.inp({'text':'Experiments finished. Press Enter to analyze them'})
-
-os.system("python reproduce2_analyze")
+os.chdir(curdir)
+os.system("python reproduce2_analyze.py")
 
 exit(0)
 
