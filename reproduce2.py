@@ -76,6 +76,8 @@ def run(i):
 ######################################################################
 n=10
 
+curdir=os.getcwd()
+
 ck.out('')
 ck.out('Variation in results of the same experiments is not always considered')
 ck.out('or results with high variation are simply removed.')
@@ -186,6 +188,7 @@ if r['return']>0: ck.err(r)
 ck.out(sep)
 ck.inp({'text':'Experiments finished. Press Enter to analyze them'})
 
+os.chdir(curdir)
 os.system("python reproduce2_analyze")
 
 exit(0)
