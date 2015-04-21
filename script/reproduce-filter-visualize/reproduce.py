@@ -189,6 +189,6 @@ ck.out(sep)
 ck.inp({'text':'Experiments finished. Press Enter to analyze them'})
 
 os.chdir(curdir)
-os.system("python reproduce2_analyze")
+os.system("python reproduce_analyze")
 
 exit(0)

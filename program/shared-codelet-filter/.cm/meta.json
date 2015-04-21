@@ -1,7 +1,8 @@
 {
+  "backup_data_uid": "3a2498cb437a87aa", 
   "build_compiler_vars": {
-    "XOPENME": "" 
-  },
+    "XOPENME": ""
+  }, 
   "compile_deps": {
     "compiler": {
       "local": "yes", 
@@ -9,6 +10,7 @@
     }
   }, 
   "compiler_env": "CK_CC", 
+  "data_name": "shared-codelet-filter", 
   "extra_ld_vars": "$<<CK_EXTRA_LIB_M>>$", 
   "main_language": "c", 
   "process_in_tmp": "yes", 
@@ -32,7 +34,7 @@
         ], 
         "run_input_files": [], 
         "run_output_files": [
-          "image_output.bin",
+          "image_output.bin", 
           "tmp-ck-timer.json"
         ]
       }
@@ -59,7 +61,7 @@
     }
   }, 
   "source_files": [
-    "ctuning.c",
+    "ctuning.c", 
     "filter.c", 
     "filter_codelet.c"
   ], 

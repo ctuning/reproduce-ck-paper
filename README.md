@@ -21,12 +21,17 @@ ck pull repo:ck-autotuning
 ck pull repo:ck-analytics
 
 ##########################################################
-# Reproducible experiments:
+# Reproducible experiments (collaboratively validate assumption
+# and report unexpected behavior for further analysis):
+
 1) Validating that threshold filter needs 
-run-time adaptation to achieve best performance
+run-time adaptation to achieve best performance 
 and energy usage depending on the type of image:
 
 To reproduce/validate expectation:
+
+> cd script/reproduce-filter-speedup
+
 > python reproduce1.py
 
 # From ipython notebook (check that CK is installed as python module): 
