@@ -15,7 +15,7 @@ on "Collective Mind" and "Collective Knowledge".
 ** Linux: sudo apt-get install python-numpy python-scipy python-matplotlib 
 
 # Installation using CK
-> ck pull repo:paper-ck-2015
+> ck pull repo:ck-reproduce-paper-cm-2014-ck-2015
 
 > ck pull repo:ck-env
 
