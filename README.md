@@ -16,8 +16,11 @@ on "Collective Mind" and "Collective Knowledge".
 
 # Installation using CK
 > ck pull repo:paper-ck-2015
+
 > ck pull repo:ck-env
+
 > ck pull repo:ck-autotuning
+
 > ck pull repo:ck-analytics
 
 ##########################################################
