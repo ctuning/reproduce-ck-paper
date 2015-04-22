@@ -41,6 +41,7 @@ To reproduce/validate expectation:
 > python reproduce.py
 
 # From ipython notebook (check that CK is installed as python module): 
+
 > ipython notebook reproduce.ipynb
 
 ##########################################################
@@ -52,4 +53,5 @@ and missing features.
 To reproduce/validate expecation (ck should be installed
 as Python package using "ck setup kernel --install):
 > cd script/reproduce-filter-visualize
+
 > python reproduce2.py
