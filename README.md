@@ -1,3 +1,7 @@
+THIS REPOSITORY IS NOT STABLE AND IS 
+IN ACTIVE DEVELOPMENT. PLEASE, USE IT 
+AT YOUR OWN RISK UNTIL OFFICIAL RELEASE!
+
 # paper-ck-2015
 Shared artifacts for our project and papers
 on "Collective Mind" and "Collective Knowledge".
