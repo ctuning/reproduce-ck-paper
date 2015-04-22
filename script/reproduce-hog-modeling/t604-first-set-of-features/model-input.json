@@ -1,0 +1,29 @@
+{
+  "experiment_repo_uoa":"ck-reproduce-paper-cm-2014-ck-2015",
+
+  "search_dict":{
+    "meta":{
+      "device name": "Mali-T604", 
+      "kernel name": "calc_histogram", 
+      "program name": "Realeyes HOG"
+     }
+  },
+
+  "features_flat_keys_ext":"#min",
+
+  "features_flat_keys_list":[
+    "##features#size"
+   ],
+
+   "features_flat_keys_desc": {
+      "##features#size":{"name":"worksize"}
+  },
+
+  "characteristics_flat_keys_list":[
+    "##characteristics#gpu_copy_is_much_better_cpu#min"
+  ],
+
+  "remove_points_with_none":"yes",
+
+  "keep_temp_files":"yes"
+}

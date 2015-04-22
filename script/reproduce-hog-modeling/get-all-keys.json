@@ -1,0 +1,13 @@
+{
+  "search_dict":{
+    "meta":{
+      "kernel name": "calc_histogram", 
+      "program name": "Realeyes HOG"
+     }
+  },
+
+  "aggregation":{
+    "keys_start":"##",
+    "keys_end":"#min"
+  }
+}

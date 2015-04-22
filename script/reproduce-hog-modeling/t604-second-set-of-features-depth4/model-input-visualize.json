@@ -1,0 +1,15 @@
+{
+  "visualize":"no",
+
+  "graph_params":{
+    "plot_type":"mpl_2d_scatter",
+    "display_x_error_bar":"no",
+    "display_y_error_bar":"no",
+    "plot_grid":"yes",
+    "mpl_image_size_x":"12",
+    "mpl_image_size_y":"6",
+    "mpl_image_dpi":"100",
+    "substitute_x_with_loop":"yes",
+    "sort_index":"1"
+  }
+}

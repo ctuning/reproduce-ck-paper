@@ -1,0 +1,80 @@
+{
+  "1": {
+    "decision": [
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "96.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "40.0000"
+      }
+    ], 
+    "dot_label": "2", 
+    "value": false
+  }, 
+  "3": {
+    "decision": [
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "96.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "40.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "56.0000"
+      }
+    ], 
+    "dot_label": "5", 
+    "value": false
+  }, 
+  "2": {
+    "decision": [
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "96.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "40.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "56.0000"
+      }
+    ], 
+    "dot_label": "4", 
+    "value": false
+  }, 
+  "4": {
+    "decision": [
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "96.0000"
+      }
+    ], 
+    "dot_label": "6", 
+    "value": false
+  }
+}

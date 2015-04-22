@@ -1,0 +1,15 @@
+digraph Tree {
+0 [label="X[0] <= 40.0000\nsamples = 276", shape="box"] ;
+1 [label="X[7] <= 620.5000\nsamples = 92", shape="box"] ;
+0 -> 1 ;
+2 [label="*L1*\nsamples = 8\nTrue (6) / False (2)", shape="box"] ;
+1 -> 2 ;
+3 [label="*L2*\nsamples = 84\nTrue (84) / False (0)", shape="box"] ;
+1 -> 3 ;
+4 [label="X[6] <= 3037.0000\nsamples = 184", shape="box"] ;
+0 -> 4 ;
+5 [label="*L3*\nsamples = 160\nTrue (0) / False (160)", shape="box"] ;
+4 -> 5 ;
+6 [label="*L4*\nsamples = 24\nTrue (4) / False (20)", shape="box"] ;
+4 -> 6 ;
+}

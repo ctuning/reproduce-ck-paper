@@ -1,0 +1,27 @@
+digraph Tree {
+0 [label="X[1]: GWS0 <= 14.0000\nsamples = 460", shape="box"] ;
+1 [label="X[4]: CPU frequency <= 1200.0000\nsamples = 92", shape="box"] ;
+0 -> 1 ;
+2 [label="X[10]: size / GPU frequency <= 21853.0000\nsamples = 46", shape="box"] ;
+1 -> 2 ;
+3 [label="*L1*\nsamples = 34\nTrue (1) / False (33)", shape="box"] ;
+2 -> 3 ;
+4 [label="*L2*\nsamples = 12\nTrue (11) / False (1)", shape="box"] ;
+2 -> 4 ;
+5 [label="X[10]: size / GPU frequency <= 1287.5000\nsamples = 46", shape="box"] ;
+1 -> 5 ;
+6 [label="*L3*\nsamples = 4\nTrue (0) / False (4)", shape="box"] ;
+5 -> 6 ;
+7 [label="*L4*\nsamples = 42\nTrue (40) / False (2)", shape="box"] ;
+5 -> 7 ;
+8 [label="X[10]: size / GPU frequency <= 3098.5000\nsamples = 368", shape="box"] ;
+0 -> 8 ;
+9 [label="X[11]: CPU frequency / GPU frequency <= 2.2514\nsamples = 96", shape="box"] ;
+8 -> 9 ;
+10 [label="*L5*\nsamples = 32\nTrue (19) / False (13)", shape="box"] ;
+9 -> 10 ;
+11 [label="*L6*\nsamples = 64\nTrue (63) / False (1)", shape="box"] ;
+9 -> 11 ;
+12 [label="*L7*\nsamples = 272\nTrue (272) / False (0)", shape="box"] ;
+8 -> 12 ;
+}

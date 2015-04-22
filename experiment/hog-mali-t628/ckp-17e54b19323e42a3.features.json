@@ -1,0 +1,29 @@
+{
+  "features": {
+    "GWS": [
+      32, 
+      32, 
+      64
+    ], 
+    "LWS": [
+      4, 
+      1, 
+      64
+    ], 
+    "OFFSET": [
+      0, 
+      0, 
+      0
+    ], 
+    "compiler name": "ARM Mali OpenCL", 
+    "compiler version": "5.0", 
+    "cpu_freq": 800, 
+    "gpu_freq": 533, 
+    "image cols": 2868, 
+    "image rows": 1607, 
+    "pool_dir": "pool.13", 
+    "program version": "c597087", 
+    "size": 32
+  }, 
+  "sub_points": 5
+}

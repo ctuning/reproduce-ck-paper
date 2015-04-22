@@ -1,0 +1,11 @@
+digraph Tree {
+0 [label="X[0]: worksize <= 40.0000\nsamples = 276", shape="box"] ;
+1 [label="*L1*\nsamples = 92\nTrue (90) / False (2)", shape="box"] ;
+0 -> 1 ;
+2 [label="X[0]: worksize <= 96.0000\nsamples = 184", shape="box"] ;
+0 -> 2 ;
+3 [label="*L2*\nsamples = 92\nTrue (4) / False (88)", shape="box"] ;
+2 -> 3 ;
+4 [label="*L3*\nsamples = 92\nTrue (0) / False (92)", shape="box"] ;
+2 -> 4 ;
+}

@@ -1,0 +1,50 @@
+{
+  "1": {
+    "decision": [
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "40.0000"
+      }
+    ], 
+    "dot_label": "1", 
+    "value": false
+  }, 
+  "3": {
+    "decision": [
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "40.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "96.0000"
+      }
+    ], 
+    "dot_label": "4", 
+    "value": true
+  }, 
+  "2": {
+    "decision": [
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "40.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "96.0000"
+      }
+    ], 
+    "dot_label": "3", 
+    "value": true
+  }
+}

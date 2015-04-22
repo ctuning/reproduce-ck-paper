@@ -1,0 +1,30 @@
+{
+  "added": {
+    "author": "cTuning foundation", 
+    "author_email": "admin@cTuning.org", 
+    "author_webpage": "http://cTuning.org", 
+    "copyright": "See CK Copyright.txt for copyright details", 
+    "engine": "CK", 
+    "iso_datetime": "2015-02-20T10:33:30.940589", 
+    "license": "See CK LICENSE.txt for licensing details", 
+    "version": [
+      "1", 
+      "1", 
+      "0205"
+    ]
+  }, 
+  "meta": {
+    "device name": "Mali-T604", 
+    "device type": "GPU", 
+    "device vendor": "ARM", 
+    "experiment type": "benchmarking", 
+    "kernel name": "calc_histogram", 
+    "program name": "Realeyes HOG"
+  }, 
+  "points": "276", 
+  "tags": [
+    "demo", 
+    "arm", 
+    "codegen15"
+  ]
+}

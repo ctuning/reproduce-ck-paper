@@ -1,0 +1,27 @@
+digraph Tree {
+0 [label="X[1] <= 14.0000\nsamples = 460", shape="box"] ;
+1 [label="X[4] <= 1200.0000\nsamples = 92", shape="box"] ;
+0 -> 1 ;
+2 [label="X[6] <= 2411.0000\nsamples = 46", shape="box"] ;
+1 -> 2 ;
+3 [label="*L1*\nsamples = 26\nTrue (1) / False (25)", shape="box"] ;
+2 -> 3 ;
+4 [label="*L2*\nsamples = 20\nTrue (11) / False (9)", shape="box"] ;
+2 -> 4 ;
+5 [label="X[6] <= 1152.0000\nsamples = 46", shape="box"] ;
+1 -> 5 ;
+6 [label="*L3*\nsamples = 14\nTrue (8) / False (6)", shape="box"] ;
+5 -> 6 ;
+7 [label="*L4*\nsamples = 32\nTrue (32) / False (0)", shape="box"] ;
+5 -> 7 ;
+8 [label="X[7] <= 1374.5000\nsamples = 368", shape="box"] ;
+0 -> 8 ;
+9 [label="X[2] <= 40.0000\nsamples = 128", shape="box"] ;
+8 -> 9 ;
+10 [label="*L5*\nsamples = 64\nTrue (64) / False (0)", shape="box"] ;
+9 -> 10 ;
+11 [label="*L6*\nsamples = 64\nTrue (50) / False (14)", shape="box"] ;
+9 -> 11 ;
+12 [label="*L7*\nsamples = 240\nTrue (240) / False (0)", shape="box"] ;
+8 -> 12 ;
+}

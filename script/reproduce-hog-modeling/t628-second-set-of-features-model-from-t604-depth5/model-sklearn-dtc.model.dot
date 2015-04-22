@@ -1,0 +1,35 @@
+digraph Tree {
+0 [label="X[0]: worksize <= 40.0000\ngini = 0.449170342365\nsamples = 276", shape="box"] ;
+1 [label="X[7]: image rows <= 620.5000\ngini = 0.0425330812854\nsamples = 92", shape="box"] ;
+0 -> 1 ;
+2 [label="X[4]: CPU frequency <= 1200.0000\ngini = 0.375\nsamples = 8", shape="box"] ;
+1 -> 2 ;
+3 [label="X[5]: GPU frequency <= 399.5000\ngini = 0.5\nsamples = 4", shape="box"] ;
+2 -> 3 ;
+4 [label="*L1*\ngini = 0.0000\nsamples = 2\nvalue = [ 2.  0.]", shape="box"] ;
+3 -> 4 ;
+5 [label="*L2*\ngini = 0.0000\nsamples = 2\nvalue = [ 0.  2.]", shape="box"] ;
+3 -> 5 ;
+6 [label="*L3*\ngini = 0.0000\nsamples = 4\nvalue = [ 4.  0.]", shape="box"] ;
+2 -> 6 ;
+7 [label="*L4*\ngini = 0.0000\nsamples = 84\nvalue = [ 84.   0.]", shape="box"] ;
+1 -> 7 ;
+8 [label="X[6]: image columns <= 3037.0000\ngini = 0.0425330812854\nsamples = 184", shape="box"] ;
+0 -> 8 ;
+9 [label="*L5*\ngini = 0.0000\nsamples = 160\nvalue = [   0.  160.]", shape="box"] ;
+8 -> 9 ;
+10 [label="X[2]: GWS1 <= 38.0000\ngini = 0.277777777778\nsamples = 24", shape="box"] ;
+8 -> 10 ;
+11 [label="*L6*\ngini = 0.0000\nsamples = 12\nvalue = [  0.  12.]", shape="box"] ;
+10 -> 11 ;
+12 [label="X[4]: CPU frequency <= 1200.0000\ngini = 0.444444444444\nsamples = 12", shape="box"] ;
+10 -> 12 ;
+13 [label="*L7*\ngini = 0.0000\nsamples = 6\nvalue = [ 0.  6.]", shape="box"] ;
+12 -> 13 ;
+14 [label="X[5]: GPU frequency <= 399.5000\ngini = 0.444444444444\nsamples = 6", shape="box"] ;
+12 -> 14 ;
+15 [label="*L8*\ngini = 0.0000\nsamples = 3\nvalue = [ 3.  0.]", shape="box"] ;
+14 -> 15 ;
+16 [label="*L9*\ngini = 0.4444\nsamples = 3\nvalue = [ 1.  2.]", shape="box"] ;
+14 -> 16 ;
+}

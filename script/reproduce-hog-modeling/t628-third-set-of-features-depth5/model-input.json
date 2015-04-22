@@ -1,0 +1,55 @@
+{
+  "experiment_repo_uoa":"ck-reproduce-paper-cm-2014-ck-2015",
+
+  "search_dict":{
+    "meta":{
+      "device name": "Mali-T628", 
+      "kernel name": "calc_histogram", 
+      "program name": "Realeyes HOG"
+     }
+  },
+
+  "features_flat_keys_ext":"#min",
+
+  "features_flat_keys_list":[
+    "##features#size",
+    "##features#GWS@0", 
+    "##features#GWS@1", 
+    "##features#GWS@2", 
+    "##features#cpu_freq", 
+    "##features#gpu_freq", 
+    "##features#image cols", 
+    "##features#image rows",
+    "##features#image size",
+    "##features#size_div_by_cpu_freq",
+    "##features#size_div_by_gpu_freq",
+    "##features#cpu_freq_div_by_gpu",
+    "##features#size_div_by_cpu_div_by_gpu_freq",
+    "##features#image_size_div_by_cpu_freq"
+   ],
+
+   "features_flat_keys_desc": {
+      "##features#size":{"name":"worksize"},
+      "##features#GWS@0":{"name":"GWS0"}, 
+      "##features#GWS@1":{"name":"GWS1"}, 
+      "##features#GWS@2":{"name":"GWS2"}, 
+      "##features#cpu_freq":{"name":"CPU frequency"}, 
+      "##features#gpu_freq":{"name":"GPU frequency"}, 
+      "##features#image cols":{"name":"image columns"}, 
+      "##features#image rows":{"name":"image rows"},
+      "##features#image size":{"name":"image size"},
+      "##features#size_div_by_cpu_freq":{"name":"size / CPU frequency"},
+      "##features#size_div_by_gpu_freq":{"name":"size / GPU frequency"},
+      "##features#cpu_freq_div_by_gpu":{"name":"CPU frequency / GPU frequency"},
+      "##features#size_div_by_cpu_div_by_gpu_freq":{"name":"size / (CPU frequency / GPU frequency)"},
+      "##features#image_size_div_by_cpu_freq":{"name":"image size / CPU frequency"}
+  },
+
+  "characteristics_flat_keys_list":[
+    "##characteristics#gpu_copy_is_much_better_cpu#min"
+  ],
+
+  "remove_points_with_none":"yes",
+
+  "keep_temp_files":"yes"
+}

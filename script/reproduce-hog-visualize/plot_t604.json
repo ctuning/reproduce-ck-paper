@@ -1,0 +1,31 @@
+{
+  "experiment_module_uoa":"experiment",
+
+  "search_dict":{
+    "meta":{
+      "device name": "Mali-T604", 
+      "kernel name": "calc_histogram", 
+      "program name": "Realeyes HOG"
+     }
+  },
+
+  "flat_keys_list":[
+    "##features#size#min", 
+    "##characteristics#cpu_div_by_gpu_copy#min"
+  ],
+
+  "plot_type":"mpl_2d_scatter",
+  "display_x_error_bar":"no",
+  "display_y_error_bar":"no",
+
+  "title":"ARM GPU Mali-T6xx, Realeyes HOG, calc_histogram",
+
+  "axis_x_desc":"Dimension 1",
+  "axis_y_desc":"Dimension 2",
+
+  "plot_grid":"yes",
+
+  "mpl_image_size_x":"12",
+  "mpl_image_size_y":"6",
+  "mpl_image_dpi":"100"
+}
