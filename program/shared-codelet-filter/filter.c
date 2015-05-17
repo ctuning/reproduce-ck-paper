@@ -101,13 +101,13 @@ int main(int argc, const char **argv)
   }
 
 #ifdef XOPENME
-  clock_start();
+  clock_start(0);
 #endif
   for (rr=0; rr<r; rr++) {
     filter_codelet(image_buffer1, image_buffer2);
   }
 #ifdef XOPENME
-  clock_end();
+  clock_end(0);
 #endif
 
   /* Store binary image. */

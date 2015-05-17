@@ -31,4 +31,4 @@ for q in sys.argv:
     if sarg=='': sarg=' ' # Pass first entry
     else: sarg+=' '+q
 
-os.system('ck reproduce program.experiment.speedup @reproduce.json'+sarg)
+os.system('ck reproduce program.experiment.speedup @reproduce.json '+sarg)

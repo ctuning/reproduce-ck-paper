@@ -10,185 +10,125 @@
 
 import os
 import sys
+import copy
 import ck.kernel as ck
 
 sep='***************************************************************************'
 
-euoa0='demo-variation-all'
-euoa1='demo-variation-freq-high'
-euoa2='demo-variation-freq-low'
+euoax='reproduce-paper-cm2014-variation-'
+euoa0=euoax+'all'
+euoa1=euoax+'high'
+euoa2=euoax+'low'
 
-puoa='3a2498cb437a87aa'
-duoa='c8848a1b1fb1775e'
+puoa='3a2498cb437a87aa' # "shared-codelet-filter" can be used, but UIDs allow to fix program version
+duoa='c8848a1b1fb1775e' # "image-raw-bin-fgg-office-day-gray" can be used, but UIDs allow to fix data set version
 
 ######################################################################
 def run(i):
 
-    euoa=i['data_uoa']
-    n=i['repetitions']
-    repeat=i.get('repeat',-1)
-    
-    for k in range(0,n):
-        ck.out(sep)
-        ck.out('Statistical repetition '+str(k+1)+' out of '+str(n)+' ...')
+    curdir=os.getcwd()
 
-        ii={'action':'run',
-            'module_uoa':'program',
-            'data_uoa':puoa,
-            'dataset_uoa':duoa,
-            'out':'con'}
-        if repeat!=-1: ii['repeat']=repeat
+    ck.out('')
+    ck.out('Variation in results of the same experiments is not always considered')
+    ck.out('or results with high variation are simply removed.')
 
-        r=ck.access(ii)
-        if r['return']>0: return r
+    ck.out('')
+    ck.out('However, analysis of the density of such results ')
+    ck.out('together with peak detection can provide information ')
+    ck.out('about stable states in the system as well as missing features.')
 
-        misc=r['misc']
-        ch=r['characteristics']
+    ck.out('')
+    ck.out('Here, we show variation of execution time of the same benchmark')
+    ck.out('with the same data set executed multiple times with different')
+    ck.out('CPU frequency.')
 
-        rs=misc['run_success']
-        if rs!='yes':
-           return {'return':1, 'error':'execution failed! Check above output'}
+    ck.out('')
+    ck.out('Note: Please, check that SciPy and NumPy are installed!')
 
-        repeat=ch['repeat']
-        et=ch['execution_time']
-        tet=ch['total_execution_time']
+    ck.out('')
 
-        # Try to add to experiment
-        ii={'action':'add',
-            'module_uoa':'experiment',
-            'experiment_uoa':euoa,
-            'dict':{'characteristics':{'run':ch}, 'features':{'1':'thesame'}},
-            'ignore_update':'yes',
-            'process_multi_keys':['characteristics'],
-            'search_point_by_features':'yes',
-            'record_all_subpoints':'yes',
-            'out':'con',
-            'sort_keys':'yes'}
-        r=ck.access(ii)
-        if r['return']>0: return r
+    # Check if data already exists and ask if should be cleaned
+    r=ck.access({'action':'load',
+                 'module_uoa':'experiment',
+                 'data_uoa':euoa1})
+    if r['return']==0:
+       ck.out(sep)
+       r=ck.inp({'text':'Old experimental data already exists, delete (Y/n):'})
+       if r['return']>0: 
+          ck.err(r)
+       x=r['string'].strip().lower()
+       if x!='n' and x!='no':
+          ii={'action':'delete',
+              'module_uoa':'experiment',
+              'data_uoa':euoax+'*',
+              'out':'con',
+              'force':'yes'}
+          r=ck.access(ii)
+          if r['return']>0: return r
 
-        ii['experiment_uoa']=euoa0
-        r=ck.access(ii)
-        if r['return']>0: return r
+    # Select number of repetitions
+    ck.out(sep)
+    n=10
+    r=ck.inp({'text':'Select number of repetitions of the experiment (or Press Enter for '+str(n)+'): '})
+    if r['return']>0:
+       ck.err(r)
+    x=r['string'].strip()
+    if x!='': n=int(x)
 
-    return {'return':0, 'repeat':repeat}
+    ########################
+    ck.out(sep)
+    ck.inp({'text':'Set power plan of your OS to "High performance" and press Enter'})
+
+    iii={'action':'run',
+        'module_uoa':'pipeline',
+        'data_uoa':'program',
+        'program_uoa':puoa,
+        'dataset_uoa':duoa,
+        'repetitions':n,
+        'record':euoa1,
+        'out':'con'}
+
+    ii=copy.deepcopy(iii)
+    r=ck.access(ii)
+    if r['return']>0: return r
+
+    if r.get('fail','')=='yes':
+       return {'return':1, 'error':'universal program pipeline execution failed ('+r.get('fail_reason','')+')! Check above output'}
+
+    # Reuse later state and deps
+    state=r['state']
+    deps=r['dependencies']
+
+    ########################
+    ck.out(sep)
+    ck.inp({'text':'Set power plan of your OS to "Energy saver" and press Enter'})
+
+    ii=copy.deepcopy(iii)
+    ii['record']=euoa2
+    ii['state']=state          # reuse found run-time repetitions, etc
+    ii['dependencies']=deps    # reuse compiler dependencies
+# remark next ones, otherwise we will not be able to replay this experiment (no compile)
+#    ii['clean']='no'           # do not clean tmp directory, i.e. do not delete executable
+#    ii['no_compile']='yes'     # no need recompile code
+    ii['no_state_check']='yes' # otherwise, universal program autotuning pipeline should detect that frequency changed during experiments!
+
+    r=ck.access(ii)
+    if r['return']>0: return r
+
+    if r.get('fail','')=='yes':
+       return {'return':1, 'error':'universal program pipeline execution failed ('+r.get('fail_reason','')+')! Check above output'}
+
+    ########################
+    ck.out(sep)
+    ck.inp({'text':'Experiments finished. Press Enter to analyze them'})
+
+    os.chdir(curdir)
+    os.system("python reproduce_analyze")
+
+    return {'return':0}
 
 ######################################################################
-n=10
-
-curdir=os.getcwd()
-
-ck.out('')
-ck.out('Variation in results of the same experiments is not always considered')
-ck.out('or results with high variation are simply removed.')
-
-ck.out('')
-ck.out('However, analysis of the density of such results ')
-ck.out('together with peak detection can provide information ')
-ck.out('about stable states in the system as well as missing features.')
-
-ck.out('')
-ck.out('Here, we show variation of execution time of the same benchmark')
-ck.out('with the same data set executed multiple times with different')
-ck.out('CPU frequency.')
-
-ck.out('')
-ck.out('Note: Please, check that SciPy and NumPy are installed!')
-
-ck.out('')
-
-# Select number of repetitions
-ck.out(sep)
-r=ck.inp({'text':'Select number of repetitions of the experiment (or Press Enter for 10): '})
+r=run({})
 if r['return']>0:
    ck.err(r)
-x=r['string'].strip()
-if x!='': n=int(x)
-
-# Trying to compile kernel
-ck.out(sep)
-ck.out('Compiling kernel ...')
-ck.out('')
-
-r=ck.access({'action':'compile',
-             'module_uoa':'program',
-             'out':'con',
-             'data_uoa':puoa,
-             'clean':'yes'})
-if r['return']>0:
-   ck.err(r)
-
-# Check if data already exists and ask if should be cleaned
-r=ck.access({'action':'load',
-             'module_uoa':'experiment',
-             'data_uoa':euoa1})
-if r['return']==0:
-   ck.out(sep)
-   r=ck.inp({'text':'Old experimental data already exists, delete (Y/n):'})
-   if r['return']>0: 
-      ck.err(r)
-   x=r['string'].strip().lower()
-   if x!='n' and x!='no':
-      ii={'action':'delete',
-          'module_uoa':'experiment',
-          'data_uoa':euoa0,
-          'out':'con',
-          'force':'yes'}
-
-      r=ck.access(ii)
-
-      ii['data_uoa']=euoa1
-      r=ck.access(ii)
-
-      ii['data_uoa']=euoa2
-      r=ck.access(ii)
-
-# Check if data already exists and ask if should be cleaned
-r=ck.access({'action':'load',
-             'module_uoa':'experiment',
-             'data_uoa':euoa1})
-if r['return']==0:
-   r=ck.inp({'text':'Old experimental data already exists, delete (y/N):'})
-   if r['return']>0: 
-      ck.err(r)
-
-########################
-ck.out(sep)
-ck.inp({'text':'Set power plan of your OS to "High performance" and press Enter'})
-
-ii={'repetitions':n,
-    'data_uoa':euoa1}
-
-r=run(ii)
-if r['return']>0:
-   ck.err(r)
-
-repeat=r['repeat']
-
-########################
-ck.out(sep)
-ck.inp({'text':'Set power plan of your OS to "Energy saver" and press Enter'})
-
-ii['repeat']=repeat
-ii['data_uoa']=euoa2
-
-r=run(ii)
-if r['return']>0:
-   ck.err(r)
-
-########################
-ck.out(sep)
-ck.inp({'text':'Experiments finished. Press Enter to analyze them'})
-
-r=ck.access({'action':'load',
-             'module_uoa':'experiment',
-             'data_uoa':euoa0})
-if r['return']>0: ck.err(r)
-
-ck.out(sep)
-ck.inp({'text':'Experiments finished. Press Enter to analyze them'})
-
-os.chdir(curdir)
-os.system("python reproduce_analyze")
-
-exit(0)
+   exit(1)
