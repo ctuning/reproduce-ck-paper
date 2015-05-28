@@ -14,5 +14,6 @@
     "shared", 
     "artifacts", 
     "optimization"
-  ]
+  ],
+  "repo_deps":["ck-autotuning"]
 }
