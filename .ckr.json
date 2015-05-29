@@ -15,5 +15,5 @@
     "artifacts", 
     "optimization"
   ],
-  "repo_deps":["ck-autotuning"]
+  "repo_deps":["ck-autotuning", "ctuning-programs", "ctuning-datasets-min"]
 }
