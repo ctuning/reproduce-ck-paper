@@ -57,7 +57,7 @@
     "filter_codelet_day.c", 
     "filter_codelet_night.c"
   ], 
-  "species":"6ae25b646cad4322",
+  "species":["6ae25b646cad4322"],
   "tags": [
     "demo", 
     "program", 
