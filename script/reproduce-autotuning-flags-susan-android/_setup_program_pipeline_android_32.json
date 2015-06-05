@@ -3,5 +3,5 @@
  "save_to_file":"_setup_program_pipeline_tmp.json",
  "data_uoa":"cbench-automotive-susan",
  "cmd_key":"edges",
- "target_os":"android19-arm"
+ "target_os":"android-32"
 }
