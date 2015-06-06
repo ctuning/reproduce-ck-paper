@@ -2,6 +2,7 @@
  "prepare":"yes",
  "save_to_file":"_setup_program_pipeline_tmp.json",
  "data_uoa":"cbench-automotive-susan",
- "cmd_key":"edges"
+ "cmd_key":"edges",
+ "the_same_dataset":"yes"
 }
 
