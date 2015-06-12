@@ -1,19 +1,20 @@
 {
   "data_uid": "8f3741434566b104", 
-  "data_name": "Shared CK artifacts for CK paper, CPC'2015", 
+  "data_name": "Reproducible and interactive papers with all shared artifacts for our CK papers", 
   "dict": {
-    "url": "https://github.com/ctuning/ck-reproduce-paper-cm-2014-ck-2015.git", 
+    "url": "https://github.com/ctuning/reproduce-ck-paper.git", 
     "shared": "git"
   }, 
-  "data_alias": "ck-reproduce-paper-cm-2014-ck-2015", 
-  "data_uoa": "ck-reproduce-paper-cm-2014-ck-2015",
+  "data_alias": "reproduce-ck-paper", 
+  "data_uoa": "reproduce-ck-paper",
   "tags": [
     "experiment", 
     "gfursin", 
     "adaptation", 
     "shared", 
     "artifacts", 
-    "optimization"
+    "optimization",
+    "collective knowledge"
   ],
   "repo_deps":[{"repo_uoa":"ck-autotuning"}, {"repo_uoa":"ctuning-programs"}, {"repo_uoa":"ctuning-datasets-min"}]
 }
