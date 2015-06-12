@@ -1,1 +1,1 @@
-ck plot experiment.graph: @reproduce_hist_graph_high.json
+ck plot graph: @reproduce_hist_graph_high.json
