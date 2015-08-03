@@ -1,31 +1,39 @@
+CK repository to reproduce paper
+================================
+
+Shared artifacts to reproduce and extend techniques from
+the following papers on "Collective Mind" and "Collective Knowledge":
+
+* http://arxiv.org/abs/1506.06256
+* http://hal.inria.fr/hal-01054763
+* https://hal.inria.fr/inria-00436029
+
+Status
+======
 THIS REPOSITORY IS NOT STABLE AND IS 
 IN ACTIVE DEVELOPMENT. PLEASE, USE IT 
 AT YOUR OWN RISK UNTIL OFFICIAL RELEASE!
 
-# paper-ck-2015
-Shared artifacts for our project and papers
-on "Collective Mind" and "Collective Knowledge".
+Authors
+=======
 
-# Contact
-* Grigori Fursin, Grigori.Fursin@cTuning.org
-* Anton Lokhmotov, anton@dividiti.com
+* Grigori Fursin, cTuning foundation (France) / dividiti (UK), Grigori.Fursin@cTuning.org
+* Anton Lokhmotov, dividiti (UK), anton@dividiti.com
 
-# Compatibility
+Installation
+============
+
+Compatibility
 * Linux, Windows, Android
 
-# Dependencies:
+Dependencies:
 * CK: http://github.com/ctuning/ck
-* Various python packages:
-** Linux: sudo apt-get install python-numpy python-scipy python-matplotlib 
+* Various python packages on Linux: sudo apt-get install python-numpy python-scipy python-matplotlib 
 
-# Installation using CK
-> ck pull repo:ck-reproduce-paper-cm-2014-ck-2015
+> ck pull repo:reproduce-ck-paper
 
-> ck pull repo:ck-env
-
-> ck pull repo:ck-autotuning
-
-> ck pull repo:ck-analytics
+Usage
+=====
 
 ##########################################################
 # Reproducible experiments (collaboratively validate assumption and report unexpected behavior for further analysis):
