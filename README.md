@@ -7,6 +7,7 @@ the following papers on "Collective Mind" and "Collective Knowledge":
 * http://arxiv.org/abs/1506.06256
 * http://hal.inria.fr/hal-01054763
 * https://hal.inria.fr/inria-00436029
+* http://arxiv.org/abs/1407.4075
 
 Status
 ======
