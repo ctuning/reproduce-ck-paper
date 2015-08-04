@@ -1,20 +1,15 @@
 {
-  "data_uid": "8f3741434566b104", 
   "data_name": "Reproducible and interactive papers with all shared artifacts for our CK papers", 
-  "dict": {
-    "url": "https://github.com/ctuning/reproduce-ck-paper.git", 
-    "shared": "git"
-  }, 
   "data_alias": "reproduce-ck-paper", 
-  "data_uoa": "reproduce-ck-paper",
-  "tags": [
-    "experiment", 
-    "gfursin", 
-    "adaptation", 
-    "shared", 
-    "artifacts", 
-    "optimization",
-    "collective knowledge"
-  ],
-  "repo_deps":[{"repo_uoa":"ck-autotuning"}, {"repo_uoa":"ctuning-programs"}, {"repo_uoa":"ctuning-datasets-min"}]
+  "data_uid": "8f3741434566b104", 
+  "data_uoa": "reproduce-ck-paper", 
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ctuning-programs"
+      }
+    ], 
+    "url": "https://github.com/ctuning/reproduce-ck-paper", 
+    "shared": "git"
+  }
 }
