@@ -51,6 +51,15 @@ To reproduce/validate expectation:
 
 # From ipython notebook (check that CK is installed as python module): 
 
+If (un)expected behavior is reported (considerable slow downs or speedups
+for the first 2 optimizations), you will be asked to share results
+in a public cknowledge.org/repo to demonstrate crowdsourcing
+of experimentation and validation of results.
+
+You can later view shared results at
+ http://cknowledge.org/repo/web.php?wcid=bc0409fb61f0aa82:8404df882462f978&subview=reproduce-ck-paper-filter
+
+> cp reproduce.ipynb.remove_this_extension reproduce.ipynb
 > ipython notebook reproduce.ipynb
 
 ##########################################################
