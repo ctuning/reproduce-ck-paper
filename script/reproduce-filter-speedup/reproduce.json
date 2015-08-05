@@ -13,5 +13,9 @@
    "image-raw-bin-fgg-office-day-gray",
    "image-raw-bin-fgg-office-night-gray"
   ],
-  "stat_repeat":3
+  "stat_repeat":3,
+  "add_to_pipeline":{
+   "cpu_freq":"max",
+   "gpu_freq":"max"
+  }
 }
