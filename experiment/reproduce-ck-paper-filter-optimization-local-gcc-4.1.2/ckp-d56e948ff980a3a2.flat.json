@@ -1,0 +1,2450 @@
+{
+  "##features#platform#cpu_misc#1#model name#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#address sizes#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#initial apicid#all_unique": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#initial apicid#min": "3", 
+  "##features#platform#cpu_misc#1#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform#os#bits#min": "64", 
+  "##features#platform#cpu_misc#0#initial apicid#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu#current_freq#1#max": 1600.031, 
+  "##features#platform#cpu_misc#3#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#2#range": 0.0, 
+  "##features#platform#cpu_misc#3#vendor_id#all": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#min": 2700.0, 
+  "##features#platform#cpu_misc#2#apicid#all_unique": [
+    "2"
+  ], 
+  "##features#compiler_version#raw@1#all_unique": [
+    "Copyright (C) 2006 Free Software Foundation, Inc."
+  ], 
+  "##features#platform#os#name_long#all_unique": [
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#0#max": 1600.031, 
+  "##features#platform#cpu#max_freq#3#min": 2700.0, 
+  "##choices#dataset_uid_0#all": [
+    "c8848a1b1fb1775e"
+  ], 
+  "##features#platform#cpu#cpu_abi#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu cores#repeats": 1, 
+  "##features#platform#cpu_misc#2#cache size#min": "3072 KB", 
+  "##features#platform#cpu_misc#0#initial apicid#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#clflush size#all": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#1#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#wp#all_unique": [
+    "yes"
+  ], 
+  "##choices#cpu_freq#repeats": 1, 
+  "##features#platform#cpu_misc#0#clflush size#all": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#2#model#repeats": 1, 
+  "##features#platform#cpu_misc#0#bogomips#all_unique": [
+    "4789.09"
+  ], 
+  "##choices#host_os#min": "linux-64", 
+  "##features#platform#cpu_misc#2#processor#all": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#stepping#all": [
+    "1"
+  ], 
+  "##features#platform#cpu#current_freq#1#exp_ally": [
+    100.0
+  ], 
+  "##features#platform.cpu#cpu_misc#3#initial apicid#repeats": 1, 
+  "##features#platform#cpu_misc#0#cpuid level#min": "13", 
+  "##choices#dataset_uoa_0#repeats": 1, 
+  "##features#platform#cpu#current_freq#0#exp_ally": [
+    100.0
+  ], 
+  "##features#platform#cpu#current_freq#1#halfrange": 0.0, 
+  "##features#platform.cpu#cpu_misc#2#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#processor#min": "1", 
+  "##features#platform#cpu_misc#2#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform#cpu_misc#1#processor#repeats": 1, 
+  "##features#platform#cpu_misc#3#model#min": "69", 
+  "##features#platform.cpu#cpu_misc#2#model#repeats": 1, 
+  "##features#platform.cpu#cpu#current_freq#1#repeats": 1, 
+  "##features#platform#cpu#max_freq#1#exp": 2700.0, 
+  "##features#platform.cpu#cpu#cpu_abi#all": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu MHz#all": [
+    "1600.031"
+  ], 
+  "##features#platform#cpu_misc#0#microcode#repeats": 1, 
+  "##features#platform.cpu#os#bits#min": "64", 
+  "##features#platform.cpu#cpu_misc#3#vendor_id#repeats": 1, 
+  "##features#platform#cpu_misc#0#cpu MHz#all": [
+    "1600.031"
+  ], 
+  "##features#platform#cpu_misc#3#wp#all": [
+    "yes"
+  ], 
+  "##features#compiler_version#raw@1#repeats": 1, 
+  "##features#platform#cpu_misc#2#cpu family#min": "6", 
+  "##features#platform#cpu#current_freq#2#all_unique": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu_misc#3#bogomips#min": "4789.09", 
+  "##features#platform#cpu_misc#1#microcode#min": "0x1c", 
+  "##features#platform#cpu_misc#1#processor#min": "1", 
+  "##features#platform#cpu_misc#2#core id#all": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform.cpu#cpu#current_freq#0#exp_allx": [
+    1600.031
+  ], 
+  "##choices#cmd_key#repeats": 1, 
+  "##features#platform#cpu_misc#2#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#compiler_version#list@1#min": "1", 
+  "##features#platform#cpu#cpu_abi#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#apicid#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#cpu cores#all": [
+    "2"
+  ], 
+  "##features#platform#cpu#max_freq#1#exp_warning": "no", 
+  "##features#platform#cpu_misc#0#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#0#siblings#min": "4", 
+  "##features#platform#cpu_misc#2#bogomips#all_unique": [
+    "4789.09"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#1#range_percent": 0.0, 
+  "##features#platform#cpu#max_freq#3#exp_allx": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cache_alignment#all": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#apicid#min": "0", 
+  "##features#platform#cpu_misc#0#cpu family#all": [
+    "6"
+  ], 
+  "##features#platform#cpu_misc#1#apicid#all": [
+    "1"
+  ], 
+  "##characteristics#speedup_0#all": [
+    1.0089033737787318
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu family#all": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform#os#name_short#all_unique": [
+    "Linux 3.16.0"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cache_alignment#repeats": 1, 
+  "##characteristics#speedup_0#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#fpu_exception#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#initial apicid#min": "1", 
+  "##features#platform#cpu_misc#1#clflush size#all": [
+    "64"
+  ], 
+  "##features#platform#cpu#max_freq#2#exp_ally": [
+    100.0
+  ], 
+  "##features#platform#cpu#current_freq#2#min": 1600.031, 
+  "##features#platform.cpu#cpu_misc#1#fpu_exception#min": "yes", 
+  "##features#platform#cpu_misc#0#physical id#all": [
+    "0"
+  ], 
+  "##characteristics#execution_time_div_by_repeat_opt0_ds0#min": 0.0053443959090909085, 
+  "##features#platform#cpu#max_freq#1#range": 0.0, 
+  "##choices#cpu_freq#all_unique": [
+    "1700000"
+  ], 
+  "##features#platform#cpu_misc#0#core id#all_unique": [
+    "0"
+  ], 
+  "##choices#target_os_bits#repeats": 1, 
+  "##features#platform#cpu_misc#0#core id#repeats": 1, 
+  "##features#platform#cpu_misc#1#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#0#flags#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#cache size#min": "3072 KB", 
+  "##features#platform.cpu#os#ck_os_uoa#repeats": 1, 
+  "##features#platform#cpu_misc#3#apicid#min": "3", 
+  "##features#platform.cpu#cpu_misc#2#stepping#min": "1", 
+  "##features#platform.cpu#os#name_short#all": [
+    "Linux 3.16.0"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#3#all": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu_misc#0#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform#cpu_misc#2#cpu family#all": [
+    "6"
+  ], 
+  "##features#platform.cpu#os#name_long#all": [
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic"
+  ], 
+  "##characteristics#execution_time_div_by_repeat_opt0_ds1#all_unique": [
+    0.0053428739898989906
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpu family#repeats": 1, 
+  "##choices#compile_type#all": [
+    "dynamic"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#2#all": [
+    1600.125
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cache size#min": "3072 KB", 
+  "##features#platform.cpu#cpu_misc#1#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#model#min": "69", 
+  "##features#platform.cpu#cpu_misc#0#cache_alignment#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#cpuid level#min": "13", 
+  "##features#platform#cpu_misc#0#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#flags#repeats": 1, 
+  "##choices#data_uoa#min": "shared-codelet-filter", 
+  "##features#platform#cpu_misc#1#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#3#cpu MHz#all": [
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#flags#repeats": 1, 
+  "##features#platform#cpu_misc#0#cpuid level#repeats": 1, 
+  "##features#platform#cpu_misc#3#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform#cpu_misc#3#core id#min": "1", 
+  "##features#platform#cpu_misc#0#processor#min": "0", 
+  "##choices#device_id#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu#current_freq#0#exp": 1600.031, 
+  "##features#platform.cpu#cpu_misc#3#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform#cpu_misc#0#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#microcode#min": "0x1c", 
+  "##features#platform.cpu#cpu#current_freq#1#min": 1600.031, 
+  "##features#platform.cpu#cpu#current_freq#3#exp_warning": "no", 
+  "##choices#joined_compiler_flags#all_unique": [
+    "-O3"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#2#range_percent": 0.0, 
+  "##features#platform.cpu#cpu_misc#2#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#2#cpu family#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#3#halfrange": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#2#exp_ally": [
+    100.0
+  ], 
+  "##features#platform.cpu#cpu#current_freq#2#exp_allx": [
+    1600.125
+  ], 
+  "##features#platform#cpu_misc#1#siblings#min": "4", 
+  "##features#platform.cpu#cpu_misc#1#initial apicid#repeats": 1, 
+  "##features#platform#cpu_misc#2#bogomips#min": "4789.09", 
+  "##features#platform#cpu_misc#1#cache_alignment#min": "64", 
+  "##features#platform#cpu_misc#3#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#1#cpu MHz#all": [
+    "1600.031"
+  ], 
+  "##features#platform#cpu_misc#1#core id#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#bogomips#min": "4789.09", 
+  "##features#platform#cpu#max_freq#0#exp": 2700.0, 
+  "##features#platform.cpu#cpu#sub_name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#model#repeats": 1, 
+  "##features#platform#cpu_misc#1#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#1#stepping#all": [
+    "1"
+  ], 
+  "##features#platform#cpu#max_freq#1#center": 2700.0, 
+  "##features#platform.cpu#cpu_misc#2#cpu MHz#all": [
+    "1600.125"
+  ], 
+  "##features#platform#cpu#current_freq#1#range": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#0#exp": 1600.031, 
+  "##features#platform.cpu#cpu_misc#2#fpu_exception#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#1#range": 0.0, 
+  "##features#platform#cpu_misc#3#cpu cores#repeats": 1, 
+  "##features#platform#cpu_misc#0#core id#min": "0", 
+  "##features#platform.cpu#cpu#current_freq#2#repeats": 1, 
+  "##features#platform#cpu#current_freq#2#exp_ally": [
+    100.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#1#halfrange": 0.0, 
+  "##features#platform.cpu#cpu_misc#0#vendor_id#min": "GenuineIntel", 
+  "##features#platform.cpu#cpu_misc#3#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform.cpu#cpu_misc#1#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#0#range_percent": 0.0, 
+  "##features#platform#cpu_misc#1#siblings#all": [
+    "4"
+  ], 
+  "##features#platform#os#bits#all": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#0#model#all_unique": [
+    "69"
+  ], 
+  "##choices#optimization_1#all": [
+    "-O3 -fno-if-conversion"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#core id#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu#current_freq#2#halfrange": 0.0, 
+  "##features#platform.cpu#cpu_misc#3#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cache_alignment#min": "64", 
+  "##features#platform.cpu#cpu#current_freq#3#all_unique": [
+    1600.031
+  ], 
+  "##features#platform.cpu#os#name_short#all_unique": [
+    "Linux 3.16.0"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#0#halfrange": 0.0, 
+  "##features#platform.cpu#cpu_misc#1#cache_alignment#all": [
+    "64"
+  ], 
+  "##features#platform#cpu#current_freq#2#max": 1600.031, 
+  "##features#platform#cpu#max_freq#2#halfrange": 0.0, 
+  "##features#platform#cpu#max_freq#1#all": [
+    2700.0
+  ], 
+  "##features#platform#cpu_misc#0#siblings#all": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#0#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu#num_proc#min": "4", 
+  "##features#platform.cpu#cpu_misc#1#microcode#repeats": 1, 
+  "##characteristics#execution_time_div_by_repeat_opt0_ds0#repeats": 1, 
+  "##features#platform#cpu_misc#1#cpu cores#all": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#3#range_percent": 0.0, 
+  "##features#platform#os#name#all_unique": [
+    "Ubuntu 14.10"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#processor#all_unique": [
+    "2"
+  ], 
+  "##choices#joined_compiler_flags#all": [
+    "-O3"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#core id#repeats": 1, 
+  "##features#platform#cpu_misc#3#processor#min": "3", 
+  "##features#platform#cpu#name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpu cores#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#flags#repeats": 1, 
+  "##features#platform#cpu_misc#3#stepping#repeats": 1, 
+  "##features#platform#cpu_misc#2#cache_alignment#all": [
+    "64"
+  ], 
+  "##characteristics#execution_time_div_by_repeat_opt0_ds1#min": 0.0053428739898989906, 
+  "##features#platform.cpu#cpu_misc#1#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#0#cpu cores#all": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#model#all": [
+    "69"
+  ], 
+  "##features#platform#cpu#current_freq#2#mean": 1600.031, 
+  "##choices#module_uoa#min": "b0ac08fe1d3c2615", 
+  "##features#compiler_version#raw@5#all": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cache size#repeats": 1, 
+  "##features#platform#platform#model#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#processor#min": "3", 
+  "##features#platform.cpu#cpu_misc#3#stepping#min": "1", 
+  "##choices#cmd_key#all": [
+    "default"
+  ], 
+  "##features#platform#cpu_misc#3#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform#cpu_misc#0#address sizes#repeats": 1, 
+  "##choices#compiler_version#all": [
+    "4.1.2"
+  ], 
+  "##features#platform.cpu#os#ck_os_base_uoa#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#initial apicid#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#2#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform.cpu#cpu_misc#3#model#all": [
+    "69"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#range": 0.0, 
+  "##choices#dataset_uid_1#all": [
+    "0045c9b59e84318b"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#wp#min": "yes", 
+  "##choices#flags#all_unique": [
+    "-O3"
+  ], 
+  "##features#platform#cpu_misc#2#cpu MHz#min": "1600.031", 
+  "##features#platform#cpu_misc#2#vendor_id#all": [
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#2#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#1#microcode#repeats": 1, 
+  "##features#platform#cpu_misc#3#processor#repeats": 1, 
+  "##features#compiler_version#str#min": "4.1.2", 
+  "##features#platform#cpu_misc#0#cpu cores#repeats": 1, 
+  "##features#compiler_version#raw@2#repeats": 1, 
+  "##features#compiler_version#raw@4#min": "", 
+  "##features#platform.cpu#cpu_misc#1#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#halfrange": 0.0, 
+  "##features#platform#cpu#current_freq#2#exp_warning": "no", 
+  "##features#platform#cpu_misc#0#clflush size#min": "64", 
+  "##features#platform.cpu#cpu_misc#2#vendor_id#repeats": 1, 
+  "##features#platform#cpu_misc#1#initial apicid#repeats": 1, 
+  "##features#platform#cpu_misc#1#fpu_exception#all": [
+    "yes"
+  ], 
+  "##features#platform#cpu#current_freq#2#center": 1600.031, 
+  "##features#platform.cpu#os#bits#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#vendor_id#min": "GenuineIntel", 
+  "##features#platform#cpu#max_freq#2#range_percent": 0.0, 
+  "##features#platform#cpu_misc#2#apicid#repeats": 1, 
+  "##features#platform#cpu#num_proc#all_unique": [
+    "4"
+  ], 
+  "##features#platform#cpu#current_freq#3#range": 0.0, 
+  "##features#platform#cpu_misc#2#flags#repeats": 1, 
+  "##features#platform#cpu_misc#0#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#1#vendor_id#min": "GenuineIntel", 
+  "##features#platform.cpu#cpu_misc#2#bogomips#all": [
+    "4789.09"
+  ], 
+  "##features#platform#cpu#max_freq#3#exp": 2700.0, 
+  "##features#platform#cpu_misc#1#core id#all": [
+    "0"
+  ], 
+  "##features#platform.cpu#os#name#all_unique": [
+    "Ubuntu 14.10"
+  ], 
+  "##features#platform#cpu_misc#3#siblings#min": "4", 
+  "##features#platform#cpu_misc#0#cpu cores#min": "2", 
+  "##features#platform.cpu#cpu#current_freq#2#mean": 1600.125, 
+  "##features#platform.cpu#cpu_misc#3#initial apicid#all": [
+    "3"
+  ], 
+  "##features#compiler_version#raw@3#all_unique": [
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+  ], 
+  "##features#platform#cpu_misc#3#cpu family#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#model#all": [
+    "69"
+  ], 
+  "##features#platform#cpu_misc#2#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#siblings#repeats": 1, 
+  "##features#platform#cpu#cpu_abi#min": "", 
+  "##features#platform#os#name_long#min": "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+  "##features#platform.cpu#cpu_misc#1#microcode#min": "0x1c", 
+  "##features#platform.cpu#cpu_misc#1#core id#repeats": 1, 
+  "##features#platform#cpu#cpu_features#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu#current_freq#2#min": 1600.125, 
+  "##choices#flags#min": "-O3", 
+  "##features#platform.cpu#cpu#max_freq#2#max": 2700.0, 
+  "##features#compiler_version#raw@4#all": [
+    ""
+  ], 
+  "##features#compiler_version#list@1#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#2#power managemen#repeats": 1, 
+  "##features#platform#cpu_misc#2#address sizes#all": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#3#physical id#min": "0", 
+  "##features#platform.cpu#cpu#current_freq#0#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#initial apicid#all_unique": [
+    "2"
+  ], 
+  "##choices#target_os#all_unique": [
+    "linux-64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#siblings#all": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#0#stepping#repeats": 1, 
+  "##features#platform#cpu_misc#1#bogomips#all_unique": [
+    "4789.09"
+  ], 
+  "##features#platform#cpu_misc#0#cpu family#min": "6", 
+  "##features#platform.cpu#cpu#max_freq#3#exp": 2700.0, 
+  "##features#platform#os#bits#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#2#microcode#min": "0x1c", 
+  "##features#platform#cpu_misc#2#fpu#repeats": 1, 
+  "##features#platform#cpu_misc#0#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#clflush size#all": [
+    "64"
+  ], 
+  "##features#platform#acc#name#all_unique": [
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)"
+  ], 
+  "##features#platform#cpu_misc#0#cache_alignment#all": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#2#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#2#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#0#cache size#all": [
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#core id#min": "1", 
+  "##features#platform.cpu#cpu_misc#2#vendor_id#min": "GenuineIntel", 
+  "##features#platform#cpu#current_freq#0#center": 1600.031, 
+  "##features#platform.cpu#cpu_misc#0#microcode#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#microcode#min": "0x1c", 
+  "##features#platform.cpu#cpu_misc#2#fpu_exception#min": "yes", 
+  "##choices#flags#repeats": 1, 
+  "##features#platform.cpu#cpu#max_freq#1#center": 2700.0, 
+  "##features#platform.cpu#cpu_misc#0#cpuid level#min": "13", 
+  "##features#platform.cpu#cpu_misc#2#clflush size#repeats": 1, 
+  "##features#platform#cpu_misc#3#clflush size#min": "64", 
+  "##features#platform#cpu_misc#2#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform.cpu#cpu_misc#3#clflush size#min": "64", 
+  "##features#platform.cpu#cpu_misc#3#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#0#cache size#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#siblings#repeats": 1, 
+  "##features#platform#cpu_misc#2#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#model#min": "69", 
+  "##features#platform.cpu#cpu_misc#2#cache size#all": [
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#core id#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu#name#repeats": 1, 
+  "##features#compiler_version#raw@0#min": "gcc (GCC) 4.1.2", 
+  "##features#platform.cpu#cpu#sub_name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu#max_freq#2#center": 2700.0, 
+  "##features#platform.cpu#cpu_misc#1#cpu MHz#all": [
+    "1600.031"
+  ], 
+  "##features#platform#cpu_misc#3#cpu cores#min": "2", 
+  "##features#platform#cpu_misc#0#microcode#all": [
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu#current_freq#3#exp": 1600.031, 
+  "##features#platform.cpu#os#bits#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#core id#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#power managemen#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#model#all": [
+    "69"
+  ], 
+  "##features#platform#cpu_misc#0#model#all": [
+    "69"
+  ], 
+  "##features#platform#cpu_misc#0#address sizes#all": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#vendor_id#repeats": 1, 
+  "##features#platform#cpu#max_freq#0#mean": 2700.0, 
+  "##features#platform.cpu#cpu_misc#2#fpu#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu#current_freq#0#repeats": 1, 
+  "##features#platform#cpu_misc#3#processor#all": [
+    "3"
+  ], 
+  "##characteristics#execution_time_div_by_repeat_opt1_ds1#all_unique": [
+    0.0046414271010101005
+  ], 
+  "##features#platform#os#name_long#all": [
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic"
+  ], 
+  "##features#platform#cpu_misc#0#wp#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#processor#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu#current_freq#1#min": 1600.031, 
+  "##features#platform#cpu_misc#0#apicid#min": "0", 
+  "##features#platform#cpu_misc#0#bogomips#min": "4789.09", 
+  "##features#platform#cpu_misc#0#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#compiler_version#list@2#repeats": 1, 
+  "##features#platform#cpu#max_freq#0#min": 2700.0, 
+  "##features#platform#os#name#repeats": 1, 
+  "##features#platform#cpu_misc#1#power managemen#min": "", 
+  "##choices#target_os_bits#all": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#vendor_id#all": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#wp#all": [
+    "yes"
+  ], 
+  "##features#platform#cpu#max_freq#3#mean": 2700.0, 
+  "##features#platform#cpu_misc#3#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#physical id#repeats": 1, 
+  "##features#platform#cpu#current_freq#3#all": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu_misc#0#power managemen#min": "", 
+  "##features#platform#cpu_misc#2#apicid#all": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform#cpu#max_freq#2#exp_warning": "no", 
+  "##features#platform.cpu#cpu_misc#2#core id#min": "1", 
+  "##features#platform.cpu#cpu_misc#0#cpuid level#repeats": 1, 
+  "##features#platform#cpu#current_freq#3#max": 1600.031, 
+  "##features#platform.cpu#cpu#max_freq#2#exp": 2700.0, 
+  "##features#platform.cpu#cpu#current_freq#2#range": 0.0, 
+  "##features#platform.cpu#cpu_misc#1#core id#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#vendor_id#min": "GenuineIntel", 
+  "##features#platform#cpu_misc#2#core id#repeats": 1, 
+  "##choices#cmd_key#all_unique": [
+    "default"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#2#exp_warning": "no", 
+  "##features#platform#cpu_misc#3#bogomips#min": "4789.09", 
+  "##features#platform#cpu_misc#0#bogomips#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#cache_alignment#min": "64", 
+  "##features#platform#cpu_misc#2#physical id#min": "0", 
+  "##features#platform.cpu#cpu_misc#1#model#repeats": 1, 
+  "##features#platform#cpu_misc#1#cpu family#min": "6", 
+  "##features#platform#cpu_misc#1#fpu_exception#repeats": 1, 
+  "##features#platform.cpu#cpu#max_freq#1#mean": 2700.0, 
+  "##features#platform.cpu#cpu_misc#1#physical id#repeats": 1, 
+  "##features#platform#cpu_misc#3#fpu_exception#all": [
+    "yes"
+  ], 
+  "##features#platform#cpu#max_freq#1#min": 2700.0, 
+  "##features#platform#cpu_misc#3#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#3#power managemen#all": [
+    ""
+  ], 
+  "##features#platform#platform#name#min": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+  "##features#platform.cpu#cpu_misc#1#apicid#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#0#processor#all": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#wp#repeats": 1, 
+  "##features#platform.cpu#cpu#max_freq#2#all_unique": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu_misc#1#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cache size#min": "3072 KB", 
+  "##features#platform.cpu#cpu_misc#3#cache_alignment#all": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#3#power managemen#min": "", 
+  "##features#platform.cpu#cpu_misc#3#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#2#clflush size#min": "64", 
+  "##features#platform.cpu#cpu_misc#3#bogomips#all_unique": [
+    "4789.09"
+  ], 
+  "##features#platform#cpu#max_freq#3#exp_warning": "no", 
+  "##features#platform#cpu_misc#3#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#stepping#all_unique": [
+    "1"
+  ], 
+  "##choices#host_os#all": [
+    "linux-64"
+  ], 
+  "##features#platform.cpu#cpu#cpu_features#all": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#1#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#physical id#min": "0", 
+  "##features#platform.cpu#cpu_misc#1#power managemen#min": "", 
+  "##features#platform#cpu_misc#0#physical id#repeats": 1, 
+  "##features#platform#cpu#max_freq#3#all_unique": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu_misc#1#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#1#initial apicid#min": "1", 
+  "##features#platform.cpu#cpu_misc#0#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cache size#all": [
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#2#fpu#all": [
+    "yes"
+  ], 
+  "##features#platform#cpu#current_freq#0#halfrange": 0.0, 
+  "##features#platform#cpu#name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#1#cache size#all": [
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#0#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#os#ck_os_uoa#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#siblings#min": "4", 
+  "##features#platform#cpu#max_freq#0#range": 0.0, 
+  "##features#platform.cpu#cpu_misc#0#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu#current_freq#3#mean": 1600.031, 
+  "##choices#target_os_bits#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#0#processor#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#1#vendor_id#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#bogomips#repeats": 1, 
+  "##characteristics#execution_time_div_by_repeat_opt1_ds1#min": 0.0046414271010101005, 
+  "##features#platform#cpu#sub_name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##choices#module_uoa#repeats": 1, 
+  "##features#platform#cpu_misc#1#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#os#bits#all": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#physical id#all_unique": [
+    "0"
+  ], 
+  "##choices#optimization_1#min": "-O3 -fno-if-conversion", 
+  "##features#platform#cpu_misc#0#apicid#repeats": 1, 
+  "##features#platform#cpu_misc#3#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu#num_proc#all_unique": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#1#clflush size#min": "64", 
+  "##features#platform.cpu#cpu#current_freq#2#range_percent": 0.0, 
+  "##features#platform#cpu#max_freq#2#all": [
+    2700.0
+  ], 
+  "##choices#dataset_uid_1#min": "0045c9b59e84318b", 
+  "##features#platform.cpu#cpu_misc#3#apicid#repeats": 1, 
+  "##choices#joined_compiler_flags#min": "-O3", 
+  "##features#platform.cpu#cpu#max_freq#3#range_percent": 0.0, 
+  "##features#platform.cpu#cpu_misc#1#apicid#all": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#fpu#all": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#2#cache_alignment#repeats": 1, 
+  "##features#platform#cpu_misc#1#cpu cores#repeats": 1, 
+  "##features#platform#cpu_misc#3#physical id#all": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#1#cache size#min": "3072 KB", 
+  "##features#platform#os#name_long#repeats": 1, 
+  "##features#platform#cpu_misc#2#core id#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#1#center": 1600.031, 
+  "##features#platform#cpu_misc#0#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##choices#dataset_uoa_0#all": [
+    "image-raw-bin-fgg-office-day-gray"
+  ], 
+  "##features#platform#cpu#current_freq#0#range_percent": 0.0, 
+  "##features#compiler_version#raw@0#all_unique": [
+    "gcc (GCC) 4.1.2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#address sizes#all": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#stepping#min": "1", 
+  "##features#platform.cpu#cpu_misc#0#cpu family#repeats": 1, 
+  "##choices#cpu_freq#all": [
+    "1700000"
+  ], 
+  "##features#platform#cpu_misc#0#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##characteristics#speedup_1#all_unique": [
+    1.1511274169826422
+  ], 
+  "##features#platform.cpu#cpu_misc#2#processor#all": [
+    "2"
+  ], 
+  "##features#platform#os#ck_os_base_uoa#all": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#3#initial apicid#min": "3", 
+  "##features#platform#cpu_misc#2#cpuid level#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#bogomips#all": [
+    "4789.09"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#1#stepping#repeats": 1, 
+  "##choices#flags#all": [
+    "-O3"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#core id#all": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#core id#all": [
+    "0"
+  ], 
+  "##features#platform#cpu#current_freq#3#center": 1600.031, 
+  "##features#platform.cpu#cpu_misc#0#flags#repeats": 1, 
+  "##features#platform#cpu_misc#0#stepping#all": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#apicid#min": "2", 
+  "##features#platform#cpu_misc#1#flags#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#wp#all": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#2#cpu MHz#all": [
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#stepping#repeats": 1, 
+  "##features#platform#cpu_misc#2#cache size#repeats": 1, 
+  "##features#platform#cpu_misc#0#model#repeats": 1, 
+  "##features#platform.cpu#cpu#max_freq#0#range": 0.0, 
+  "##features#platform.cpu#cpu_misc#0#address sizes#repeats": 1, 
+  "##choices#cpu_freq#min": "1700000", 
+  "##features#platform.cpu#cpu#current_freq#3#max": 1600.031, 
+  "##features#platform#cpu_misc#3#cpuid level#repeats": 1, 
+  "##features#compiler_version#raw@3#all": [
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+  ], 
+  "##features#platform#cpu_misc#2#cpu cores#min": "2", 
+  "##features#platform#cpu_misc#1#cache_alignment#repeats": 1, 
+  "##features#platform#cpu_misc#3#siblings#all": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform#cpu_misc#3#apicid#all_unique": [
+    "3"
+  ], 
+  "##features#platform#cpu_misc#1#cpu family#all": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#1#halfrange": 0.0, 
+  "##features#platform#cpu_misc#0#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform#cpu_misc#1#wp#min": "yes", 
+  "##features#platform#cpu_misc#3#address sizes#all": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##choices#dataset_uoa_1#repeats": 1, 
+  "##features#platform#cpu_misc#2#cpuid level#all": [
+    "13"
+  ], 
+  "##characteristics#speedup_0#all_unique": [
+    1.0089033737787318
+  ], 
+  "##features#platform.cpu#cpu_misc#1#address sizes#all": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#0#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform#cpu_misc#0#microcode#min": "0x1c", 
+  "##features#platform.cpu#cpu#max_freq#2#exp_allx": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#2#exp_ally": [
+    100.0
+  ], 
+  "##features#platform.cpu#cpu_misc#3#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#power managemen#repeats": 1, 
+  "##features#platform#cpu_misc#1#address sizes#all": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#2#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu#name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##characteristics#execution_time_div_by_repeat_opt0_ds0#all_unique": [
+    0.0053443959090909085
+  ], 
+  "##features#platform.cpu#cpu_misc#2#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform#platform#model#all": [
+    "20ALCTO1WW"
+  ], 
+  "##features#platform#cpu_misc#3#cache size#all": [
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#1#siblings#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#physical id#repeats": 1, 
+  "##features#platform#cpu_misc#0#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#1#clflush size#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#model name#repeats": 1, 
+  "##features#platform#cpu_misc#2#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#bogomips#all_unique": [
+    "4789.09"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#siblings#repeats": 1, 
+  "##features#platform#cpu_misc#3#siblings#repeats": 1, 
+  "##features#platform.cpu#cpu#max_freq#0#max": 2700.0, 
+  "##features#platform.cpu#cpu_misc#1#address sizes#repeats": 1, 
+  "##features#platform.cpu#cpu#cpu_abi#min": "", 
+  "##features#platform.cpu#cpu_misc#2#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform.cpu#cpu#current_freq#0#exp_ally": [
+    100.0
+  ], 
+  "##features#platform.cpu#cpu_misc#2#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#2#wp#repeats": 1, 
+  "##features#platform#cpu_misc#2#bogomips#repeats": 1, 
+  "##features#platform.cpu#cpu#max_freq#0#mean": 2700.0, 
+  "##features#platform.cpu#os#name#all": [
+    "Ubuntu 14.10"
+  ], 
+  "##features#platform#cpu_misc#3#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu#current_freq#2#range": 0.0, 
+  "##choices#dataset_uoa_0#min": "image-raw-bin-fgg-office-day-gray", 
+  "##features#platform#cpu#max_freq#1#exp_allx": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#0#all": [
+    2700.0
+  ], 
+  "##features#platform#cpu_misc#1#vendor_id#all": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#1#fpu#all": [
+    "yes"
+  ], 
+  "##features#platform#cpu#max_freq#2#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu#current_freq#3#exp_ally": [
+    100.0
+  ], 
+  "##features#compiler_version#raw@0#repeats": 1, 
+  "##features#platform.cpu#cpu#max_freq#1#all": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#current_freq#3#exp": 1600.031, 
+  "##features#platform.cpu#cpu_misc#0#address sizes#all": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#3#core id#all_unique": [
+    "1"
+  ], 
+  "##characteristics#execution_time_div_by_repeat_opt0_ds0#all": [
+    0.0053443959090909085
+  ], 
+  "##features#compiler_version#raw@5#min": "", 
+  "##features#platform.cpu#cpu_misc#0#fpu_exception#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#3#exp_ally": [
+    100.0
+  ], 
+  "##features#platform#cpu_misc#0#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#apicid#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#0#cpu MHz#min": "1600.031", 
+  "##features#platform.cpu#cpu_misc#3#cpu MHz#repeats": 1, 
+  "##features#platform#cpu_misc#3#clflush size#all": [
+    "64"
+  ], 
+  "##features#platform#cpu#current_freq#1#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#apicid#all": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#fpu#min": "yes", 
+  "##features#platform.cpu#cpu#max_freq#2#min": 2700.0, 
+  "##features#platform#os#bits#repeats": 1, 
+  "##choices#compiler_version#all_unique": [
+    "4.1.2"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cache size#repeats": 1, 
+  "##features#platform.cpu#cpu#cpu_features#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#3#microcode#repeats": 1, 
+  "##features#platform#cpu_misc#2#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#compiler_version#list@0#min": "4", 
+  "##features#platform#cpu_misc#1#wp#repeats": 1, 
+  "##features#platform#cpu_misc#2#cache size#all": [
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#1#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#2#fpu_exception#repeats": 1, 
+  "##features#platform#cpu#max_freq#3#range_percent": 0.0, 
+  "##features#platform.cpu#cpu_misc#0#power managemen#repeats": 1, 
+  "##features#platform#cpu_misc#2#processor#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#vendor_id#all": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#center": 2700.0, 
+  "##features#platform#cpu_misc#3#core id#all": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#bogomips#min": "4789.09", 
+  "##features#platform#cpu_misc#3#cache_alignment#all": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#2#stepping#min": "1", 
+  "##features#platform#cpu_misc#0#model#min": "69", 
+  "##features#platform#cpu_misc#3#power managemen#repeats": 1, 
+  "##features#platform#cpu#num_proc#min": "4", 
+  "##features#platform#cpu_misc#2#address sizes#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#siblings#min": "4", 
+  "##features#platform#cpu#max_freq#1#exp_ally": [
+    100.0
+  ], 
+  "##features#platform.cpu#cpu_misc#2#core id#all": [
+    "1"
+  ], 
+  "##characteristics#speedup_1#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#wp#all": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#3#cpu family#min": "6", 
+  "##features#platform#os#ck_os_base_uoa#min": "", 
+  "##choices#optimization_1#repeats": 1, 
+  "##features#platform#cpu_misc#2#clflush size#all": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#2#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu MHz#min": "1600.031", 
+  "##characteristics#execution_time_div_by_repeat_opt1_ds0#all": [
+    0.005297232666666667
+  ], 
+  "##features#platform#cpu#max_freq#2#exp_allx": [
+    2700.0
+  ], 
+  "##features#platform#cpu_misc#1#stepping#all": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#exp_warning": "no", 
+  "##features#platform.cpu#cpu_misc#0#clflush size#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#fpu_exception#repeats": 1, 
+  "##features#platform#cpu#max_freq#2#mean": 2700.0, 
+  "##features#platform.cpu#cpu#name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##choices#dataset_uoa_1#min": "image-raw-bin-fgg-office-night-gray", 
+  "##features#platform.cpu#os#name_long#min": "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+  "##features#platform.cpu#cpu_misc#0#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform#cpu_misc#2#processor#repeats": 1, 
+  "##features#platform#cpu_misc#1#power managemen#all_unique": [
+    ""
+  ], 
+  "##choices#host_os#all_unique": [
+    "linux-64"
+  ], 
+  "##features#platform#cpu_misc#0#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#0#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu#sub_name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#cpu_misc#3#cache_alignment#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#cpu MHz#min": "1600.031", 
+  "##features#platform#cpu_misc#2#clflush size#all_unique": [
+    "64"
+  ], 
+  "##choices#host_os#repeats": 1, 
+  "##choices#data_uoa#all_unique": [
+    "shared-codelet-filter"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##choices#optimization_1#all_unique": [
+    "-O3 -fno-if-conversion"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#2#halfrange": 0.0, 
+  "##features#compiler_version#raw@2#all_unique": [
+    "This is free software; see the source for copying conditions.  There is NO"
+  ], 
+  "##features#platform#cpu_misc#3#bogomips#all": [
+    "4789.09"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#fpu_exception#all": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#1#initial apicid#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#0#vendor_id#all": [
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#2#wp#min": "yes", 
+  "##features#platform#cpu_misc#2#siblings#repeats": 1, 
+  "##features#platform#cpu_misc#0#fpu#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu cores#min": "2", 
+  "##features#compiler_version#raw@5#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#core id#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#1#stepping#min": "1", 
+  "##choices#gpu_freq#repeats": 1, 
+  "##features#platform#cpu_misc#3#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform#os#ck_os_base_uoa#repeats": 1, 
+  "##features#platform#cpu_misc#2#model name#repeats": 1, 
+  "##features#platform.cpu#cpu#max_freq#0#range_percent": 0.0, 
+  "##features#platform.cpu#cpu_misc#3#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform#cpu_misc#1#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#processor#all": [
+    "1"
+  ], 
+  "##features#platform#platform#name#all_unique": [
+    "LENOVO ThinkPad X240 (20ALCTO1WW)"
+  ], 
+  "##features#platform#cpu#sub_name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu#sub_name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#2#fpu#min": "yes", 
+  "##features#platform#cpu_misc#3#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform#cpu#num_proc#repeats": 1, 
+  "##features#platform#cpu_misc#1#apicid#repeats": 1, 
+  "##features#platform#cpu#max_freq#1#all_unique": [
+    2700.0
+  ], 
+  "##features#platform#os#name#min": "Ubuntu 14.10", 
+  "##features#platform#cpu_misc#0#core id#all": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#3#flags#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#cpuid level#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#physical id#all": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#3#fpu#min": "yes", 
+  "##features#platform.cpu#cpu_misc#2#cpu family#min": "6", 
+  "##features#platform.cpu#cpu#current_freq#1#range_percent": 0.0, 
+  "##features#platform#cpu#current_freq#1#exp_warning": "no", 
+  "##features#platform#cpu#current_freq#3#range_percent": 0.0, 
+  "##choices#dataset_uoa_1#all": [
+    "image-raw-bin-fgg-office-night-gray"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#2#repeats": 1, 
+  "##features#platform#platform#model#min": "20ALCTO1WW", 
+  "##choices#cmd_key#min": "default", 
+  "##features#platform#cpu_misc#3#stepping#min": "1", 
+  "##choices#dataset_uoa_1#all_unique": [
+    "image-raw-bin-fgg-office-night-gray"
+  ], 
+  "##features#platform#cpu_misc#3#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#1#apicid#min": "1", 
+  "##features#platform#cpu_misc#2#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#0#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu#max_freq#0#exp_allx": [
+    2700.0
+  ], 
+  "##features#platform#cpu_misc#1#power managemen#repeats": 1, 
+  "##features#platform#cpu#current_freq#0#range": 0.0, 
+  "##features#platform#cpu#current_freq#1#all": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##choices#device_id#all": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#2#wp#min": "yes", 
+  "##features#platform#cpu_misc#3#vendor_id#min": "GenuineIntel", 
+  "##features#compiler_version#str#all_unique": [
+    "4.1.2"
+  ], 
+  "##features#platform#cpu#max_freq#2#exp": 2700.0, 
+  "##features#platform.cpu#cpu_misc#2#initial apicid#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#cache size#all": [
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpuid level#repeats": 1, 
+  "##features#platform#cpu_misc#0#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu#current_freq#3#min": 1600.031, 
+  "##features#platform#cpu_misc#0#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform#cpu_misc#2#fpu_exception#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#2#max": 1600.125, 
+  "##features#platform#cpu_misc#3#bogomips#all_unique": [
+    "4789.09"
+  ], 
+  "##features#platform#cpu#current_freq#1#exp": 1600.031, 
+  "##features#platform#cpu_misc#3#model#all": [
+    "69"
+  ], 
+  "##features#platform#cpu_misc#1#apicid#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu#max_freq#1#max": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#2#mean": 2700.0, 
+  "##features#platform.cpu#cpu_misc#2#cpu MHz#min": "1600.125", 
+  "##features#platform#cpu#cpu_features#repeats": 1, 
+  "##features#platform#cpu_misc#3#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##choices#module_uoa#all": [
+    "b0ac08fe1d3c2615"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu family#all": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu#cpu_abi#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu#max_freq#3#range": 0.0, 
+  "##features#platform.cpu#os#name_short#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#cache size#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#processor#repeats": 1, 
+  "##features#platform#cpu_misc#0#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform#cpu_misc#2#processor#min": "2", 
+  "##features#platform#cpu#current_freq#3#all_unique": [
+    1600.031
+  ], 
+  "##features#platform#cpu_misc#1#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#1#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#compiler_version#raw@4#all_unique": [
+    ""
+  ], 
+  "##features#compiler_version#raw@4#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#microcode#all": [
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#fpu#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#physical id#all": [
+    "0"
+  ], 
+  "##features#platform#cpu#current_freq#2#all": [
+    1600.031
+  ], 
+  "##features#platform#cpu_misc#2#wp#all": [
+    "yes"
+  ], 
+  "##features#compiler_version#list@2#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#0#halfrange": 0.0, 
+  "##features#platform#cpu_misc#2#cpu cores#all": [
+    "2"
+  ], 
+  "##features#platform#cpu#max_freq#0#halfrange": 0.0, 
+  "##features#platform#cpu#current_freq#0#max": 1600.031, 
+  "##features#platform.cpu#cpu#max_freq#0#center": 2700.0, 
+  "##features#platform.cpu#cpu_misc#3#wp#repeats": 1, 
+  "##features#platform#cpu#num_proc#all": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#3#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu#current_freq#1#all_unique": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu_misc#3#power managemen#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#cpu MHz#all_unique": [
+    "1600.125"
+  ], 
+  "##features#compiler_version#raw@0#all": [
+    "gcc (GCC) 4.1.2"
+  ], 
+  "##features#platform#cpu_misc#0#fpu_exception#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#cpu MHz#repeats": 1, 
+  "##features#compiler_version#list@1#all": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#2#model#min": "69", 
+  "##features#platform#cpu_misc#2#initial apicid#min": "2", 
+  "##features#platform#cpu#current_freq#3#mean": 1600.031, 
+  "##features#platform#cpu#max_freq#1#mean": 2700.0, 
+  "##features#platform#cpu_misc#3#model#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#wp#min": "yes", 
+  "##features#platform.cpu#cpu_misc#1#clflush size#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#apicid#all": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#power managemen#min": "", 
+  "##features#platform#cpu#current_freq#1#center": 1600.031, 
+  "##features#platform.cpu#cpu_misc#0#vendor_id#repeats": 1, 
+  "##features#platform#cpu#current_freq#1#mean": 1600.031, 
+  "##features#platform.cpu#cpu_misc#3#clflush size#repeats": 1, 
+  "##features#platform#cpu_misc#2#microcode#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#cpu cores#all": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#1#core id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#core id#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#cache_alignment#repeats": 1, 
+  "##features#platform.cpu#os#ck_os_uoa#all_unique": [
+    "linux-64"
+  ], 
+  "##features#platform#cpu_misc#1#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#platform#cpu_misc#1#cpuid level#all": [
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#bogomips#all_unique": [
+    "4789.09"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#processor#min": "0", 
+  "##features#platform.cpu#cpu_misc#0#apicid#all": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#3#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#0#fpu_exception#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#0#range": 0.0, 
+  "##features#platform#cpu_misc#0#initial apicid#all": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu family#repeats": 1, 
+  "##features#platform#cpu_misc#2#initial apicid#repeats": 1, 
+  "##features#platform#cpu#max_freq#2#max": 2700.0, 
+  "##features#platform.cpu#cpu_misc#1#siblings#min": "4", 
+  "##choices#optimization_0#repeats": 1, 
+  "##features#platform#acc#name#min": "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+  "##features#platform.cpu#cpu#current_freq#0#center": 1600.031, 
+  "##features#platform.cpu#os#name#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#siblings#all": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#bogomips#all_unique": [
+    "4789.09"
+  ], 
+  "##features#compiler_version#list@0#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#bogomips#min": "4789.09", 
+  "##features#platform#cpu#current_freq#1#exp_allx": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu_misc#3#fpu#min": "yes", 
+  "##features#platform#cpu_misc#1#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#mean": 2700.0, 
+  "##features#platform#cpu_misc#3#bogomips#repeats": 1, 
+  "##features#platform#cpu_misc#1#cpuid level#min": "13", 
+  "##features#platform#cpu_misc#3#apicid#repeats": 1, 
+  "##features#platform.cpu#cpu#current_freq#1#mean": 1600.031, 
+  "##features#platform#cpu_misc#0#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##choices#optimization_0#all_unique": [
+    "-O3"
+  ], 
+  "##features#platform.cpu#os#name_short#min": "Linux 3.16.0", 
+  "##features#platform#cpu_misc#1#fpu#min": "yes", 
+  "##choices#target_os_bits#min": "64", 
+  "##features#platform.cpu#cpu_misc#3#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform.cpu#cpu_misc#0#apicid#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#apicid#repeats": 1, 
+  "##features#platform#cpu_misc#2#initial apicid#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#0#wp#min": "yes", 
+  "##features#platform#cpu_misc#0#siblings#repeats": 1, 
+  "##features#platform#cpu_misc#3#fpu_exception#min": "yes", 
+  "##features#platform.cpu#cpu#max_freq#2#all": [
+    2700.0
+  ], 
+  "##features#platform.cpu#os#name_long#repeats": 1, 
+  "##features#platform#cpu_misc#2#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#os#ck_os_uoa#all": [
+    "linux-64"
+  ], 
+  "##features#platform#cpu_misc#0#apicid#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#model name#repeats": 1, 
+  "##features#platform#cpu#max_freq#1#halfrange": 0.0, 
+  "##features#platform.cpu#cpu#name#repeats": 1, 
+  "##features#platform#cpu_misc#3#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#2#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform#cpu_misc#2#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu#current_freq#3#halfrange": 0.0, 
+  "##features#platform#cpu_misc#0#cpu family#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#stepping#min": "1", 
+  "##features#platform#cpu#max_freq#0#all": [
+    2700.0
+  ], 
+  "##features#platform#cpu_misc#2#fpu_exception#min": "yes", 
+  "##features#platform.cpu#cpu_misc#1#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu MHz#min": "1600.031", 
+  "##features#platform.cpu#cpu#max_freq#3#exp_ally": [
+    100.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#exp_allx": [
+    2700.0
+  ], 
+  "##features#platform#cpu_misc#3#cache size#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#apicid#min": "3", 
+  "##features#platform.cpu#cpu_misc#2#processor#min": "2", 
+  "##characteristics#execution_time_div_by_repeat_opt1_ds1#repeats": 1, 
+  "##features#platform#cpu#max_freq#0#exp_ally": [
+    100.0
+  ], 
+  "##features#platform#cpu_misc#1#core id#min": "0", 
+  "##features#platform.cpu#cpu_misc#3#processor#all": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform#os#ck_os_uoa#all": [
+    "linux-64"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu MHz#all": [
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cache size#repeats": 1, 
+  "##choices#device_id#min": "", 
+  "##features#platform#os#name_short#repeats": 1, 
+  "##features#platform#cpu_misc#0#fpu#repeats": 1, 
+  "##features#platform#cpu_misc#0#clflush size#repeats": 1, 
+  "##features#platform.cpu#cpu#current_freq#0#min": 1600.031, 
+  "##features#platform#cpu#max_freq#3#max": 2700.0, 
+  "##characteristics#execution_time_div_by_repeat_opt1_ds0#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#initial apicid#min": "0", 
+  "##features#platform.cpu#cpu_misc#0#initial apicid#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#stepping#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#1#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#microcode#all": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu#current_freq#0#exp_allx": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#physical id#min": "0", 
+  "##features#platform#cpu#max_freq#1#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#processor#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu#max_freq#3#halfrange": 0.0, 
+  "##features#platform#cpu_misc#2#core id#min": "1", 
+  "##features#platform#cpu_misc#2#apicid#min": "2", 
+  "##features#platform.cpu#cpu_misc#1#stepping#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#fpu_exception#min": "yes", 
+  "##features#platform.cpu#cpu_misc#2#stepping#all": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#3#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#2#exp_warning": "no", 
+  "##features#platform.cpu#cpu_misc#2#cpu cores#repeats": 1, 
+  "##features#platform.cpu#cpu#max_freq#1#min": 2700.0, 
+  "##choices#gpu_freq#all_unique": [
+    "max"
+  ], 
+  "##features#platform#acc#name#repeats": 1, 
+  "##features#platform#cpu_misc#1#cache size#all": [
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#processor#repeats": 1, 
+  "##features#compiler_version#list@2#min": "2", 
+  "##features#platform#cpu#cpu_features#min": "", 
+  "##features#platform.cpu#cpu#current_freq#0#all_unique": [
+    1600.031
+  ], 
+  "##features#platform#cpu_misc#1#bogomips#repeats": 1, 
+  "##features#platform#cpu_misc#1#cpu family#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu MHz#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#siblings#all": [
+    "4"
+  ], 
+  "##characteristics#execution_time_div_by_repeat_opt0_ds1#all": [
+    0.0053428739898989906
+  ], 
+  "##features#platform#cpu_misc#1#cache size#repeats": 1, 
+  "##features#platform#cpu_misc#2#microcode#all": [
+    "0x1c"
+  ], 
+  "##features#platform#os#ck_os_uoa#min": "linux-64", 
+  "##characteristics#execution_time_div_by_repeat_opt1_ds1#all": [
+    0.0046414271010101005
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform#cpu_misc#2#cpu cores#repeats": 1, 
+  "##characteristics#speedup_1#min": 1.1511274169826422, 
+  "##features#platform#os#ck_os_base_uoa#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#microcode#all": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#1#microcode#all": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu#current_freq#2#exp": 1600.031, 
+  "##features#platform#cpu_misc#0#fpu#min": "yes", 
+  "##features#platform.cpu#cpu_misc#1#cpu family#all": [
+    "6"
+  ], 
+  "##features#platform#cpu_misc#2#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#1#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#compiler_version#raw@1#min": "Copyright (C) 2006 Free Software Foundation, Inc.", 
+  "##features#platform.cpu#cpu#current_freq#0#exp_warning": "no", 
+  "##features#platform.cpu#cpu#max_freq#0#exp_allx": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#0#exp_ally": [
+    100.0
+  ], 
+  "##features#platform#cpu_misc#3#wp#min": "yes", 
+  "##features#platform.cpu#cpu_misc#2#wp#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#model#min": "69", 
+  "##features#compiler_version#list@2#all": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#power managemen#all": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#3#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#bogomips#repeats": 1, 
+  "##features#platform#cpu#current_freq#3#repeats": 1, 
+  "##features#platform#cpu_misc#0#fpu_exception#min": "yes", 
+  "##features#platform#cpu#current_freq#0#all": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu_misc#0#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#initial apicid#min": "2", 
+  "##features#platform.cpu#cpu_misc#2#model#min": "69", 
+  "##features#platform#cpu_misc#3#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#bogomips#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#address sizes#all": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#0#apicid#all": [
+    "0"
+  ], 
+  "##choices#dataset_uoa_0#all_unique": [
+    "image-raw-bin-fgg-office-day-gray"
+  ], 
+  "##features#platform#cpu_misc#0#power managemen#repeats": 1, 
+  "##features#platform#cpu_misc#3#microcode#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#clflush size#min": "64", 
+  "##features#platform.cpu#cpu_misc#3#cpu family#repeats": 1, 
+  "##choices#compile_type#repeats": 1, 
+  "##features#platform#cpu_misc#3#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#3#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#fpu#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#1#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#3#cpu MHz#min": "1600.031", 
+  "##features#platform.cpu#cpu_misc#0#physical id#min": "0", 
+  "##features#platform#cpu_misc#1#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#3#exp_allx": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu_misc#2#physical id#all": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#2#bogomips#all": [
+    "4789.09"
+  ], 
+  "##features#platform#cpu_misc#1#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#2#clflush size#min": "64", 
+  "##choices#no_run#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#0#all_unique": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu cores#all": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#3#cpuid level#min": "13", 
+  "##features#platform#cpu#max_freq#2#all_unique": [
+    2700.0
+  ], 
+  "##choices#gpu_freq#min": "max", 
+  "##features#platform#cpu#current_freq#2#exp_allx": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu#current_freq#1#all": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu#cpu_features#min": "", 
+  "##choices#no_run#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#fpu_exception#min": "yes", 
+  "##features#platform#cpu#max_freq#3#all": [
+    2700.0
+  ], 
+  "##features#platform#cpu_misc#1#physical id#all": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#fpu_exception#repeats": 1, 
+  "##features#platform#cpu_misc#3#processor#all_unique": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#apicid#min": "1", 
+  "##features#platform.cpu#cpu_misc#3#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#os#name_long#all_unique": [
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic"
+  ], 
+  "##features#platform#cpu_misc#0#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#1#cpu cores#min": "2", 
+  "##features#platform.cpu#cpu#max_freq#1#all_unique": [
+    2700.0
+  ], 
+  "##choices#target_os#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform#cpu_misc#3#initial apicid#repeats": 1, 
+  "##features#platform#cpu_misc#2#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform#platform#name#all": [
+    "LENOVO ThinkPad X240 (20ALCTO1WW)"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#2#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#2#physical id#repeats": 1, 
+  "##features#platform#platform#vendor#repeats": 1, 
+  "##choices#data_uoa#all": [
+    "shared-codelet-filter"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#core id#min": "0", 
+  "##choices#optimization_0#min": "-O3", 
+  "##features#platform.cpu#cpu_misc#2#power managemen#all": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#initial apicid#repeats": 1, 
+  "##choices#compile_type#all_unique": [
+    "dynamic"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#0#min": 2700.0, 
+  "##features#compiler_version#list@1#repeats": 1, 
+  "##features#platform#cpu_misc#3#microcode#min": "0x1c", 
+  "##features#platform.cpu#cpu#max_freq#0#exp": 2700.0, 
+  "##features#platform#cpu_misc#0#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#1#physical id#min": "0", 
+  "##features#platform#os#name_short#all": [
+    "Linux 3.16.0"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu#max_freq#0#all_unique": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#current_freq#1#range": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#3#min": 1600.031, 
+  "##features#platform#platform#name#repeats": 1, 
+  "##features#platform#cpu_misc#2#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#2#siblings#all": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#1#cpuid level#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#vendor_id#min": "GenuineIntel", 
+  "##features#platform.cpu#cpu_misc#0#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#1#bogomips#all": [
+    "4789.09"
+  ], 
+  "##features#platform#cpu#current_freq#0#mean": 1600.031, 
+  "##features#platform.cpu#cpu_misc#0#fpu#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#3#fpu_exception#repeats": 1, 
+  "##features#compiler_version#str#repeats": 1, 
+  "##features#platform#cpu_misc#2#power managemen#all": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#1#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#1#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#clflush size#min": "64", 
+  "##features#platform.cpu#cpu_misc#3#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu cores#min": "2", 
+  "##features#platform.cpu#cpu#max_freq#3#max": 2700.0, 
+  "##features#platform.cpu#cpu#current_freq#0#mean": 1600.031, 
+  "##features#platform#cpu_misc#1#model#repeats": 1, 
+  "##features#platform.cpu#os#ck_os_uoa#min": "linux-64", 
+  "##features#platform#cpu_misc#2#cache_alignment#min": "64", 
+  "##features#platform#os#ck_os_uoa#all_unique": [
+    "linux-64"
+  ], 
+  "##features#platform#cpu_misc#0#cache_alignment#repeats": 1, 
+  "##features#platform#cpu_misc#2#vendor_id#repeats": 1, 
+  "##features#platform#cpu_misc#3#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#0#power managemen#min": "", 
+  "##features#platform#cpu#max_freq#0#range_percent": 0.0, 
+  "##features#platform.cpu#os#ck_os_base_uoa#min": "", 
+  "##features#platform.cpu#cpu_misc#0#cpu family#min": "6", 
+  "##features#platform#cpu_misc#0#processor#repeats": 1, 
+  "##characteristics#speedup_0#min": 1.0089033737787318, 
+  "##features#platform#cpu_misc#2#physical id#all": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpuid level#min": "13", 
+  "##features#platform#cpu_misc#3#cpuid level#all": [
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#core id#all": [
+    "1"
+  ], 
+  "##features#platform#os#name#all": [
+    "Ubuntu 14.10"
+  ], 
+  "##characteristics#speedup_1#all": [
+    1.1511274169826422
+  ], 
+  "##features#compiler_version#list@0#all": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#os#name#min": "Ubuntu 14.10", 
+  "##features#platform.cpu#cpu#current_freq#1#exp": 1600.031, 
+  "##features#platform.cpu#cpu_misc#3#cpu family#min": "6", 
+  "##features#platform.cpu#cpu_misc#3#clflush size#all": [
+    "64"
+  ], 
+  "##features#platform#cpu#max_freq#2#min": 2700.0, 
+  "##features#platform#cpu#max_freq#0#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#wp#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu#cpu_abi#all": [
+    ""
+  ], 
+  "##features#platform#cpu#current_freq#0#min": 1600.031, 
+  "##features#platform#cpu_misc#2#stepping#all": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#3#fpu#repeats": 1, 
+  "##features#platform#cpu_misc#2#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##choices#optimization_0#all": [
+    "-O3"
+  ], 
+  "##features#platform#cpu_misc#1#fpu_exception#min": "yes", 
+  "##choices#dataset_uid_0#all_unique": [
+    "c8848a1b1fb1775e"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#all": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#current_freq#1#all_unique": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu_misc#1#model#all": [
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#cpu_misc#1#cpu MHz#min": "1600.031", 
+  "##features#platform.cpu#cpu_misc#2#cpu cores#all": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#fpu#repeats": 1, 
+  "##features#platform#cpu_misc#3#microcode#all": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu#max_freq#2#range": 0.0, 
+  "##features#platform#cpu_misc#0#initial apicid#min": "0", 
+  "##features#platform.cpu#cpu_misc#0#cpuid level#all": [
+    "13"
+  ], 
+  "##features#platform#cpu_misc#2#fpu#min": "yes", 
+  "##features#platform#cpu_misc#0#model name#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#cache_alignment#repeats": 1, 
+  "##features#platform#platform#vendor#all": [
+    "LENOVO"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform.cpu#cpu#num_proc#repeats": 1, 
+  "##features#platform#cpu_misc#3#cpu cores#all": [
+    "2"
+  ], 
+  "##choices#dataset_uid_0#min": "c8848a1b1fb1775e", 
+  "##features#platform.cpu#cpu#cpu_abi#repeats": 1, 
+  "##characteristics#execution_time_div_by_repeat_opt1_ds0#all_unique": [
+    0.005297232666666667
+  ], 
+  "##features#platform#cpu#max_freq#0#max": 2700.0, 
+  "##features#platform.cpu#cpu_misc#3#cpuid level#min": "13", 
+  "##features#platform.cpu#cpu#current_freq#1#max": 1600.031, 
+  "##features#platform.cpu#cpu_misc#3#vendor_id#all": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#microcode#repeats": 1, 
+  "##features#platform.cpu#cpu#max_freq#0#exp_warning": "no", 
+  "##features#platform#cpu_misc#1#processor#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#2#cpuid level#min": "13", 
+  "##features#platform#cpu_misc#0#cpu MHz#repeats": 1, 
+  "##features#platform#cpu_misc#3#model name#repeats": 1, 
+  "##features#platform#cpu#current_freq#0#exp_warning": "no", 
+  "##features#platform#cpu_misc#1#fpu#repeats": 1, 
+  "##features#compiler_version#raw@1#all": [
+    "Copyright (C) 2006 Free Software Foundation, Inc."
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu cores#min": "2", 
+  "##features#platform.cpu#cpu#max_freq#0#repeats": 1, 
+  "##features#platform#cpu#current_freq#3#exp_warning": "no", 
+  "##features#compiler_version#str#all": [
+    "4.1.2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpuid level#repeats": 1, 
+  "##features#platform.cpu#cpu#current_freq#2#exp": 1600.125, 
+  "##features#platform#cpu#current_freq#1#range_percent": 0.0, 
+  "##features#platform#cpu_misc#2#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu cores#repeats": 1, 
+  "##features#platform#cpu_misc#0#cache_alignment#min": "64", 
+  "##features#platform.cpu#cpu_misc#1#fpu#repeats": 1, 
+  "##features#platform#cpu_misc#0#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform.cpu#cpu_misc#2#cache_alignment#min": "64", 
+  "##features#platform#cpu_misc#1#wp#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#physical id#all": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#3#cache size#min": "3072 KB", 
+  "##features#platform.cpu#cpu_misc#3#model#repeats": 1, 
+  "##features#platform#cpu_misc#3#wp#repeats": 1, 
+  "##features#platform#cpu_misc#3#fpu#all": [
+    "yes"
+  ], 
+  "##features#platform#cpu#max_freq#3#exp_ally": [
+    100.0
+  ], 
+  "##features#platform.cpu#cpu_misc#3#power managemen#min": "", 
+  "##features#platform.cpu#os#ck_os_base_uoa#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#3#apicid#all": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cache size#min": "3072 KB", 
+  "##features#platform.cpu#cpu#current_freq#2#center": 1600.125, 
+  "##features#platform.cpu#cpu_misc#1#siblings#all": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#3#initial apicid#all_unique": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpu cores#min": "2", 
+  "##features#platform#cpu#max_freq#3#repeats": 1, 
+  "##features#platform#cpu#sub_name#repeats": 1, 
+  "##choices#dataset_uid_0#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#siblings#repeats": 1, 
+  "##features#platform.cpu#cpu#max_freq#1#max": 2700.0, 
+  "##features#platform.cpu#cpu_misc#1#fpu_exception#repeats": 1, 
+  "##features#platform.cpu#os#ck_os_base_uoa#all": [
+    ""
+  ], 
+  "##features#compiler_version#raw@3#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#bogomips#all": [
+    "4789.09"
+  ], 
+  "##features#platform#cpu_misc#1#processor#all": [
+    "1"
+  ], 
+  "##choices#target_os#min": "linux-64", 
+  "##features#platform.cpu#cpu_misc#2#processor#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#1#bogomips#min": "4789.09", 
+  "##features#platform.cpu#cpu#cpu_features#repeats": 1, 
+  "##features#compiler_version#raw@2#min": "This is free software; see the source for copying conditions.  There is NO", 
+  "##features#platform.cpu#cpu_misc#0#apicid#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#siblings#min": "4", 
+  "##features#platform#cpu#current_freq#2#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#initial apicid#all": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#1#wp#min": "yes", 
+  "##choices#compile_type#min": "dynamic", 
+  "##features#platform.cpu#cpu#current_freq#3#repeats": 1, 
+  "##choices#no_run#min": "yes", 
+  "##features#platform#cpu_misc#2#siblings#min": "4", 
+  "##features#platform#cpu_misc#3#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#1#exp_warning": "no", 
+  "##features#platform.cpu#cpu_misc#0#core id#min": "0", 
+  "##features#platform.cpu#cpu_misc#2#cpuid level#all": [
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#apicid#all_unique": [
+    "3"
+  ], 
+  "##features#platform#cpu_misc#0#vendor_id#repeats": 1, 
+  "##features#platform#cpu_misc#0#stepping#min": "1", 
+  "##features#platform#cpu_misc#3#clflush size#repeats": 1, 
+  "##features#platform#acc#name#all": [
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#all_unique": [
+    2700.0
+  ], 
+  "##features#platform#cpu#max_freq#0#exp_warning": "no", 
+  "##features#platform.cpu#cpu_misc#1#processor#repeats": 1, 
+  "##choices#compiler_version#repeats": 1, 
+  "##features#platform#platform#model#all_unique": [
+    "20ALCTO1WW"
+  ], 
+  "##features#platform.cpu#cpu#name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#wp#repeats": 1, 
+  "##features#platform#platform#vendor#all_unique": [
+    "LENOVO"
+  ], 
+  "##features#platform#cpu_misc#3#vendor_id#repeats": 1, 
+  "##features#platform#cpu_misc#1#initial apicid#all": [
+    "1"
+  ], 
+  "##features#platform#cpu#current_freq#0#all_unique": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu#max_freq#1#exp": 2700.0, 
+  "##features#platform#cpu_misc#1#physical id#repeats": 1, 
+  "##characteristics#execution_time_div_by_repeat_opt0_ds1#repeats": 1, 
+  "##features#platform.cpu#cpu#current_freq#2#halfrange": 0.0, 
+  "##choices#joined_compiler_flags#repeats": 1, 
+  "##features#platform#cpu_misc#3#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform.cpu#cpu_misc#0#power managemen#all": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#3#address sizes#repeats": 1, 
+  "##features#platform#cpu_misc#1#power managemen#all": [
+    ""
+  ], 
+  "##features#platform#cpu#name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##characteristics#execution_time_div_by_repeat_opt1_ds0#min": 0.005297232666666667, 
+  "##features#platform.cpu#cpu_misc#1#bogomips#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#stepping#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#microcode#min": "0x1c", 
+  "##features#platform#cpu#max_freq#0#center": 2700.0, 
+  "##features#platform.cpu#cpu_misc#1#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform#cpu#cpu_features#all": [
+    ""
+  ], 
+  "##features#compiler_version#raw@3#min": "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+  "##features#platform#cpu_misc#3#physical id#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#3#model name#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#model name#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##choices#no_run#repeats": 1, 
+  "##features#platform#cpu_misc#1#cache_alignment#all": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#1#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#clflush size#all": [
+    "64"
+  ], 
+  "##features#platform#cpu#max_freq#3#center": 2700.0, 
+  "##features#platform.cpu#cpu_misc#3#stepping#all": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#2#vendor_id#min": "GenuineIntel", 
+  "##features#platform.cpu#cpu_misc#1#fpu#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#bogomips#all": [
+    "4789.09"
+  ], 
+  "##choices#dataset_uid_1#all_unique": [
+    "0045c9b59e84318b"
+  ], 
+  "##features#platform#cpu_misc#3#core id#repeats": 1, 
+  "##features#compiler_version#raw@5#repeats": 1, 
+  "##features#platform#cpu_misc#1#model#all": [
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#power managemen#min": "", 
+  "##features#platform#cpu_misc#3#cpu family#all": [
+    "6"
+  ], 
+  "##features#platform#cpu_misc#0#physical id#min": "0", 
+  "##features#platform.cpu#cpu#current_freq#1#exp_warning": "no", 
+  "##features#platform#os#name_short#min": "Linux 3.16.0", 
+  "##features#platform#cpu_misc#3#cpu MHz#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#initial apicid#all": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu#num_proc#all": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#fpu_exception#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu#current_freq#1#exp_allx": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu#current_freq#1#exp_ally": [
+    100.0
+  ], 
+  "##features#compiler_version#raw@2#all": [
+    "This is free software; see the source for copying conditions.  There is NO"
+  ], 
+  "##features#platform#cpu_misc#2#clflush size#repeats": 1, 
+  "##features#platform#cpu_misc#3#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform#cpu_misc#3#cache_alignment#min": "64", 
+  "##features#platform#cpu#current_freq#3#exp_allx": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu#current_freq#3#center": 1600.031, 
+  "##features#platform#cpu_misc#2#initial apicid#all": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#1#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#initial apicid#all": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpuid level#all": [
+    "13"
+  ], 
+  "##choices#data_uoa#repeats": 1, 
+  "##features#platform#cpu_misc#1#physical id#min": "0", 
+  "##choices#module_uoa#all_unique": [
+    "b0ac08fe1d3c2615"
+  ], 
+  "##features#platform#cpu_misc#1#cpu MHz#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#vendor_id#all": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu#max_freq#1#exp_ally": [
+    100.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#1#exp_allx": [
+    2700.0
+  ], 
+  "##features#platform#cpu_misc#0#cache size#min": "3072 KB", 
+  "##features#platform.cpu#cpu#max_freq#2#center": 2700.0, 
+  "##features#platform.cpu#cpu#current_freq#0#all": [
+    1600.031
+  ], 
+  "##features#platform#platform#vendor#min": "LENOVO", 
+  "##features#platform#cpu_misc#2#stepping#repeats": 1, 
+  "##choices#dataset_uid_1#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#wp#all": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#physical id#repeats": 1, 
+  "##features#platform.cpu#cpu#current_freq#3#range": 0.0, 
+  "##choices#target_os#all": [
+    "linux-64"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#processor#all": [
+    "0"
+  ], 
+  "##choices#gpu_freq#all": [
+    "max"
+  ], 
+  "##features#platform#cpu_misc#0#power managemen#all": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu family#all": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpu family#min": "6", 
+  "##features#platform.cpu#cpu_misc#3#microcode#all": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu#current_freq#2#range_percent": 0.0, 
+  "##features#platform#cpu_misc#3#initial apicid#all": [
+    "3"
+  ], 
+  "##features#platform#cpu_misc#1#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#cpu MHz#repeats": 1, 
+  "##choices#compiler_version#min": "4.1.2", 
+  "##features#platform#cpu_misc#3#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#processor#all_unique": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpuid level#all": [
+    "13"
+  ], 
+  "##choices#device_id#repeats": 1, 
+  "##features#platform#cpu_misc#0#bogomips#all": [
+    "4789.09"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#compiler_version#list@0#all_unique": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu#sub_name#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#cache_alignment#all": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#1#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cache_alignment#min": "64", 
+  "##features#platform.cpu#cpu_misc#3#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#3#stepping#all": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#0#cpuid level#all": [
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#power managemen#all": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#1#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#1#model#min": "69", 
+  "##features#platform.cpu#cpu#current_freq#2#all_unique": [
+    1600.125
+  ], 
+  "##features#platform#cpu#max_freq#1#range_percent": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#1#repeats": 1, 
+  "##features#platform#cpu_misc#1#address sizes#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#1#cpu MHz#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#2#address sizes#repeats": 1, 
+  "##features#platform.cpu#cpu_misc#0#fpu#min": "yes"
+}

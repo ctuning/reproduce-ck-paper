@@ -15,7 +15,12 @@
   ],
   "stat_repeat":4,
   "add_to_pipeline":{
-   "cpu_freq":"max",
+   "cpu_freq":"1700000",
    "gpu_freq":"max"
-  }
+  },
+  "repeat":1000,
+  "force_record":"yes",
+  "experiment_repo_uoa":"reproduce-ck-paper",
+  "experiment_remote_repo_uoa":"local",
+  "experiment_uoa":"reproduce-ck-paper-filter-optimization-local-gcc-4.1.2"
 }
