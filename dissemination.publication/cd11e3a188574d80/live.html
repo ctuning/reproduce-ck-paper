@@ -1,3 +1,43 @@
+<!------------------------------------------------------------------------------------------->
+<hr>
+
+<ul>
+ <li><a href="$#ck_root_url#$action=pull&common_func=yes&cid=29db2248aba45e59:cd11e3a188574d80&filename=doc.bib">bib</a>
+ <li><a href="http://arxiv.org/abs/1506.06256">ArXiv with PDF</a>
+ <li><a href="http://www.tetracom.eu">Partially funded by TETRACOM project</a>
+ <li><a href="http://github.com/ctuning/ck">Related Collective Knowledge infrastructure and repository (CK)</a>
+ <li><a href="http://c-mind.org/repo">Related Collective Mind infrastructure and repository (deprecated for CK)</a>
+ <li><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=IwcnpkwAAAAJ:isC4tDSrTZIC">Supports our open publication model</a>
+</ul>
+
+<!------------------------------------------------------------------------------------------->
+<hr>
+
+<table cellpading="5">
+ <tr>
+  <td>
+   Here we provide details how to reproduce experiments from our papers via <a href="http://github.com/ctuning/ck">Collective Knowledge Framework and Repository (CK)</a>.
+   All artifacts are shared via <a href="http://github.com/ctuning/reproduce-ck-paper">CK "reproduce-ck-paper" repository</a> at GITHUB. If you have <a href="">CK installed</a>, you can install this repository
+   from CMD simply as<BR>
+   <i><pre>
+    ck pull repo:reproduce-ck-paper
+   </pre></i>
+   We would like to thank the community for validating various results and sharing unexpected behavior with us
+   via our <a href="http://cknowledge.org/repo">public CK repository</a>!
+  </td>
+  <td>
+   <img src="$#ck_root_url#$action=pull&common_func=yes&cid=1e4e644996b7f2a0:6b411f75e774059b&filename=images/stamp-validated-by-the-community.png">
+  </td>
+  <td>
+   <img src="$#ck_root_url#$action=generate&module_uoa=qr-code&qr_level=6&image_size=170&string=$#ck_root_url#$wcid=29db2248aba45e59:cd11e3a188574d80">
+  </td>
+ </tr>
+</table>
+
+
+<!------------------------------------------------------------------------------------------->
+<hr>
+
 <b>Abstract</b>
 
 <p>
@@ -78,8 +118,7 @@ and <a href="http://cknowledge.org/repo">http://cknowledge.org/repo</a>.
 Documentation with all examples is also available at <a href="http://github.com/ctuning/ck/wiki">http://github.com/ctuning/ck/wiki</a>.
 </i>
 
-<p>
-
+<!------------------------------------------------------------------------------------------->
 <hr>
 
 <center>
@@ -180,13 +219,13 @@ CK datasets:
     <td>-O3</td>
     <td>11008</td>
     <td>      4.619 ;       4.630 ;    0.6%</td>
-    <td>      4.603 ;       4.628 ;    1.0% <b><span style="color:#FF0000";>(slower than GCC 4.4.4)</span></b></td>
+    <td>      4.603 ;       4.628 ;    1.0% <b><span style="color:#FF0000";>(slower than GCC 4.4.4 -O3 -fno-if-conversion)</span></b></td>
    </tr>
   <tr>
     <td>-O3 -fno-if-conversion</td>
     <td>11008</td>
     <td>      4.615 ;       4.625 ;    0.6%</td>
-    <td>      4.624 ;       4.628 ;    0.3% <b><span style="color:#FF0000";>(slower than GCC 4.4.4)</span></b></td>
+    <td>      4.624 ;       4.628 ;    0.3% <b><span style="color:#FF0000";>(slower than GCC 4.4.4 -O3 -fno-if-conversion)</span></b></td>
    </tr>
   <tr>
     <td>-O2</td>
