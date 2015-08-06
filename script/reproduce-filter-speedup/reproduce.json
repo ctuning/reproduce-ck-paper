@@ -14,8 +14,9 @@
    "image-raw-bin-fgg-office-night-gray"
   ],
   "stat_repeat":4,
+  "repeat":1000,
   "add_to_pipeline":{
-   "cpu_freq":"max",
+   "cpu_freq":"1700000",
    "gpu_freq":"max"
   }
 }
