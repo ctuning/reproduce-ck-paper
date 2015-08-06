@@ -70,6 +70,6 @@ and missing features.
 
 To reproduce/validate expecation (ck should be installed
 as Python package using "ck setup kernel --install):
-> cd script/reproduce-filter-visualize
+> cd script/reproduce-filter-variation
 
 > python reproduce2.py
