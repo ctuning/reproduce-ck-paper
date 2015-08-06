@@ -84,5 +84,6 @@
     }
   ], 
   "when": "January 2015", 
-  "where": "18th International Workshop on Compilers for Parallel Computing (CPC'15), London, UK"
+  "where": "18th International Workshop on Compilers for Parallel Computing (CPC'15), London, UK",
+  "where_url":"http://wp.doc.ic.ac.uk/plas/event/cpc15"
 }
