@@ -7,6 +7,11 @@
     "repo_deps": [
       {
         "repo_uoa": "ctuning-programs"
+      }, 
+      {
+        "repo_uoa": "ck-dissemination-modules", 
+        "repo_uid": "", 
+        "repo_url": "https://github.com/gfursin/ck-dissemination-modules.git"
       }
     ], 
     "url": "https://github.com/ctuning/reproduce-ck-paper", 

@@ -1,0 +1,88 @@
+{
+  "affiliations": {
+    "1": {
+      "name": "cTuning Foundation, France"
+    }, 
+    "2": {
+      "name": "UVSQ, France"
+    }, 
+    "3": {
+      "name": "STMicroelectronics, France"
+    }, 
+    "4": {
+      "name": "ARM, UK"
+    }
+  }, 
+  "authors": [
+    {
+      "affiliation": "1", 
+      "name": "0728a400aa1c86fe", 
+      "url": "http://fursin.net/research"
+    }, 
+    {
+      "affiliation": "2", 
+      "name": "aadbdca8d7ac43ff"
+    }, 
+    {
+      "affiliation": "3", 
+      "name": "7244f9e9cd00f5be"
+    }, 
+    {
+      "affiliation": "4", 
+      "name": "07b8b4bd98945c99"
+    }
+  ], 
+  "bib_ref": "cm:29db2248aba45e59:cd11e3a188574d80", 
+  "cor_author_email": "Grigori.Fursin@cTuning.org", 
+  "document_urls": [
+    "http://arxiv.org/abs/1506.06256"
+  ], 
+  "live": "yes", 
+  "local_bib": "doc.bib", 
+  "local_doc": "doc.pdf", 
+  "notes": [
+    {
+      "italic": "yes", 
+      "note": "Partially funded by [$#cm_c47ad9a552aa7e82_754ccb9a76688c53#$]"
+    }, 
+    {
+      "italic": "yes", 
+      "note": "This work summarizes our long-term vision on enabling cost-aware computer engineering autotuning using methodology from physics, biology and other natural sciences"
+    }, 
+    {
+      "bold": "yes", 
+      "italic": "yes", 
+      "note": "This work extends our previous article [$#cm_29db2248aba45e59_6f40bc99c4f7df58#$]"
+    }, 
+    {
+      "italic": "yes", 
+      "note": "Related Collective Knowledge infrastructure and repository [$#cm_d76ac3bb9a3f744c_be42dc8eef7d2041#$]"
+    }, 
+    {
+      "italic": "yes", 
+      "note": "Related Collective Mind infrastructure and repository [$#cm_d76ac3bb9a3f744c_bd5c924415bae775#$]"
+    }, 
+    {
+      "bold": "yes", 
+      "italic": "yes", 
+      "note": "This work supports our initiative on open research and publication model where all experimental results and related material is continuously shared, validated and improved by the community [$#cm_29db2248aba45e59_40a4b58adfb594a8#$]. To set up an example, we continue sharing all benchmarks, datasets, tools, models and experimental results in Collective Mind repository (c-mind.org/repo) and in a new version: Collective Knowledge Repository (cknowledge.org/repo) "
+    }
+  ], 
+  "place": "London, UK", 
+  "publish_iso_date": "2015-01-08", 
+  "template": "live.html", 
+  "title": "Collective Mind, Part II: Towards Performance- and Cost-Aware Software Engineering as a Natural Science", 
+  "type": {
+    "name": "workshop", 
+    "peer_reviewed": "yes", 
+    "scope": "international"
+  }, 
+  "urls": [
+    {
+      "title": "Some reddit discussions", 
+      "url": "https://www.reddit.com/r/programming/comments/3bh9v0/so_all_software_engineers_need_is_a_collective"
+    }
+  ], 
+  "when": "2015", 
+  "where": "18th International Workshop on Compilers for Parallel Computing (CPC'15), London, UK"
+}

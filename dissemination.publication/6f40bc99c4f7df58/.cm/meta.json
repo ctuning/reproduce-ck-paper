@@ -1,0 +1,116 @@
+{
+  "affiliations": {
+    "1": {
+      "name": "cTuning Foundation, France"
+    }, 
+    "10": {
+      "name": "Google Inc., Toronto, Canada"
+    }, 
+    "11": {
+      "name": "National Center for Atmospheric Research, Boulder, CO, USA"
+    }, 
+    "2": {
+      "name": "INRIA, France"
+    }, 
+    "3": {
+      "name": "University of Paris-Sud, France"
+    }, 
+    "4": {
+      "name": "University of Rennes 1, France"
+    }, 
+    "5": {
+      "name": "ICHEC, Dublin, Ireland"
+    }, 
+    "6": {
+      "name": "ARM, UK"
+    }, 
+    "7": {
+      "name": "Technical University of Munich, Germany"
+    }, 
+    "8": {
+      "name": "University of Oregon, Eugene, OR, USA"
+    }, 
+    "9": {
+      "name": "Infrasoft IT Solutions, Plock, Poland"
+    }
+  }, 
+  "authors": [
+    {
+      "affiliation": "1,2,3", 
+      "name": "0728a400aa1c86fe", 
+      "url": "http://fursin.net/research"
+    }, 
+    {
+      "affiliation": "4,5", 
+      "name": "1b48ab821279f5a2"
+    }, 
+    {
+      "affiliation": "6", 
+      "name": "07b8b4bd98945c99"
+    }, 
+    {
+      "affiliation": "7", 
+      "name": "34e3c174dc9b62a0"
+    }, 
+    {
+      "affiliation": "3", 
+      "name": "b6e1d639bbd44fe9"
+    }, 
+    {
+      "affiliation": "8", 
+      "name": "38792ceacd4cda86"
+    }, 
+    {
+      "affiliation": "9", 
+      "name": "ac1449f95f88bd34"
+    }, 
+    {
+      "affiliation": "10", 
+      "name": "973d79be46c24a5c"
+    }, 
+    {
+      "affiliation": "11", 
+      "name": "3fb654f7ab9ec55b"
+    }
+  ], 
+  "bib_ref": "cm:29db2248aba45e59:6f40bc99c4f7df58", 
+  "cor_author_email": "Grigori.Fursin@cTuning.org", 
+  "document_urls": [
+    "http://hal.inria.fr/hal-01054763", 
+    "http://iospress.metapress.com/content/f255p63828m8l384"
+  ], 
+  "live": "yes", 
+  "local_bib": "doc.bib", 
+  "local_doc": "doc.pdf", 
+  "notes": [
+    {
+      "italic": "yes", 
+      "note": "This work summarizes our long-term vision on making autotuning practical and reproducible using public repository of knowledge, common plugin-based autotuning infrastructure, predictive analytics (machine learning, data mining, statistical analysis, feature detection), crowdsourcing and collective intelligence"
+    }, 
+    {
+      "bold": "yes", 
+      "italic": "yes", 
+      "note": "This work extends previous article [$#cm_29db2248aba45e59_0c44d9a2db3de3c9#$]"
+    }, 
+    {
+      "italic": "yes", 
+      "note": "Related Collective Mind infrastructure and repository [$#cm_d76ac3bb9a3f744c_bd5c924415bae775#$]"
+    }, 
+    {
+      "bold": "yes", 
+      "italic": "yes", 
+      "note": "This work supports our initiative on open research and publication model where all experimental results and related material is continuously shared, validated and improved by the community [$#cm_29db2248aba45e59_40a4b58adfb594a8#$]. To set up an example, we continue sharing all benchmarks, datasets, tools, models and experimental results in Collective Mind repository (c-mind.org/repo) and in a new version: Collective Knowledge Repository (cknowledge.org/repo) "
+    }
+  ], 
+  "place": "Edinburgh, UK", 
+  "publish_iso_date": "2014-08-03", 
+  "template": "live.html", 
+  "title": "Collective Mind: towards practical and collaborative autotuning", 
+  "type": {
+    "name": "journal", 
+    "peer_reviewed": "yes", 
+    "scope": "international"
+  }, 
+  "when": "2014", 
+  "where": "Special issue on Automatic Performance Tuning for HPC Architectures, Scientific Programming Journal, IOS Press"
+}

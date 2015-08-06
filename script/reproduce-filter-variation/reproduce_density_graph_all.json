@@ -14,7 +14,7 @@
   "plot_type":"mpl_1d_density",
 
   "bins":100,
-  "cov_factor":0.1,
+  "cov_factor":0.3,
 
   "title":"Powered by Collective Knowledge",
 

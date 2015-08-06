@@ -1,0 +1,23 @@
+{
+  "backup_data_uid": "6f40bc99c4f7df58", 
+  "backup_module_uid": "29db2248aba45e59", 
+  "backup_module_uoa": "dissemination.publication", 
+  "cm_outdated": {
+    "cm_access_control": {
+      "comments_groups": "registered", 
+      "read_groups": "all", 
+      "write_groups": "owner"
+    }, 
+    "powered_by": {
+      "name": "Collective Mind Engine", 
+      "version": "1.0.3121.beta"
+    }
+  }, 
+  "control": {
+    "author_uoa": "0728a400aa1c86fe", 
+    "engine": "CM", 
+    "iso_datetime": "2014-06-21T21:35:22.797000", 
+    "version": []
+  }, 
+  "data_name": "Collective Mind: towards practical and collaborative auto-tuning"
+}
