@@ -20,8 +20,9 @@ We help the software engineering community gradually implement
 and share light-weight wrappers around any software piece with 
 more than one implementation or optimization choice available.
 
-These wrappers are connected with a public <a href="http://c-mind.org">&nbsp;<sup>*</sup>&nbsp;
-Collective Mind autotuning infrastructure and repository of knowledge</a>
+These wrappers are connected with a public <a href="http://c-mind.org">
+Collective Mind autotuning infrastructure and repository of 
+knowledge</a>&nbsp;<sup>*</sup>&nbsp;
 to continuously monitor all important characteristics of these pieces
 (<i>computational species</i>) across numerous existing hardware
 configurations in realistic environments together with randomly
@@ -81,7 +82,137 @@ Documentation with all examples is also available at <a href="http://github.com/
 </i>
 <br>
 <br>
+
+
+<hr>
+
+
 <center>
+
+<B>Adaptive filter</B>
+
+<p>
+
+Used CK datasets:
+
+<table border="1" cellpadding="5" cellspacing="0">
+ <tr>
+  <td align="center" valign="top">
+   Data set <a href="$#ck_root_url#$wcid=8a7141c59cd335f5:c8848a1b1fb1775e">"image-raw-bin-fgg-office-day-gray"</a>
+  </td>
+  <td align="center" valign="top">
+   Data set <a href="$#ck_root_url#$wcid=8a7141c59cd335f5:0045c9b59e84318b">"image-raw-bin-fgg-office-night-gray"</a>
+  </td>
+ </tr>
+ <tr>
+  <td align="center" valign="top">
+   <img src="$#ck_root_url#$action=pull&common_func=yes&cid=8a7141c59cd335f5:c8848a1b1fb1775e&filename=data_orig.jpg" width="100">
+  </td>
+  <td align="center" valign="top">
+   <img src="$#ck_root_url#$action=pull&common_func=yes&cid=8a7141c59cd335f5:0045c9b59e84318b&filename=data_orig.jpg" width="100">
+  </td>
+ </tr>
+</table>
+
+<p>
+<i>Lenovo X240; Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz; Ubuntu 14.04 64bit; GCC 4.4.4 (<a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:f9607cb4d3383376">all info in CK</a>)</i>
+
+  <table border="1">
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Dataset image-raw-bin-fgg-office-day-gray:</td>
+    <td>Dataset image-raw-bin-fgg-office-night-gray:</td>
+   </tr>
+  <tr>
+    <td>Optimization:</td>
+    <td>Binary size:</td>
+    <td>min time (s); exp time (s); var (%):</td>
+    <td>min time (s); exp time (s); var (%):</td>
+   </tr>
+  <tr>
+    <td>-O3</td>
+    <td>10776</td>
+    <td>      4.622 ;       4.634 ;    0.7%</td>
+    <td>      4.630 ;       4.653 ;    1.0%</td>
+   </tr>
+  <tr>
+    <td>-O3 -fno-if-conversion</td>
+    <td>10784</td>
+    <td>      5.169 ;       5.193 ;    1.0% <b><span style="color:#FF0000";>(Slow down over -O3: 1.12)</span></b></td>
+    <td>      4.091 ;       4.094 ;    0.2% <b><span style="color:#FF0000";>(Speed up over -O3: 1.14)</span></b></td>
+   </tr>
+  <tr>
+    <td>-O2</td>
+    <td>10168</td>
+    <td>      4.631 ;       4.754 ;   10.2%</td>
+    <td>      4.623 ;       4.639 ;    0.7%</td>
+   </tr>
+  <tr>
+    <td>-O1</td>
+    <td>10152</td>
+    <td>      4.621 ;       4.633 ;    0.8%</td>
+    <td>      4.623 ;       4.685 ;    3.6%</td>
+   </tr>
+  <tr>
+    <td>-Os</td>
+    <td>9744</td>
+    <td>      4.668 ;       4.678 ;    0.6%</td>
+    <td>      4.666 ;       4.685 ;    0.9%</td>
+   </tr>
+  </table>
+
+<p>
+<i>Lenovo X240; Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz; Ubuntu 14.04 64bit; GCC 4.9.1 (<a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:1814383993c4d02b">all info in CK</a>)</i>
+
+  <table border="1">
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Dataset image-raw-bin-fgg-office-day-gray:</td>
+    <td>Dataset image-raw-bin-fgg-office-night-gray:</td>
+   </tr>
+  <tr>
+    <td>Optimization:</td>
+    <td>Binary size:</td>
+    <td>min time (s); exp time (s); var (%):</td>
+    <td>min time (s); exp time (s); var (%):</td>
+   </tr>
+  <tr>
+    <td>-O3</td>
+    <td>11008</td>
+    <td>      4.619 ;       4.630 ;    0.6%</td>
+    <td>      4.603 ;       4.628 ;    1.0% <b><span style="color:#FF0000";>(slower than GCC 4.4.4)</span></b></td>
+   </tr>
+  <tr>
+    <td>-O3 -fno-if-conversion</td>
+    <td>11008</td>
+    <td>      4.615 ;       4.625 ;    0.6%</td>
+    <td>      4.624 ;       4.628 ;    0.3% <b><span style="color:#FF0000";>(slower than GCC 4.4.4)</span></b></td>
+   </tr>
+  <tr>
+    <td>-O2</td>
+    <td>10880</td>
+    <td>      4.632 ;       4.635 ;    0.1%</td>
+    <td>      4.602 ;       4.647 ;    2.5%</td>
+   </tr>
+  <tr>
+    <td>-O1</td>
+    <td>10360</td>
+    <td>      4.625 ;       4.637 ;    0.7%</td>
+    <td>      4.630 ;       4.654 ;    1.8%</td>
+   </tr>
+  <tr>
+    <td>-Os</td>
+    <td>10376</td>
+    <td>      4.635 ;       4.653 ;    0.8%</td>
+    <td>      4.630 ;       4.652 ;    0.8%</td>
+   </tr>
+  </table>
+
+
+</center>
+
 
 
 <br>
