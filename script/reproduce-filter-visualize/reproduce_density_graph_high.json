@@ -1,6 +1,6 @@
 {
   "experiment_module_uoa":"experiment",
-  "data_uoa_list":["reproduce-paper-cm2014-variation-high"],
+  "data_uoa_list":["reproduce-ck-paper-variation-high"],
 
   "flat_keys_list":[
     "##characteristics#run#execution_time#all"

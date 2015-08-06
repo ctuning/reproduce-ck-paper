@@ -1,0 +1,10 @@
+{
+  "add_to_pipeline_max":{
+   "cpu_freq":"max",
+   "gpu_freq":"max"
+  },
+  "add_to_pipeline_min":{
+   "cpu_freq":"min",
+   "gpu_freq":"min"
+  }
+}

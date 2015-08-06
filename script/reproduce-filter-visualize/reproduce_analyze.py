@@ -14,43 +14,92 @@ import ck.kernel as ck
 
 sep='***************************************************************************'
 
-euoa0='demo-variation-all'
-euoa1='demo-variation-freq-high'
-euoa2='demo-variation-freq-low'
+euoax='reproduce-ck-paper-variation-'
+euoa1=euoax+'high'
+euoa2=euoax+'low'
 
 ####################################################################
 ii={"action":"get",
     "module_uoa":"experiment",
     "experiment_module_uoa":"experiment",
-    "experiment_data_uoa":euoa0,
-    "flat_keys_list":[
-      "##characteristics#run#execution_time#all"
-    ],
-   "ignore_point_if_none":"yes",
-   "expand_list":"yes"}
-
+    "data_uoa_list":[euoa1,euoa2],
+    "flat_keys_list":["##characteristics#run#execution_time_kernel_0#all"],
+    "ignore_point_if_none":"yes",
+    "ignore_graph_separation":"yes",
+    "expand_list":"yes"}
 r=ck.access(ii)
 if r['return']>0: ck.err(r)
-
-ctable0=r.get('table',{}).get('0',[])
-if len(ctable0)==0:
+xctable0=r.get('table',{}).get('0',[])
+if len(xctable0)==0:
    ck.err({'return':1,'error':'no expeirmental results found'})
 
-ii['experiment_data_uoa']=euoa1
+ii['data_uoa_list']=[euoa1]
 r=ck.access(ii)
 if r['return']>0: ck.err(r)
-
-ctable1=r.get('table',{}).get('0',[])
-if len(ctable1)==0:
+xctable1=r.get('table',{}).get('0',[])
+if len(xctable1)==0:
    ck.err({'return':1,'error':'no expeirmental results found'})
 
-ii['experiment_data_uoa']=euoa2
+ii['data_uoa_list']=[euoa2]
 r=ck.access(ii)
 if r['return']>0: ck.err(r)
-
-ctable2=r.get('table',{}).get('0',[])
-if len(ctable2)==0:
+xctable2=r.get('table',{}).get('0',[])
+if len(xctable2)==0:
    ck.err({'return':1,'error':'no expeirmental results found'})
+
+####################################################################
+ii={"action":"get",
+    "module_uoa":"experiment",
+    "experiment_module_uoa":"experiment",
+    "data_uoa_list":[euoa1,euoa2],
+    "flat_keys_list":["##features#platform#cpu#current_freq#0#all"],
+    "ignore_point_if_none":"yes"}
+r=ck.access(ii)
+if r['return']>0: ck.err(r)
+yctable0=r.get('table',{}).get('0',[])
+
+ii['data_uoa_list']=[euoa1]
+r=ck.access(ii)
+if r['return']>0: ck.err(r)
+yctable1=r.get('table',{}).get('0',[])
+
+ii['data_uoa_list']=[euoa2]
+r=ck.access(ii)
+if r['return']>0: ck.err(r)
+yctable2=r.get('table',{}).get('0',[])
+
+# Convert all sub-points into a list
+ctable0=[]
+ctable1=[]
+ctable2=[]
+
+for q in xctable0:
+    q0=q[0]
+    ctable0.append(q0)
+
+for q in xctable1:
+    q0=q[0]
+    ctable1.append(q0)
+
+for q in xctable2:
+    q0=q[0]
+    ctable2.append(q0)
+
+ftable0=[]
+ftable1=[]
+ftable2=[]
+
+for q in yctable0:
+    q0=q[0]
+    ftable0.append(q0)
+
+for q in yctable1:
+    q0=q[0]
+    ftable1.append(q0)
+
+for q in yctable2:
+    q0=q[0]
+    ftable2.append(q0)
 
 ####################################################################
 # Apply statistics
@@ -78,11 +127,19 @@ evx2=r['xlist2s']
 evy2=r['ylist2s']
 nev2=len(evx2)
 
+ratio0=evx0[1]/evx0[0]
+
+####################################################################
+if len(ftable1)>0 and len(ftable2)>0:
+   ratio1=ftable1[0]/ftable2[0]
+
+   print ratio0, ratio1
+
 ####################################################################
 ck.out('All merged experimental results (high and low frequency):')
 ck.out('  Number of detected expected values: '+str(nev0))
 if nev0==2:
-   ck.out('    Result reproduced! EV1/EV2='+('%2.2f'%(evx0[1]/evx0[0]))+' - should be high_freq/low_freq')
+   ck.out('    Result reproduced! EV1/EV2='+('%2.2f'%(ratio0))+' - should be high_freq/low_freq')
 else:
    ck.out('    Result unexpected!')
 
