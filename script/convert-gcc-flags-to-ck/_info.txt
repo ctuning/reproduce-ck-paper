@@ -13,3 +13,16 @@ New script:
 * GCC 4.9.2:
   boolean=190
   parametric=167
+
+* GCC 5.2.0:
+  boolean+215
+  parametric=181
+
+What we can note, is that total number of optimizations
+is getting to a saturation (we are not inventing many
+new and effective optimizations), but the focus
+is now on finer-grain parameterization of internal optimizations.
+
+Motivates our work on fine-grain autotuning via GCC
+plugin based interface which we added with colleagues 
+to GCC 4.6 (based on Interactive Compilation Interface).

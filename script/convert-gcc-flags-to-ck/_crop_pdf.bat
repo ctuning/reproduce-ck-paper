@@ -1,0 +1,1 @@
+pdfcrop rising-number-of-opts.pdf rising-number-of-opts-cropped.pdf
