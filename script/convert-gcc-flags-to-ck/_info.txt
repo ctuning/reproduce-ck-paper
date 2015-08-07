@@ -1,0 +1,15 @@
+Note: build_flags_not_finished_and_need_gcc_src.py is not finished:
+  -fno-no flags - not right ...
+
+However, you can use CK:
+ ck extract_opts compiler
+
+Also, note that for our papers until 2015, 
+old script was used (developed by Yuriy Kashnikov),
+hence number of boolean and parametric optimizations
+can differ.
+
+New script:
+* GCC 4.9.2:
+  boolean=190
+  parametric=167
