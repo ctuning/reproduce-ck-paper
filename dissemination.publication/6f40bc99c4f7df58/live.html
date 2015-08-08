@@ -92,9 +92,13 @@ results are continuously shared and validated by the community.
 <img src="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:bbf4abb470b0271a&filename=rising-number-of-opts-cropped.png" width="500">
 
 <p>
-<i>Reproducibility: CK scripts with CID=<a href="$#ck_root_url#$wcid=84e27ad9dd12e734:bbf4abb470b0271a">84e27ad9dd12e734:bbf4abb470b0271a</a></i>
+<i>Reproducibility: CK scripts with CID=<a href="$#ck_root_url#$wcid=84e27ad9dd12e734:bbf4abb470b0271a">84e27ad9dd12e734:bbf4abb470b0271a</a></i><br><br>
 
 </center>
+
+Note: After GCC 4.9.x we changed parsing script, moved it to CK (see above link), and started parsing optimizations using 
+<i>gcc --help:optimizers</i>, while taking parameters from <i>params.def</i>, hence small variation in number is possible.
+
 
 <!------------------------------------------------------------------------------------------->
 <hr>
@@ -102,6 +106,11 @@ results are continuously shared and validated by the community.
 <h2>Unified, reproducible, multi-objective, compiler flag autotuning examples powered by CK</h2>
 
 <center>
+
+We prepared Getting Started Guide about how to reproduce various autotuning scenarios 
+(including from this paper) via CK in your environment (hardware and software). 
+You can find it <a href="http://github.com/ctuning/ck">here</a>.
+
 
 <p>
 <b>Interactive graph of <a href="$#ck_root_url#$wcid=b0ac08fe1d3c2615:e4495a6270f52615">slambench v1.1 cpu</a> autotuning</b><br>
@@ -111,7 +120,7 @@ results are continuously shared and validated by the community.
 </center>
 
 <ul>
- <li>Samsung ChromeBook 2; Samsung EXYNOS5; ARM Cortex A15/A7; ARM Mali-T628; Ubuntu 12.04; GCC 4.9.2; video 640x480
+ <li>Samsung ChromeBook 2; Samsung EXYNOS5; ARM Cortex A15/A7; ARM Mali-T628; Ubuntu 12.04; video 640x480
  <li>Big green dot: Clang 3.6.0 -O3
  <li>Big red dot: GCC 4.9.2 -O3
  <li>Small blue dots: random GCC 4.9.2. optimization flags (with 10% probablitiy of a selection of a given flag
@@ -126,14 +135,39 @@ $#ck_include_start#${"cid":"2d41f89bcf32d4d4:3645af97abb448ab", "where":"div#ck_
 
 </center>
 
-More examples of reproducible, collaborative and live experiments via CK:
+More examples of reproducible, collaborative and live slambench experiments via CK:
 <ul>
- <li><a href="">Crowd-benchmarking and device ranking via CK</a>
+ <li><a href="http://cknowledge.org/repo/web.php?wcid=1e348bd6ab43ce8a:f4caf9dc44ab90b2">Crowd-benchmarking via public CK repository</a>
+ <li><a href="http://cknowledge.org/repo/web.php?subview=17f4334bf785af5b&wcid=bc0409fb61f0aa82:fb8db7bfa6a1a11d&reverse_table_sort=14">Device ranking in terms of FPS and other characteristics during slambench crowd-benchmarking</a>
  <li><a href="https://play.google.com/store/apps/details?id=com.collective_mind.node">Crowd-benchmarking and device ranking via Collective Mind Node</a>
- <li><a href="">Embedding live output of slambench to CK web pages (live reports and interactive articles)</a>
+ <li><a href="http://cknowledge.ddns.net/repo/web.php?wcid=1e348bd6ab43ce8a:3d487daf942ff64b">Embedding live output of slambench to CK web pages (live reports and interactive articles)</a>
 </ul>
 
+<!------------------------------------------------------------------------------------------->
+<hr>
+
+<center>
+<p>
+<b>Non-interactive graph of <a href="$#ck_root_url#$wcid=b0ac08fe1d3c2615:ffbf51c23a91343c">image corner detection algorith (susan corners)</a> autotuning</b><br>
 <br>
+<a href="$#ck_root_url#$wcid=2d41f89bcf32d4d4:be9fab019a546cef">Reproduce/reuse/replay/discuss via CK (interactive graphs)</a>
+<br>
+
+</center>
+
+<ul>
+ <li>LENOVO X240; Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz; Intel HD Graphics 4400; Windows 7 Pro
+ <li>Image <a href="$#ck_root_url#$wcid=8a7141c59cd335f5:b2130844c38e4a56">image-pgm-0001</a>; 600x450; 270015 bytes
+ <li>Black square dot: MingW GCC 4.9.2 -O3
+ <li>Blue dots: random optimization flags (with 10% probablitiy of a selection of a given flag
+ <li>Red line: Pareto frontier 
+</ul>
+
+<center>
+
+<img src="$#ck_root_url#$action=pull&common_func=yes&cid=2d41f89bcf32d4d4:be9fab019a546cef&filename=2d_points_time_vs_size_with_pareto.png" width="700" height="400" ><br>
+</center>
+
 
 <!------------------------------------------------------------------------------------------->
 <hr>
