@@ -1,0 +1,227 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 11576, 
+        "compilation_time": 0.2919158935546875, 
+        "compilation_time_with_module": 0.6874480247497559, 
+        "md5_sum": "34dd6964bb60eb67c46fe5fd1e4376a1", 
+        "obj_size": 10816, 
+        "obj_sizes": {
+          "ctuning.o": 5032, 
+          "filter.o": 4464, 
+          "filter_codelet.o": 1320
+        }
+      }, 
+      "run": {
+        "execution_time": 0.03462002371541502, 
+        "execution_time_kernel_0": 8.758866, 
+        "execution_time_with_module": 9.341996908187866, 
+        "repeat": 253, 
+        "return_code": 0, 
+        "total_execution_time": 8.758866
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.03432783399209486, 
+        "execution_time_kernel_0": 8.684942, 
+        "execution_time_with_module": 9.273118019104004, 
+        "repeat": 253, 
+        "return_code": 0, 
+        "total_execution_time": 8.684942
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.034803430830039526, 
+        "execution_time_kernel_0": 8.805268, 
+        "execution_time_with_module": 9.392781019210815, 
+        "repeat": 253, 
+        "return_code": 0, 
+        "total_execution_time": 8.805268
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.03459608300395257, 
+        "execution_time_kernel_0": 8.752809, 
+        "execution_time_with_module": 9.340710878372192, 
+        "repeat": 253, 
+        "return_code": 0, 
+        "total_execution_time": 8.752809
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.03430875889328063, 
+        "execution_time_kernel_0": 8.680116, 
+        "execution_time_with_module": 9.267688035964966, 
+        "repeat": 253, 
+        "return_code": 0, 
+        "total_execution_time": 8.680116
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.03472776679841897, 
+        "execution_time_kernel_0": 8.786125, 
+        "execution_time_with_module": 9.373872995376587, 
+        "repeat": 253, 
+        "return_code": 0, 
+        "total_execution_time": 8.786125
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.034457976284584975, 
+        "execution_time_kernel_0": 8.717868, 
+        "execution_time_with_module": 9.305514097213745, 
+        "repeat": 253, 
+        "return_code": 0, 
+        "total_execution_time": 8.717868
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.03429752569169961, 
+        "execution_time_kernel_0": 8.677274, 
+        "execution_time_with_module": 9.263753175735474, 
+        "repeat": 253, 
+        "return_code": 0, 
+        "total_execution_time": 8.677274
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.034777533596837946, 
+        "execution_time_kernel_0": 8.798716, 
+        "execution_time_with_module": 9.391947984695435, 
+        "repeat": 253, 
+        "return_code": 0, 
+        "total_execution_time": 8.798716
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.034264612648221345, 
+        "execution_time_kernel_0": 8.668947, 
+        "execution_time_with_module": 9.256675004959106, 
+        "repeat": 253, 
+        "return_code": 0, 
+        "total_execution_time": 8.668947
+      }
+    }
+  ], 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "min", 
+    "data_uoa": "shared-codelet-filter", 
+    "dataset_uoa": "image-raw-bin-fgg-office-day-gray", 
+    "device_id": "", 
+    "gpu_freq": "min", 
+    "host_os": "linux-64", 
+    "joined_compiler_flags": "", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "repeat": 253, 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        "4", 
+        "4", 
+        "4"
+      ], 
+      "raw": [
+        "gcc (GCC) 4.4.4", 
+        "Copyright (C) 2010 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.4.4"
+    }, 
+    "dataset": {
+      "compression": "", 
+      "format": "JPEG", 
+      "height": 1536, 
+      "hour_taken": 13, 
+      "mode": "L", 
+      "total_size": 10024269, 
+      "width": 1536, 
+      "xdpi": 72, 
+      "ydpi": 72
+    }, 
+    "platform": {
+      "acc": {
+        "name": "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)"
+      }, 
+      "acc_misc": {}, 
+      "cpu": {
+        "all_freqs": {}, 
+        "cpu_abi": "", 
+        "cpu_features": "", 
+        "current_freq": {
+          "0": 799.968
+        }, 
+        "max_freq": {
+          "0": 2700.0
+        }, 
+        "name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+        "num_proc": "1", 
+        "sub_name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+      }, 
+      "cpu_misc": {
+        "0": {
+          "address sizes": "39 bits physical, 48 bits virtual", 
+          "apicid": "0", 
+          "bogomips": "4788.55", 
+          "cache size": "3072 KB", 
+          "cache_alignment": "64", 
+          "clflush size": "64", 
+          "core id": "0", 
+          "cpu MHz": "799.968", 
+          "cpu cores": "1", 
+          "cpu family": "6", 
+          "cpuid level": "13", 
+          "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+          "fpu": "yes", 
+          "fpu_exception": "yes", 
+          "initial apicid": "0", 
+          "microcode": "0x1c", 
+          "model": "69", 
+          "model name": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+          "physical id": "0", 
+          "power managemen": "", 
+          "processor": "0", 
+          "siblings": "1", 
+          "stepping": "1", 
+          "vendor_id": "GenuineIntel", 
+          "wp": "yes"
+        }
+      }, 
+      "os": {
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "Ubuntu 14.10", 
+        "name_long": "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+        "name_short": "Linux 3.16.0"
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "20ALCTO1WW", 
+        "name": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+        "vendor": "LENOVO"
+      }, 
+      "platform_misc": {}
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "added": {
+    "author": "Grigori Fursin", 
+    "author_email": "Grigori.Fursin@cTuning.org", 
+    "author_webpage": "http://cTuning.org/lab/people/gfursin", 
+    "copyright": "See CK Copyright.txt for copyright details", 
+    "engine": "CK", 
+    "iso_datetime": "2015-08-06T12:00:06.533011", 
+    "license": "See CK LICENSE.txt for licensing details", 
+    "version": [
+      "1", 
+      "2", 
+      "0605"
+    ]
+  }, 
+  "meta": {}, 
+  "pipeline_uid": "b0ac08fe1d3c2615", 
+  "pipeline_uoa": "program", 
+  "points": "1"
+}
