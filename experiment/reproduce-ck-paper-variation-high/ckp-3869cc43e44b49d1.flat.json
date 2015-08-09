@@ -1,0 +1,5201 @@
+{
+  "##characteristics#compile#binary_size#all": [
+    11576
+  ], 
+  "##characteristics#compile#binary_size#all_unique": [
+    11576
+  ], 
+  "##characteristics#compile#binary_size#min": 11576, 
+  "##characteristics#compile#binary_size#repeats": 1, 
+  "##characteristics#compile#compilation_time#all": [
+    0.1312551498413086
+  ], 
+  "##characteristics#compile#compilation_time#all_unique": [
+    0.1312551498413086
+  ], 
+  "##characteristics#compile#compilation_time#min": 0.1312551498413086, 
+  "##characteristics#compile#compilation_time#repeats": 1, 
+  "##characteristics#compile#compilation_time_with_module#all": [
+    0.29837489128112793
+  ], 
+  "##characteristics#compile#compilation_time_with_module#all_unique": [
+    0.29837489128112793
+  ], 
+  "##characteristics#compile#compilation_time_with_module#min": 0.29837489128112793, 
+  "##characteristics#compile#compilation_time_with_module#repeats": 1, 
+  "##characteristics#compile#md5_sum#all": [
+    "34dd6964bb60eb67c46fe5fd1e4376a1"
+  ], 
+  "##characteristics#compile#md5_sum#all_unique": [
+    "34dd6964bb60eb67c46fe5fd1e4376a1"
+  ], 
+  "##characteristics#compile#md5_sum#min": "34dd6964bb60eb67c46fe5fd1e4376a1", 
+  "##characteristics#compile#md5_sum#repeats": 1, 
+  "##characteristics#compile#obj_size#all": [
+    10816
+  ], 
+  "##characteristics#compile#obj_size#all_unique": [
+    10816
+  ], 
+  "##characteristics#compile#obj_size#min": 10816, 
+  "##characteristics#compile#obj_size#repeats": 1, 
+  "##characteristics#compile#obj_sizes#ctuning.o#all": [
+    5032
+  ], 
+  "##characteristics#compile#obj_sizes#ctuning.o#all_unique": [
+    5032
+  ], 
+  "##characteristics#compile#obj_sizes#ctuning.o#min": 5032, 
+  "##characteristics#compile#obj_sizes#ctuning.o#repeats": 1, 
+  "##characteristics#compile#obj_sizes#filter.o#all": [
+    4464
+  ], 
+  "##characteristics#compile#obj_sizes#filter.o#all_unique": [
+    4464
+  ], 
+  "##characteristics#compile#obj_sizes#filter.o#min": 4464, 
+  "##characteristics#compile#obj_sizes#filter.o#repeats": 1, 
+  "##characteristics#compile#obj_sizes#filter_codelet.o#all": [
+    1320
+  ], 
+  "##characteristics#compile#obj_sizes#filter_codelet.o#all_unique": [
+    1320
+  ], 
+  "##characteristics#compile#obj_sizes#filter_codelet.o#min": 1320, 
+  "##characteristics#compile#obj_sizes#filter_codelet.o#repeats": 1, 
+  "##characteristics#current_freq#0#all": [
+    1600.031, 
+    1600.031, 
+    1599.937, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1599.937, 
+    1600.031, 
+    1600.031, 
+    1600.031
+  ], 
+  "##characteristics#current_freq#0#all_unique": [
+    1600.031, 
+    1599.937
+  ], 
+  "##characteristics#current_freq#0#center": 1599.984, 
+  "##characteristics#current_freq#0#exp": 1599.9692828282828, 
+  "##characteristics#current_freq#0#exp_allx": [
+    1599.9692828282828
+  ], 
+  "##characteristics#current_freq#0#exp_ally": [
+    0.00087745609904774026
+  ], 
+  "##characteristics#current_freq#0#exp_warning": "no", 
+  "##characteristics#current_freq#0#halfrange": 0.047000000000025466, 
+  "##characteristics#current_freq#0#max": 1600.031, 
+  "##characteristics#current_freq#0#mean": 1600.0122, 
+  "##characteristics#current_freq#0#min": 1599.937, 
+  "##characteristics#current_freq#0#range": 0.09400000000005093, 
+  "##characteristics#current_freq#0#range_percent": 5.8752313372370875e-05, 
+  "##characteristics#current_freq#0#repeats": 10, 
+  "##characteristics#current_freq#1#all": [
+    1599.937, 
+    1600.031, 
+    1600.125, 
+    1600.125, 
+    1600.875, 
+    1600.125, 
+    1600.125, 
+    1599.937, 
+    1600.031, 
+    1600.031
+  ], 
+  "##characteristics#current_freq#1#all_unique": [
+    1599.937, 
+    1600.031, 
+    1600.125, 
+    1600.875
+  ], 
+  "##characteristics#current_freq#1#center": 1600.406, 
+  "##characteristics#current_freq#1#exp": 1600.088595959596, 
+  "##characteristics#current_freq#1#exp_allx": [
+    1600.088595959596
+  ], 
+  "##characteristics#current_freq#1#exp_ally": [
+    0.00087738893538639984
+  ], 
+  "##characteristics#current_freq#1#exp_warning": "no", 
+  "##characteristics#current_freq#1#halfrange": 0.46900000000005093, 
+  "##characteristics#current_freq#1#max": 1600.875, 
+  "##characteristics#current_freq#1#mean": 1600.1342, 
+  "##characteristics#current_freq#1#min": 1599.937, 
+  "##characteristics#current_freq#1#range": 0.9380000000001019, 
+  "##characteristics#current_freq#1#range_percent": 0.000586273084502766, 
+  "##characteristics#current_freq#1#repeats": 10, 
+  "##characteristics#current_freq#2#all": [
+    1600.031, 
+    1600.031, 
+    1599.937, 
+    1600.031, 
+    1599.937, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031
+  ], 
+  "##characteristics#current_freq#2#all_unique": [
+    1600.031, 
+    1599.937
+  ], 
+  "##characteristics#current_freq#2#center": 1599.984, 
+  "##characteristics#current_freq#2#exp": 1599.9692828282828, 
+  "##characteristics#current_freq#2#exp_allx": [
+    1599.9692828282828
+  ], 
+  "##characteristics#current_freq#2#exp_ally": [
+    0.00087745609904774026
+  ], 
+  "##characteristics#current_freq#2#exp_warning": "no", 
+  "##characteristics#current_freq#2#halfrange": 0.047000000000025466, 
+  "##characteristics#current_freq#2#max": 1600.031, 
+  "##characteristics#current_freq#2#mean": 1600.0121999999997, 
+  "##characteristics#current_freq#2#min": 1599.937, 
+  "##characteristics#current_freq#2#range": 0.09400000000005093, 
+  "##characteristics#current_freq#2#range_percent": 5.8752313372370875e-05, 
+  "##characteristics#current_freq#2#repeats": 10, 
+  "##characteristics#current_freq#3#all": [
+    1600.218, 
+    1600.031, 
+    1600.218, 
+    1600.031, 
+    1600.125, 
+    1600.406, 
+    1599.843, 
+    1600.031, 
+    1600.031, 
+    1600.5
+  ], 
+  "##characteristics#current_freq#3#all_unique": [
+    1600.218, 
+    1600.031, 
+    1600.125, 
+    1600.406, 
+    1599.843, 
+    1600.5
+  ], 
+  "##characteristics#current_freq#3#center": 1600.1715, 
+  "##characteristics#current_freq#3#exp": 1600.1018181818183, 
+  "##characteristics#current_freq#3#exp_allx": [
+    1600.1018181818183
+  ], 
+  "##characteristics#current_freq#3#exp_ally": [
+    0.00087738401763332984
+  ], 
+  "##characteristics#current_freq#3#exp_warning": "no", 
+  "##characteristics#current_freq#3#halfrange": 0.3284999999999627, 
+  "##characteristics#current_freq#3#max": 1600.5, 
+  "##characteristics#current_freq#3#mean": 1600.1433999999997, 
+  "##characteristics#current_freq#3#min": 1599.843, 
+  "##characteristics#current_freq#3#range": 0.6569999999999254, 
+  "##characteristics#current_freq#3#range_percent": 0.0004106652965321756, 
+  "##characteristics#current_freq#3#repeats": 10, 
+  "##characteristics#run#execution_time#all": [
+    0.01585304347826087, 
+    0.015808584980237156, 
+    0.015800150197628458, 
+    0.01586433596837945, 
+    0.015811675889328063, 
+    0.015787735177865612, 
+    0.01577396837944664, 
+    0.015851818181818182, 
+    0.01585400790513834, 
+    0.015840217391304347
+  ], 
+  "##characteristics#run#execution_time#all_unique": [
+    0.01585304347826087, 
+    0.015808584980237156, 
+    0.015800150197628458, 
+    0.01586433596837945, 
+    0.015811675889328063, 
+    0.015787735177865612, 
+    0.01577396837944664, 
+    0.015851818181818182, 
+    0.01585400790513834, 
+    0.015840217391304347
+  ], 
+  "##characteristics#run#execution_time#center": 0.015819152173913047, 
+  "##characteristics#run#execution_time#exp": 0.015824172595520422, 
+  "##characteristics#run#execution_time#exp_allx": [
+    0.015824172595520422
+  ], 
+  "##characteristics#run#execution_time#exp_ally": [
+    88.715243843101064
+  ], 
+  "##characteristics#run#execution_time#exp_warning": "no", 
+  "##characteristics#run#execution_time#halfrange": 4.5183794466404845e-05, 
+  "##characteristics#run#execution_time#max": 0.01586433596837945, 
+  "##characteristics#run#execution_time#mean": 0.01582455375494071, 
+  "##characteristics#run#execution_time#min": 0.01577396837944664, 
+  "##characteristics#run#execution_time#range": 9.036758893280969e-05, 
+  "##characteristics#run#execution_time#range_percent": 0.005728906433625033, 
+  "##characteristics#run#execution_time#repeats": 10, 
+  "##characteristics#run#execution_time_kernel_0#all": [
+    4.01082, 
+    3.999572, 
+    3.997438, 
+    4.013677, 
+    4.000354, 
+    3.994297, 
+    3.990814, 
+    4.01051, 
+    4.011064, 
+    4.007575
+  ], 
+  "##characteristics#run#execution_time_kernel_0#all_unique": [
+    4.01082, 
+    3.999572, 
+    3.997438, 
+    4.013677, 
+    4.000354, 
+    3.994297, 
+    3.990814, 
+    4.01051, 
+    4.011064, 
+    4.007575
+  ], 
+  "##characteristics#run#execution_time_kernel_0#center": 4.0022455, 
+  "##characteristics#run#execution_time_kernel_0#exp": 4.0035156666666669, 
+  "##characteristics#run#execution_time_kernel_0#exp_allx": [
+    4.0035156666666669
+  ], 
+  "##characteristics#run#execution_time_kernel_0#exp_ally": [
+    0.35065313771976697
+  ], 
+  "##characteristics#run#execution_time_kernel_0#exp_warning": "no", 
+  "##characteristics#run#execution_time_kernel_0#halfrange": 0.011431500000000261, 
+  "##characteristics#run#execution_time_kernel_0#max": 4.013677, 
+  "##characteristics#run#execution_time_kernel_0#mean": 4.0036121, 
+  "##characteristics#run#execution_time_kernel_0#min": 3.990814, 
+  "##characteristics#run#execution_time_kernel_0#range": 0.022863000000000522, 
+  "##characteristics#run#execution_time_kernel_0#range_percent": 0.00572890643362495, 
+  "##characteristics#run#execution_time_kernel_0#repeats": 10, 
+  "##characteristics#run#execution_time_with_module#all": [
+    7.905367136001587, 
+    4.5362389087677, 
+    4.534300088882446, 
+    4.550491094589233, 
+    4.537348985671997, 
+    4.531455993652344, 
+    4.527707099914551, 
+    4.547465085983276, 
+    4.548288106918335, 
+    4.544722080230713
+  ], 
+  "##characteristics#run#execution_time_with_module#all_unique": [
+    7.905367136001587, 
+    4.5362389087677, 
+    4.534300088882446, 
+    4.550491094589233, 
+    4.537348985671997, 
+    4.531455993652344, 
+    4.527707099914551, 
+    4.547465085983276, 
+    4.548288106918335, 
+    4.544722080230713
+  ], 
+  "##characteristics#run#execution_time_with_module#center": 6.216537117958069, 
+  "##characteristics#run#execution_time_with_module#exp": 4.5618248780568438, 
+  "##characteristics#run#execution_time_with_module#exp_allx": [
+    4.5618248780568438
+  ], 
+  "##characteristics#run#execution_time_with_module#exp_ally": [
+    0.23206805581822607
+  ], 
+  "##characteristics#run#execution_time_with_module#exp_warning": "no", 
+  "##characteristics#run#execution_time_with_module#halfrange": 1.688830018043518, 
+  "##characteristics#run#execution_time_with_module#max": 7.905367136001587, 
+  "##characteristics#run#execution_time_with_module#mean": 4.876338458061218, 
+  "##characteristics#run#execution_time_with_module#min": 4.527707099914551, 
+  "##characteristics#run#execution_time_with_module#range": 3.377660036087036, 
+  "##characteristics#run#execution_time_with_module#range_percent": 0.7459979105430166, 
+  "##characteristics#run#execution_time_with_module#repeats": 10, 
+  "##characteristics#run#repeat#all": [
+    253, 
+    253, 
+    253, 
+    253, 
+    253, 
+    253, 
+    253, 
+    253, 
+    253, 
+    253
+  ], 
+  "##characteristics#run#repeat#all_unique": [
+    253
+  ], 
+  "##characteristics#run#repeat#center": 253, 
+  "##characteristics#run#repeat#halfrange": 0, 
+  "##characteristics#run#repeat#max": 253, 
+  "##characteristics#run#repeat#mean": 253.0, 
+  "##characteristics#run#repeat#min": 253, 
+  "##characteristics#run#repeat#range": 0, 
+  "##characteristics#run#repeat#range_percent": 0, 
+  "##characteristics#run#repeat#repeats": 10, 
+  "##characteristics#run#return_code#all": [
+    0, 
+    0, 
+    0, 
+    0, 
+    0, 
+    0, 
+    0, 
+    0, 
+    0, 
+    0
+  ], 
+  "##characteristics#run#return_code#all_unique": [
+    0
+  ], 
+  "##characteristics#run#return_code#center": 0, 
+  "##characteristics#run#return_code#halfrange": 0, 
+  "##characteristics#run#return_code#max": 0, 
+  "##characteristics#run#return_code#mean": 0.0, 
+  "##characteristics#run#return_code#min": 0, 
+  "##characteristics#run#return_code#range": 0, 
+  "##characteristics#run#return_code#repeats": 10, 
+  "##characteristics#run#total_execution_time#all": [
+    4.01082, 
+    3.999572, 
+    3.997438, 
+    4.013677, 
+    4.000354, 
+    3.994297, 
+    3.990814, 
+    4.01051, 
+    4.011064, 
+    4.007575
+  ], 
+  "##characteristics#run#total_execution_time#all_unique": [
+    4.01082, 
+    3.999572, 
+    3.997438, 
+    4.013677, 
+    4.000354, 
+    3.994297, 
+    3.990814, 
+    4.01051, 
+    4.011064, 
+    4.007575
+  ], 
+  "##characteristics#run#total_execution_time#center": 4.0022455, 
+  "##characteristics#run#total_execution_time#exp": 4.0035156666666669, 
+  "##characteristics#run#total_execution_time#exp_allx": [
+    4.0035156666666669
+  ], 
+  "##characteristics#run#total_execution_time#exp_ally": [
+    0.35065313771976697
+  ], 
+  "##characteristics#run#total_execution_time#exp_warning": "no", 
+  "##characteristics#run#total_execution_time#halfrange": 0.011431500000000261, 
+  "##characteristics#run#total_execution_time#max": 4.013677, 
+  "##characteristics#run#total_execution_time#mean": 4.0036121, 
+  "##characteristics#run#total_execution_time#min": 3.990814, 
+  "##characteristics#run#total_execution_time#range": 0.022863000000000522, 
+  "##characteristics#run#total_execution_time#range_percent": 0.00572890643362495, 
+  "##characteristics#run#total_execution_time#repeats": 10, 
+  "##choices#cmd_key#all": [
+    "default", 
+    "default", 
+    "default", 
+    "default", 
+    "default", 
+    "default", 
+    "default", 
+    "default", 
+    "default", 
+    "default"
+  ], 
+  "##choices#cmd_key#all_unique": [
+    "default"
+  ], 
+  "##choices#cmd_key#min": "default", 
+  "##choices#cmd_key#repeats": 10, 
+  "##choices#compile_type#all": [
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic", 
+    "dynamic"
+  ], 
+  "##choices#compile_type#all_unique": [
+    "dynamic"
+  ], 
+  "##choices#compile_type#min": "dynamic", 
+  "##choices#compile_type#repeats": 10, 
+  "##choices#cpu_freq#all": [
+    "1700000", 
+    "1700000", 
+    "1700000", 
+    "1700000", 
+    "1700000", 
+    "1700000", 
+    "1700000", 
+    "1700000", 
+    "1700000", 
+    "1700000"
+  ], 
+  "##choices#cpu_freq#all_unique": [
+    "1700000"
+  ], 
+  "##choices#cpu_freq#min": "1700000", 
+  "##choices#cpu_freq#repeats": 10, 
+  "##choices#data_uoa#all": [
+    "shared-codelet-filter", 
+    "shared-codelet-filter", 
+    "shared-codelet-filter", 
+    "shared-codelet-filter", 
+    "shared-codelet-filter", 
+    "shared-codelet-filter", 
+    "shared-codelet-filter", 
+    "shared-codelet-filter", 
+    "shared-codelet-filter", 
+    "shared-codelet-filter"
+  ], 
+  "##choices#data_uoa#all_unique": [
+    "shared-codelet-filter"
+  ], 
+  "##choices#data_uoa#min": "shared-codelet-filter", 
+  "##choices#data_uoa#repeats": 10, 
+  "##choices#dataset_uoa#all": [
+    "image-raw-bin-fgg-office-day-gray", 
+    "image-raw-bin-fgg-office-day-gray", 
+    "image-raw-bin-fgg-office-day-gray", 
+    "image-raw-bin-fgg-office-day-gray", 
+    "image-raw-bin-fgg-office-day-gray", 
+    "image-raw-bin-fgg-office-day-gray", 
+    "image-raw-bin-fgg-office-day-gray", 
+    "image-raw-bin-fgg-office-day-gray", 
+    "image-raw-bin-fgg-office-day-gray", 
+    "image-raw-bin-fgg-office-day-gray"
+  ], 
+  "##choices#dataset_uoa#all_unique": [
+    "image-raw-bin-fgg-office-day-gray"
+  ], 
+  "##choices#dataset_uoa#min": "image-raw-bin-fgg-office-day-gray", 
+  "##choices#dataset_uoa#repeats": 10, 
+  "##choices#device_id#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##choices#device_id#all_unique": [
+    ""
+  ], 
+  "##choices#device_id#min": "", 
+  "##choices#device_id#repeats": 10, 
+  "##choices#gpu_freq#all": [
+    "max", 
+    "max", 
+    "max", 
+    "max", 
+    "max", 
+    "max", 
+    "max", 
+    "max", 
+    "max", 
+    "max"
+  ], 
+  "##choices#gpu_freq#all_unique": [
+    "max"
+  ], 
+  "##choices#gpu_freq#min": "max", 
+  "##choices#gpu_freq#repeats": 10, 
+  "##choices#host_os#all": [
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64"
+  ], 
+  "##choices#host_os#all_unique": [
+    "linux-64"
+  ], 
+  "##choices#host_os#min": "linux-64", 
+  "##choices#host_os#repeats": 10, 
+  "##choices#joined_compiler_flags#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##choices#joined_compiler_flags#all_unique": [
+    ""
+  ], 
+  "##choices#joined_compiler_flags#min": "", 
+  "##choices#joined_compiler_flags#repeats": 10, 
+  "##choices#module_uoa#all": [
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615", 
+    "b0ac08fe1d3c2615"
+  ], 
+  "##choices#module_uoa#all_unique": [
+    "b0ac08fe1d3c2615"
+  ], 
+  "##choices#module_uoa#min": "b0ac08fe1d3c2615", 
+  "##choices#module_uoa#repeats": 10, 
+  "##choices#repeat#all": [
+    253, 
+    253, 
+    253, 
+    253, 
+    253, 
+    253, 
+    253, 
+    253, 
+    253, 
+    253
+  ], 
+  "##choices#repeat#all_unique": [
+    253
+  ], 
+  "##choices#repeat#center": 253, 
+  "##choices#repeat#halfrange": 0, 
+  "##choices#repeat#max": 253, 
+  "##choices#repeat#mean": 253.0, 
+  "##choices#repeat#min": 253, 
+  "##choices#repeat#range": 0, 
+  "##choices#repeat#range_percent": 0, 
+  "##choices#repeat#repeats": 10, 
+  "##choices#target_os#all": [
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64"
+  ], 
+  "##choices#target_os#all_unique": [
+    "linux-64"
+  ], 
+  "##choices#target_os#min": "linux-64", 
+  "##choices#target_os#repeats": 10, 
+  "##choices#target_os_bits#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##choices#target_os_bits#all_unique": [
+    "64"
+  ], 
+  "##choices#target_os_bits#min": "64", 
+  "##choices#target_os_bits#repeats": 10, 
+  "##features#compiler_version#list@0#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#compiler_version#list@0#all_unique": [
+    "4"
+  ], 
+  "##features#compiler_version#list@0#min": "4", 
+  "##features#compiler_version#list@0#repeats": 10, 
+  "##features#compiler_version#list@1#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#compiler_version#list@1#all_unique": [
+    "4"
+  ], 
+  "##features#compiler_version#list@1#min": "4", 
+  "##features#compiler_version#list@1#repeats": 10, 
+  "##features#compiler_version#list@2#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#compiler_version#list@2#all_unique": [
+    "4"
+  ], 
+  "##features#compiler_version#list@2#min": "4", 
+  "##features#compiler_version#list@2#repeats": 10, 
+  "##features#compiler_version#raw@0#all": [
+    "gcc (GCC) 4.4.4", 
+    "gcc (GCC) 4.4.4", 
+    "gcc (GCC) 4.4.4", 
+    "gcc (GCC) 4.4.4", 
+    "gcc (GCC) 4.4.4", 
+    "gcc (GCC) 4.4.4", 
+    "gcc (GCC) 4.4.4", 
+    "gcc (GCC) 4.4.4", 
+    "gcc (GCC) 4.4.4", 
+    "gcc (GCC) 4.4.4"
+  ], 
+  "##features#compiler_version#raw@0#all_unique": [
+    "gcc (GCC) 4.4.4"
+  ], 
+  "##features#compiler_version#raw@0#min": "gcc (GCC) 4.4.4", 
+  "##features#compiler_version#raw@0#repeats": 10, 
+  "##features#compiler_version#raw@1#all": [
+    "Copyright (C) 2010 Free Software Foundation, Inc.", 
+    "Copyright (C) 2010 Free Software Foundation, Inc.", 
+    "Copyright (C) 2010 Free Software Foundation, Inc.", 
+    "Copyright (C) 2010 Free Software Foundation, Inc.", 
+    "Copyright (C) 2010 Free Software Foundation, Inc.", 
+    "Copyright (C) 2010 Free Software Foundation, Inc.", 
+    "Copyright (C) 2010 Free Software Foundation, Inc.", 
+    "Copyright (C) 2010 Free Software Foundation, Inc.", 
+    "Copyright (C) 2010 Free Software Foundation, Inc.", 
+    "Copyright (C) 2010 Free Software Foundation, Inc."
+  ], 
+  "##features#compiler_version#raw@1#all_unique": [
+    "Copyright (C) 2010 Free Software Foundation, Inc."
+  ], 
+  "##features#compiler_version#raw@1#min": "Copyright (C) 2010 Free Software Foundation, Inc.", 
+  "##features#compiler_version#raw@1#repeats": 10, 
+  "##features#compiler_version#raw@2#all": [
+    "This is free software; see the source for copying conditions.  There is NO", 
+    "This is free software; see the source for copying conditions.  There is NO", 
+    "This is free software; see the source for copying conditions.  There is NO", 
+    "This is free software; see the source for copying conditions.  There is NO", 
+    "This is free software; see the source for copying conditions.  There is NO", 
+    "This is free software; see the source for copying conditions.  There is NO", 
+    "This is free software; see the source for copying conditions.  There is NO", 
+    "This is free software; see the source for copying conditions.  There is NO", 
+    "This is free software; see the source for copying conditions.  There is NO", 
+    "This is free software; see the source for copying conditions.  There is NO"
+  ], 
+  "##features#compiler_version#raw@2#all_unique": [
+    "This is free software; see the source for copying conditions.  There is NO"
+  ], 
+  "##features#compiler_version#raw@2#min": "This is free software; see the source for copying conditions.  There is NO", 
+  "##features#compiler_version#raw@2#repeats": 10, 
+  "##features#compiler_version#raw@3#all": [
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+  ], 
+  "##features#compiler_version#raw@3#all_unique": [
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+  ], 
+  "##features#compiler_version#raw@3#min": "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+  "##features#compiler_version#raw@3#repeats": 10, 
+  "##features#compiler_version#raw@4#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#compiler_version#raw@4#all_unique": [
+    ""
+  ], 
+  "##features#compiler_version#raw@4#min": "", 
+  "##features#compiler_version#raw@4#repeats": 10, 
+  "##features#compiler_version#raw@5#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#compiler_version#raw@5#all_unique": [
+    ""
+  ], 
+  "##features#compiler_version#raw@5#min": "", 
+  "##features#compiler_version#raw@5#repeats": 10, 
+  "##features#compiler_version#str#all": [
+    "4.4.4", 
+    "4.4.4", 
+    "4.4.4", 
+    "4.4.4", 
+    "4.4.4", 
+    "4.4.4", 
+    "4.4.4", 
+    "4.4.4", 
+    "4.4.4", 
+    "4.4.4"
+  ], 
+  "##features#compiler_version#str#all_unique": [
+    "4.4.4"
+  ], 
+  "##features#compiler_version#str#min": "4.4.4", 
+  "##features#compiler_version#str#repeats": 10, 
+  "##features#dataset#compression#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#dataset#compression#all_unique": [
+    ""
+  ], 
+  "##features#dataset#compression#min": "", 
+  "##features#dataset#compression#repeats": 10, 
+  "##features#dataset#format#all": [
+    "JPEG", 
+    "JPEG", 
+    "JPEG", 
+    "JPEG", 
+    "JPEG", 
+    "JPEG", 
+    "JPEG", 
+    "JPEG", 
+    "JPEG", 
+    "JPEG"
+  ], 
+  "##features#dataset#format#all_unique": [
+    "JPEG"
+  ], 
+  "##features#dataset#format#min": "JPEG", 
+  "##features#dataset#format#repeats": 10, 
+  "##features#dataset#height#all": [
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536
+  ], 
+  "##features#dataset#height#all_unique": [
+    1536
+  ], 
+  "##features#dataset#height#center": 1536, 
+  "##features#dataset#height#halfrange": 0, 
+  "##features#dataset#height#max": 1536, 
+  "##features#dataset#height#mean": 1536.0, 
+  "##features#dataset#height#min": 1536, 
+  "##features#dataset#height#range": 0, 
+  "##features#dataset#height#range_percent": 0, 
+  "##features#dataset#height#repeats": 10, 
+  "##features#dataset#hour_taken#all": [
+    13, 
+    13, 
+    13, 
+    13, 
+    13, 
+    13, 
+    13, 
+    13, 
+    13, 
+    13
+  ], 
+  "##features#dataset#hour_taken#all_unique": [
+    13
+  ], 
+  "##features#dataset#hour_taken#center": 13, 
+  "##features#dataset#hour_taken#halfrange": 0, 
+  "##features#dataset#hour_taken#max": 13, 
+  "##features#dataset#hour_taken#mean": 13.0, 
+  "##features#dataset#hour_taken#min": 13, 
+  "##features#dataset#hour_taken#range": 0, 
+  "##features#dataset#hour_taken#range_percent": 0, 
+  "##features#dataset#hour_taken#repeats": 10, 
+  "##features#dataset#mode#all": [
+    "L", 
+    "L", 
+    "L", 
+    "L", 
+    "L", 
+    "L", 
+    "L", 
+    "L", 
+    "L", 
+    "L"
+  ], 
+  "##features#dataset#mode#all_unique": [
+    "L"
+  ], 
+  "##features#dataset#mode#min": "L", 
+  "##features#dataset#mode#repeats": 10, 
+  "##features#dataset#total_size#all": [
+    10024269, 
+    10024269, 
+    10024269, 
+    10024269, 
+    10024269, 
+    10024269, 
+    10024269, 
+    10024269, 
+    10024269, 
+    10024269
+  ], 
+  "##features#dataset#total_size#all_unique": [
+    10024269
+  ], 
+  "##features#dataset#total_size#center": 10024269, 
+  "##features#dataset#total_size#halfrange": 0, 
+  "##features#dataset#total_size#max": 10024269, 
+  "##features#dataset#total_size#mean": 10024269.0, 
+  "##features#dataset#total_size#min": 10024269, 
+  "##features#dataset#total_size#range": 0, 
+  "##features#dataset#total_size#range_percent": 0, 
+  "##features#dataset#total_size#repeats": 10, 
+  "##features#dataset#width#all": [
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536, 
+    1536
+  ], 
+  "##features#dataset#width#all_unique": [
+    1536
+  ], 
+  "##features#dataset#width#center": 1536, 
+  "##features#dataset#width#halfrange": 0, 
+  "##features#dataset#width#max": 1536, 
+  "##features#dataset#width#mean": 1536.0, 
+  "##features#dataset#width#min": 1536, 
+  "##features#dataset#width#range": 0, 
+  "##features#dataset#width#range_percent": 0, 
+  "##features#dataset#width#repeats": 10, 
+  "##features#dataset#xdpi#all": [
+    72, 
+    72, 
+    72, 
+    72, 
+    72, 
+    72, 
+    72, 
+    72, 
+    72, 
+    72
+  ], 
+  "##features#dataset#xdpi#all_unique": [
+    72
+  ], 
+  "##features#dataset#xdpi#center": 72, 
+  "##features#dataset#xdpi#halfrange": 0, 
+  "##features#dataset#xdpi#max": 72, 
+  "##features#dataset#xdpi#mean": 72.0, 
+  "##features#dataset#xdpi#min": 72, 
+  "##features#dataset#xdpi#range": 0, 
+  "##features#dataset#xdpi#range_percent": 0, 
+  "##features#dataset#xdpi#repeats": 10, 
+  "##features#dataset#ydpi#all": [
+    72, 
+    72, 
+    72, 
+    72, 
+    72, 
+    72, 
+    72, 
+    72, 
+    72, 
+    72
+  ], 
+  "##features#dataset#ydpi#all_unique": [
+    72
+  ], 
+  "##features#dataset#ydpi#center": 72, 
+  "##features#dataset#ydpi#halfrange": 0, 
+  "##features#dataset#ydpi#max": 72, 
+  "##features#dataset#ydpi#mean": 72.0, 
+  "##features#dataset#ydpi#min": 72, 
+  "##features#dataset#ydpi#range": 0, 
+  "##features#dataset#ydpi#range_percent": 0, 
+  "##features#dataset#ydpi#repeats": 10, 
+  "##features#platform#acc#name#all": [
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)"
+  ], 
+  "##features#platform#acc#name#all_unique": [
+    "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)"
+  ], 
+  "##features#platform#acc#name#min": "Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)", 
+  "##features#platform#acc#name#repeats": 10, 
+  "##features#platform#cpu#cpu_abi#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu#cpu_abi#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu#cpu_abi#min": "", 
+  "##features#platform#cpu#cpu_abi#repeats": 10, 
+  "##features#platform#cpu#cpu_features#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu#cpu_features#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu#cpu_features#min": "", 
+  "##features#platform#cpu#cpu_features#repeats": 10, 
+  "##features#platform#cpu#current_freq#0#all": [
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031
+  ], 
+  "##features#platform#cpu#current_freq#0#all_unique": [
+    1600.031
+  ], 
+  "##features#platform#cpu#current_freq#0#center": 1600.031, 
+  "##features#platform#cpu#current_freq#0#halfrange": 0.0, 
+  "##features#platform#cpu#current_freq#0#max": 1600.031, 
+  "##features#platform#cpu#current_freq#0#mean": 1600.0309999999997, 
+  "##features#platform#cpu#current_freq#0#min": 1600.031, 
+  "##features#platform#cpu#current_freq#0#range": 0.0, 
+  "##features#platform#cpu#current_freq#0#range_percent": 0.0, 
+  "##features#platform#cpu#current_freq#0#repeats": 10, 
+  "##features#platform#cpu#current_freq#1#all": [
+    1600.125, 
+    1600.125, 
+    1600.125, 
+    1600.125, 
+    1600.125, 
+    1600.125, 
+    1600.125, 
+    1600.125, 
+    1600.125, 
+    1600.125
+  ], 
+  "##features#platform#cpu#current_freq#1#all_unique": [
+    1600.125
+  ], 
+  "##features#platform#cpu#current_freq#1#center": 1600.125, 
+  "##features#platform#cpu#current_freq#1#halfrange": 0.0, 
+  "##features#platform#cpu#current_freq#1#max": 1600.125, 
+  "##features#platform#cpu#current_freq#1#mean": 1600.125, 
+  "##features#platform#cpu#current_freq#1#min": 1600.125, 
+  "##features#platform#cpu#current_freq#1#range": 0.0, 
+  "##features#platform#cpu#current_freq#1#range_percent": 0.0, 
+  "##features#platform#cpu#current_freq#1#repeats": 10, 
+  "##features#platform#cpu#current_freq#2#all": [
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031
+  ], 
+  "##features#platform#cpu#current_freq#2#all_unique": [
+    1600.031
+  ], 
+  "##features#platform#cpu#current_freq#2#center": 1600.031, 
+  "##features#platform#cpu#current_freq#2#halfrange": 0.0, 
+  "##features#platform#cpu#current_freq#2#max": 1600.031, 
+  "##features#platform#cpu#current_freq#2#mean": 1600.0309999999997, 
+  "##features#platform#cpu#current_freq#2#min": 1600.031, 
+  "##features#platform#cpu#current_freq#2#range": 0.0, 
+  "##features#platform#cpu#current_freq#2#range_percent": 0.0, 
+  "##features#platform#cpu#current_freq#2#repeats": 10, 
+  "##features#platform#cpu#current_freq#3#all": [
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031
+  ], 
+  "##features#platform#cpu#current_freq#3#all_unique": [
+    1600.031
+  ], 
+  "##features#platform#cpu#current_freq#3#center": 1600.031, 
+  "##features#platform#cpu#current_freq#3#halfrange": 0.0, 
+  "##features#platform#cpu#current_freq#3#max": 1600.031, 
+  "##features#platform#cpu#current_freq#3#mean": 1600.0309999999997, 
+  "##features#platform#cpu#current_freq#3#min": 1600.031, 
+  "##features#platform#cpu#current_freq#3#range": 0.0, 
+  "##features#platform#cpu#current_freq#3#range_percent": 0.0, 
+  "##features#platform#cpu#current_freq#3#repeats": 10, 
+  "##features#platform#cpu#max_freq#0#all": [
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0
+  ], 
+  "##features#platform#cpu#max_freq#0#all_unique": [
+    2700.0
+  ], 
+  "##features#platform#cpu#max_freq#0#center": 2700.0, 
+  "##features#platform#cpu#max_freq#0#halfrange": 0.0, 
+  "##features#platform#cpu#max_freq#0#max": 2700.0, 
+  "##features#platform#cpu#max_freq#0#mean": 2700.0, 
+  "##features#platform#cpu#max_freq#0#min": 2700.0, 
+  "##features#platform#cpu#max_freq#0#range": 0.0, 
+  "##features#platform#cpu#max_freq#0#range_percent": 0.0, 
+  "##features#platform#cpu#max_freq#0#repeats": 10, 
+  "##features#platform#cpu#max_freq#1#all": [
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0
+  ], 
+  "##features#platform#cpu#max_freq#1#all_unique": [
+    2700.0
+  ], 
+  "##features#platform#cpu#max_freq#1#center": 2700.0, 
+  "##features#platform#cpu#max_freq#1#halfrange": 0.0, 
+  "##features#platform#cpu#max_freq#1#max": 2700.0, 
+  "##features#platform#cpu#max_freq#1#mean": 2700.0, 
+  "##features#platform#cpu#max_freq#1#min": 2700.0, 
+  "##features#platform#cpu#max_freq#1#range": 0.0, 
+  "##features#platform#cpu#max_freq#1#range_percent": 0.0, 
+  "##features#platform#cpu#max_freq#1#repeats": 10, 
+  "##features#platform#cpu#max_freq#2#all": [
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0
+  ], 
+  "##features#platform#cpu#max_freq#2#all_unique": [
+    2700.0
+  ], 
+  "##features#platform#cpu#max_freq#2#center": 2700.0, 
+  "##features#platform#cpu#max_freq#2#halfrange": 0.0, 
+  "##features#platform#cpu#max_freq#2#max": 2700.0, 
+  "##features#platform#cpu#max_freq#2#mean": 2700.0, 
+  "##features#platform#cpu#max_freq#2#min": 2700.0, 
+  "##features#platform#cpu#max_freq#2#range": 0.0, 
+  "##features#platform#cpu#max_freq#2#range_percent": 0.0, 
+  "##features#platform#cpu#max_freq#2#repeats": 10, 
+  "##features#platform#cpu#max_freq#3#all": [
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0
+  ], 
+  "##features#platform#cpu#max_freq#3#all_unique": [
+    2700.0
+  ], 
+  "##features#platform#cpu#max_freq#3#center": 2700.0, 
+  "##features#platform#cpu#max_freq#3#halfrange": 0.0, 
+  "##features#platform#cpu#max_freq#3#max": 2700.0, 
+  "##features#platform#cpu#max_freq#3#mean": 2700.0, 
+  "##features#platform#cpu#max_freq#3#min": 2700.0, 
+  "##features#platform#cpu#max_freq#3#range": 0.0, 
+  "##features#platform#cpu#max_freq#3#range_percent": 0.0, 
+  "##features#platform#cpu#max_freq#3#repeats": 10, 
+  "##features#platform#cpu#name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu#name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu#name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#cpu#name#repeats": 10, 
+  "##features#platform#cpu#num_proc#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform#cpu#num_proc#all_unique": [
+    "4"
+  ], 
+  "##features#platform#cpu#num_proc#min": "4", 
+  "##features#platform#cpu#num_proc#repeats": 10, 
+  "##features#platform#cpu#sub_name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu#sub_name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu#sub_name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#cpu#sub_name#repeats": 10, 
+  "##features#platform#cpu_misc#0#address sizes#all": [
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#0#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#0#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform#cpu_misc#0#address sizes#repeats": 10, 
+  "##features#platform#cpu_misc#0#apicid#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#apicid#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#apicid#min": "0", 
+  "##features#platform#cpu_misc#0#apicid#repeats": 10, 
+  "##features#platform#cpu_misc#0#bogomips#all": [
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55"
+  ], 
+  "##features#platform#cpu_misc#0#bogomips#all_unique": [
+    "4788.55"
+  ], 
+  "##features#platform#cpu_misc#0#bogomips#min": "4788.55", 
+  "##features#platform#cpu_misc#0#bogomips#repeats": 10, 
+  "##features#platform#cpu_misc#0#cache size#all": [
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#0#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#0#cache size#min": "3072 KB", 
+  "##features#platform#cpu_misc#0#cache size#repeats": 10, 
+  "##features#platform#cpu_misc#0#cache_alignment#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#cpu_misc#0#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#0#cache_alignment#min": "64", 
+  "##features#platform#cpu_misc#0#cache_alignment#repeats": 10, 
+  "##features#platform#cpu_misc#0#clflush size#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#cpu_misc#0#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#0#clflush size#min": "64", 
+  "##features#platform#cpu_misc#0#clflush size#repeats": 10, 
+  "##features#platform#cpu_misc#0#core id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#core id#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#core id#min": "0", 
+  "##features#platform#cpu_misc#0#core id#repeats": 10, 
+  "##features#platform#cpu_misc#0#cpu MHz#all": [
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031"
+  ], 
+  "##features#platform#cpu_misc#0#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#platform#cpu_misc#0#cpu MHz#min": "1600.031", 
+  "##features#platform#cpu_misc#0#cpu MHz#repeats": 10, 
+  "##features#platform#cpu_misc#0#cpu cores#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform#cpu_misc#0#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#0#cpu cores#min": "2", 
+  "##features#platform#cpu_misc#0#cpu cores#repeats": 10, 
+  "##features#platform#cpu_misc#0#cpu family#all": [
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6"
+  ], 
+  "##features#platform#cpu_misc#0#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform#cpu_misc#0#cpu family#min": "6", 
+  "##features#platform#cpu_misc#0#cpu family#repeats": 10, 
+  "##features#platform#cpu_misc#0#cpuid level#all": [
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13"
+  ], 
+  "##features#platform#cpu_misc#0#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform#cpu_misc#0#cpuid level#min": "13", 
+  "##features#platform#cpu_misc#0#cpuid level#repeats": 10, 
+  "##features#platform#cpu_misc#0#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#0#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#0#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform#cpu_misc#0#flags#repeats": 10, 
+  "##features#platform#cpu_misc#0#fpu#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#0#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#0#fpu#min": "yes", 
+  "##features#platform#cpu_misc#0#fpu#repeats": 10, 
+  "##features#platform#cpu_misc#0#fpu_exception#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#0#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#0#fpu_exception#min": "yes", 
+  "##features#platform#cpu_misc#0#fpu_exception#repeats": 10, 
+  "##features#platform#cpu_misc#0#initial apicid#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#initial apicid#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#initial apicid#min": "0", 
+  "##features#platform#cpu_misc#0#initial apicid#repeats": 10, 
+  "##features#platform#cpu_misc#0#microcode#all": [
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#0#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#0#microcode#min": "0x1c", 
+  "##features#platform#cpu_misc#0#microcode#repeats": 10, 
+  "##features#platform#cpu_misc#0#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#0#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#0#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#cpu_misc#0#model name#repeats": 10, 
+  "##features#platform#cpu_misc#0#model#all": [
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69"
+  ], 
+  "##features#platform#cpu_misc#0#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform#cpu_misc#0#model#min": "69", 
+  "##features#platform#cpu_misc#0#model#repeats": 10, 
+  "##features#platform#cpu_misc#0#physical id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#physical id#min": "0", 
+  "##features#platform#cpu_misc#0#physical id#repeats": 10, 
+  "##features#platform#cpu_misc#0#power managemen#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#0#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#0#power managemen#min": "", 
+  "##features#platform#cpu_misc#0#power managemen#repeats": 10, 
+  "##features#platform#cpu_misc#0#processor#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#processor#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#0#processor#min": "0", 
+  "##features#platform#cpu_misc#0#processor#repeats": 10, 
+  "##features#platform#cpu_misc#0#siblings#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform#cpu_misc#0#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#0#siblings#min": "4", 
+  "##features#platform#cpu_misc#0#siblings#repeats": 10, 
+  "##features#platform#cpu_misc#0#stepping#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform#cpu_misc#0#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#0#stepping#min": "1", 
+  "##features#platform#cpu_misc#0#stepping#repeats": 10, 
+  "##features#platform#cpu_misc#0#vendor_id#all": [
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#0#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#0#vendor_id#min": "GenuineIntel", 
+  "##features#platform#cpu_misc#0#vendor_id#repeats": 10, 
+  "##features#platform#cpu_misc#0#wp#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#0#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#0#wp#min": "yes", 
+  "##features#platform#cpu_misc#0#wp#repeats": 10, 
+  "##features#platform#cpu_misc#1#address sizes#all": [
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#1#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#1#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform#cpu_misc#1#address sizes#repeats": 10, 
+  "##features#platform#cpu_misc#1#apicid#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform#cpu_misc#1#apicid#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#1#apicid#min": "1", 
+  "##features#platform#cpu_misc#1#apicid#repeats": 10, 
+  "##features#platform#cpu_misc#1#bogomips#all": [
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55"
+  ], 
+  "##features#platform#cpu_misc#1#bogomips#all_unique": [
+    "4788.55"
+  ], 
+  "##features#platform#cpu_misc#1#bogomips#min": "4788.55", 
+  "##features#platform#cpu_misc#1#bogomips#repeats": 10, 
+  "##features#platform#cpu_misc#1#cache size#all": [
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#1#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#1#cache size#min": "3072 KB", 
+  "##features#platform#cpu_misc#1#cache size#repeats": 10, 
+  "##features#platform#cpu_misc#1#cache_alignment#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#cpu_misc#1#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#1#cache_alignment#min": "64", 
+  "##features#platform#cpu_misc#1#cache_alignment#repeats": 10, 
+  "##features#platform#cpu_misc#1#clflush size#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#cpu_misc#1#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#1#clflush size#min": "64", 
+  "##features#platform#cpu_misc#1#clflush size#repeats": 10, 
+  "##features#platform#cpu_misc#1#core id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform#cpu_misc#1#core id#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#1#core id#min": "0", 
+  "##features#platform#cpu_misc#1#core id#repeats": 10, 
+  "##features#platform#cpu_misc#1#cpu MHz#all": [
+    "1600.125", 
+    "1600.125", 
+    "1600.125", 
+    "1600.125", 
+    "1600.125", 
+    "1600.125", 
+    "1600.125", 
+    "1600.125", 
+    "1600.125", 
+    "1600.125"
+  ], 
+  "##features#platform#cpu_misc#1#cpu MHz#all_unique": [
+    "1600.125"
+  ], 
+  "##features#platform#cpu_misc#1#cpu MHz#min": "1600.125", 
+  "##features#platform#cpu_misc#1#cpu MHz#repeats": 10, 
+  "##features#platform#cpu_misc#1#cpu cores#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform#cpu_misc#1#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#1#cpu cores#min": "2", 
+  "##features#platform#cpu_misc#1#cpu cores#repeats": 10, 
+  "##features#platform#cpu_misc#1#cpu family#all": [
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6"
+  ], 
+  "##features#platform#cpu_misc#1#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform#cpu_misc#1#cpu family#min": "6", 
+  "##features#platform#cpu_misc#1#cpu family#repeats": 10, 
+  "##features#platform#cpu_misc#1#cpuid level#all": [
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13"
+  ], 
+  "##features#platform#cpu_misc#1#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform#cpu_misc#1#cpuid level#min": "13", 
+  "##features#platform#cpu_misc#1#cpuid level#repeats": 10, 
+  "##features#platform#cpu_misc#1#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#1#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#1#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform#cpu_misc#1#flags#repeats": 10, 
+  "##features#platform#cpu_misc#1#fpu#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#1#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#1#fpu#min": "yes", 
+  "##features#platform#cpu_misc#1#fpu#repeats": 10, 
+  "##features#platform#cpu_misc#1#fpu_exception#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#1#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#1#fpu_exception#min": "yes", 
+  "##features#platform#cpu_misc#1#fpu_exception#repeats": 10, 
+  "##features#platform#cpu_misc#1#initial apicid#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform#cpu_misc#1#initial apicid#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#1#initial apicid#min": "1", 
+  "##features#platform#cpu_misc#1#initial apicid#repeats": 10, 
+  "##features#platform#cpu_misc#1#microcode#all": [
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#1#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#1#microcode#min": "0x1c", 
+  "##features#platform#cpu_misc#1#microcode#repeats": 10, 
+  "##features#platform#cpu_misc#1#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#1#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#1#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#cpu_misc#1#model name#repeats": 10, 
+  "##features#platform#cpu_misc#1#model#all": [
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69"
+  ], 
+  "##features#platform#cpu_misc#1#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform#cpu_misc#1#model#min": "69", 
+  "##features#platform#cpu_misc#1#model#repeats": 10, 
+  "##features#platform#cpu_misc#1#physical id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform#cpu_misc#1#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#1#physical id#min": "0", 
+  "##features#platform#cpu_misc#1#physical id#repeats": 10, 
+  "##features#platform#cpu_misc#1#power managemen#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#1#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#1#power managemen#min": "", 
+  "##features#platform#cpu_misc#1#power managemen#repeats": 10, 
+  "##features#platform#cpu_misc#1#processor#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform#cpu_misc#1#processor#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#1#processor#min": "1", 
+  "##features#platform#cpu_misc#1#processor#repeats": 10, 
+  "##features#platform#cpu_misc#1#siblings#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform#cpu_misc#1#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#1#siblings#min": "4", 
+  "##features#platform#cpu_misc#1#siblings#repeats": 10, 
+  "##features#platform#cpu_misc#1#stepping#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform#cpu_misc#1#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#1#stepping#min": "1", 
+  "##features#platform#cpu_misc#1#stepping#repeats": 10, 
+  "##features#platform#cpu_misc#1#vendor_id#all": [
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#1#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#1#vendor_id#min": "GenuineIntel", 
+  "##features#platform#cpu_misc#1#vendor_id#repeats": 10, 
+  "##features#platform#cpu_misc#1#wp#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#1#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#1#wp#min": "yes", 
+  "##features#platform#cpu_misc#1#wp#repeats": 10, 
+  "##features#platform#cpu_misc#2#address sizes#all": [
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#2#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#2#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform#cpu_misc#2#address sizes#repeats": 10, 
+  "##features#platform#cpu_misc#2#apicid#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#apicid#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#apicid#min": "2", 
+  "##features#platform#cpu_misc#2#apicid#repeats": 10, 
+  "##features#platform#cpu_misc#2#bogomips#all": [
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55"
+  ], 
+  "##features#platform#cpu_misc#2#bogomips#all_unique": [
+    "4788.55"
+  ], 
+  "##features#platform#cpu_misc#2#bogomips#min": "4788.55", 
+  "##features#platform#cpu_misc#2#bogomips#repeats": 10, 
+  "##features#platform#cpu_misc#2#cache size#all": [
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#2#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#2#cache size#min": "3072 KB", 
+  "##features#platform#cpu_misc#2#cache size#repeats": 10, 
+  "##features#platform#cpu_misc#2#cache_alignment#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#cpu_misc#2#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#2#cache_alignment#min": "64", 
+  "##features#platform#cpu_misc#2#cache_alignment#repeats": 10, 
+  "##features#platform#cpu_misc#2#clflush size#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#cpu_misc#2#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#2#clflush size#min": "64", 
+  "##features#platform#cpu_misc#2#clflush size#repeats": 10, 
+  "##features#platform#cpu_misc#2#core id#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform#cpu_misc#2#core id#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#2#core id#min": "1", 
+  "##features#platform#cpu_misc#2#core id#repeats": 10, 
+  "##features#platform#cpu_misc#2#cpu MHz#all": [
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031"
+  ], 
+  "##features#platform#cpu_misc#2#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#platform#cpu_misc#2#cpu MHz#min": "1600.031", 
+  "##features#platform#cpu_misc#2#cpu MHz#repeats": 10, 
+  "##features#platform#cpu_misc#2#cpu cores#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#cpu cores#min": "2", 
+  "##features#platform#cpu_misc#2#cpu cores#repeats": 10, 
+  "##features#platform#cpu_misc#2#cpu family#all": [
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6"
+  ], 
+  "##features#platform#cpu_misc#2#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform#cpu_misc#2#cpu family#min": "6", 
+  "##features#platform#cpu_misc#2#cpu family#repeats": 10, 
+  "##features#platform#cpu_misc#2#cpuid level#all": [
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13"
+  ], 
+  "##features#platform#cpu_misc#2#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform#cpu_misc#2#cpuid level#min": "13", 
+  "##features#platform#cpu_misc#2#cpuid level#repeats": 10, 
+  "##features#platform#cpu_misc#2#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#2#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#2#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform#cpu_misc#2#flags#repeats": 10, 
+  "##features#platform#cpu_misc#2#fpu#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#2#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#2#fpu#min": "yes", 
+  "##features#platform#cpu_misc#2#fpu#repeats": 10, 
+  "##features#platform#cpu_misc#2#fpu_exception#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#2#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#2#fpu_exception#min": "yes", 
+  "##features#platform#cpu_misc#2#fpu_exception#repeats": 10, 
+  "##features#platform#cpu_misc#2#initial apicid#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#initial apicid#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#initial apicid#min": "2", 
+  "##features#platform#cpu_misc#2#initial apicid#repeats": 10, 
+  "##features#platform#cpu_misc#2#microcode#all": [
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#2#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#2#microcode#min": "0x1c", 
+  "##features#platform#cpu_misc#2#microcode#repeats": 10, 
+  "##features#platform#cpu_misc#2#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#2#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#2#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#cpu_misc#2#model name#repeats": 10, 
+  "##features#platform#cpu_misc#2#model#all": [
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69"
+  ], 
+  "##features#platform#cpu_misc#2#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform#cpu_misc#2#model#min": "69", 
+  "##features#platform#cpu_misc#2#model#repeats": 10, 
+  "##features#platform#cpu_misc#2#physical id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform#cpu_misc#2#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#2#physical id#min": "0", 
+  "##features#platform#cpu_misc#2#physical id#repeats": 10, 
+  "##features#platform#cpu_misc#2#power managemen#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#2#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#2#power managemen#min": "", 
+  "##features#platform#cpu_misc#2#power managemen#repeats": 10, 
+  "##features#platform#cpu_misc#2#processor#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#processor#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#2#processor#min": "2", 
+  "##features#platform#cpu_misc#2#processor#repeats": 10, 
+  "##features#platform#cpu_misc#2#siblings#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform#cpu_misc#2#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#2#siblings#min": "4", 
+  "##features#platform#cpu_misc#2#siblings#repeats": 10, 
+  "##features#platform#cpu_misc#2#stepping#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform#cpu_misc#2#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#2#stepping#min": "1", 
+  "##features#platform#cpu_misc#2#stepping#repeats": 10, 
+  "##features#platform#cpu_misc#2#vendor_id#all": [
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#2#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#2#vendor_id#min": "GenuineIntel", 
+  "##features#platform#cpu_misc#2#vendor_id#repeats": 10, 
+  "##features#platform#cpu_misc#2#wp#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#2#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#2#wp#min": "yes", 
+  "##features#platform#cpu_misc#2#wp#repeats": 10, 
+  "##features#platform#cpu_misc#3#address sizes#all": [
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#3#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform#cpu_misc#3#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform#cpu_misc#3#address sizes#repeats": 10, 
+  "##features#platform#cpu_misc#3#apicid#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform#cpu_misc#3#apicid#all_unique": [
+    "3"
+  ], 
+  "##features#platform#cpu_misc#3#apicid#min": "3", 
+  "##features#platform#cpu_misc#3#apicid#repeats": 10, 
+  "##features#platform#cpu_misc#3#bogomips#all": [
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55"
+  ], 
+  "##features#platform#cpu_misc#3#bogomips#all_unique": [
+    "4788.55"
+  ], 
+  "##features#platform#cpu_misc#3#bogomips#min": "4788.55", 
+  "##features#platform#cpu_misc#3#bogomips#repeats": 10, 
+  "##features#platform#cpu_misc#3#cache size#all": [
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#3#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform#cpu_misc#3#cache size#min": "3072 KB", 
+  "##features#platform#cpu_misc#3#cache size#repeats": 10, 
+  "##features#platform#cpu_misc#3#cache_alignment#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#cpu_misc#3#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#3#cache_alignment#min": "64", 
+  "##features#platform#cpu_misc#3#cache_alignment#repeats": 10, 
+  "##features#platform#cpu_misc#3#clflush size#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#cpu_misc#3#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform#cpu_misc#3#clflush size#min": "64", 
+  "##features#platform#cpu_misc#3#clflush size#repeats": 10, 
+  "##features#platform#cpu_misc#3#core id#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform#cpu_misc#3#core id#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#3#core id#min": "1", 
+  "##features#platform#cpu_misc#3#core id#repeats": 10, 
+  "##features#platform#cpu_misc#3#cpu MHz#all": [
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031"
+  ], 
+  "##features#platform#cpu_misc#3#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#platform#cpu_misc#3#cpu MHz#min": "1600.031", 
+  "##features#platform#cpu_misc#3#cpu MHz#repeats": 10, 
+  "##features#platform#cpu_misc#3#cpu cores#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform#cpu_misc#3#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform#cpu_misc#3#cpu cores#min": "2", 
+  "##features#platform#cpu_misc#3#cpu cores#repeats": 10, 
+  "##features#platform#cpu_misc#3#cpu family#all": [
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6"
+  ], 
+  "##features#platform#cpu_misc#3#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform#cpu_misc#3#cpu family#min": "6", 
+  "##features#platform#cpu_misc#3#cpu family#repeats": 10, 
+  "##features#platform#cpu_misc#3#cpuid level#all": [
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13"
+  ], 
+  "##features#platform#cpu_misc#3#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform#cpu_misc#3#cpuid level#min": "13", 
+  "##features#platform#cpu_misc#3#cpuid level#repeats": 10, 
+  "##features#platform#cpu_misc#3#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#3#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform#cpu_misc#3#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform#cpu_misc#3#flags#repeats": 10, 
+  "##features#platform#cpu_misc#3#fpu#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#3#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#3#fpu#min": "yes", 
+  "##features#platform#cpu_misc#3#fpu#repeats": 10, 
+  "##features#platform#cpu_misc#3#fpu_exception#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#3#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#3#fpu_exception#min": "yes", 
+  "##features#platform#cpu_misc#3#fpu_exception#repeats": 10, 
+  "##features#platform#cpu_misc#3#initial apicid#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform#cpu_misc#3#initial apicid#all_unique": [
+    "3"
+  ], 
+  "##features#platform#cpu_misc#3#initial apicid#min": "3", 
+  "##features#platform#cpu_misc#3#initial apicid#repeats": 10, 
+  "##features#platform#cpu_misc#3#microcode#all": [
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#3#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform#cpu_misc#3#microcode#min": "0x1c", 
+  "##features#platform#cpu_misc#3#microcode#repeats": 10, 
+  "##features#platform#cpu_misc#3#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#3#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform#cpu_misc#3#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform#cpu_misc#3#model name#repeats": 10, 
+  "##features#platform#cpu_misc#3#model#all": [
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69"
+  ], 
+  "##features#platform#cpu_misc#3#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform#cpu_misc#3#model#min": "69", 
+  "##features#platform#cpu_misc#3#model#repeats": 10, 
+  "##features#platform#cpu_misc#3#physical id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform#cpu_misc#3#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform#cpu_misc#3#physical id#min": "0", 
+  "##features#platform#cpu_misc#3#physical id#repeats": 10, 
+  "##features#platform#cpu_misc#3#power managemen#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#cpu_misc#3#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform#cpu_misc#3#power managemen#min": "", 
+  "##features#platform#cpu_misc#3#power managemen#repeats": 10, 
+  "##features#platform#cpu_misc#3#processor#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform#cpu_misc#3#processor#all_unique": [
+    "3"
+  ], 
+  "##features#platform#cpu_misc#3#processor#min": "3", 
+  "##features#platform#cpu_misc#3#processor#repeats": 10, 
+  "##features#platform#cpu_misc#3#siblings#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform#cpu_misc#3#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform#cpu_misc#3#siblings#min": "4", 
+  "##features#platform#cpu_misc#3#siblings#repeats": 10, 
+  "##features#platform#cpu_misc#3#stepping#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform#cpu_misc#3#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform#cpu_misc#3#stepping#min": "1", 
+  "##features#platform#cpu_misc#3#stepping#repeats": 10, 
+  "##features#platform#cpu_misc#3#vendor_id#all": [
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#3#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform#cpu_misc#3#vendor_id#min": "GenuineIntel", 
+  "##features#platform#cpu_misc#3#vendor_id#repeats": 10, 
+  "##features#platform#cpu_misc#3#wp#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#3#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform#cpu_misc#3#wp#min": "yes", 
+  "##features#platform#cpu_misc#3#wp#repeats": 10, 
+  "##features#platform#os#bits#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform#os#bits#all_unique": [
+    "64"
+  ], 
+  "##features#platform#os#bits#min": "64", 
+  "##features#platform#os#bits#repeats": 10, 
+  "##features#platform#os#ck_os_base_uoa#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform#os#ck_os_base_uoa#all_unique": [
+    ""
+  ], 
+  "##features#platform#os#ck_os_base_uoa#min": "", 
+  "##features#platform#os#ck_os_base_uoa#repeats": 10, 
+  "##features#platform#os#ck_os_uoa#all": [
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64"
+  ], 
+  "##features#platform#os#ck_os_uoa#all_unique": [
+    "linux-64"
+  ], 
+  "##features#platform#os#ck_os_uoa#min": "linux-64", 
+  "##features#platform#os#ck_os_uoa#repeats": 10, 
+  "##features#platform#os#name#all": [
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10"
+  ], 
+  "##features#platform#os#name#all_unique": [
+    "Ubuntu 14.10"
+  ], 
+  "##features#platform#os#name#min": "Ubuntu 14.10", 
+  "##features#platform#os#name#repeats": 10, 
+  "##features#platform#os#name_long#all": [
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic"
+  ], 
+  "##features#platform#os#name_long#all_unique": [
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic"
+  ], 
+  "##features#platform#os#name_long#min": "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+  "##features#platform#os#name_long#repeats": 10, 
+  "##features#platform#os#name_short#all": [
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0"
+  ], 
+  "##features#platform#os#name_short#all_unique": [
+    "Linux 3.16.0"
+  ], 
+  "##features#platform#os#name_short#min": "Linux 3.16.0", 
+  "##features#platform#os#name_short#repeats": 10, 
+  "##features#platform#platform#model#all": [
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW", 
+    "20ALCTO1WW"
+  ], 
+  "##features#platform#platform#model#all_unique": [
+    "20ALCTO1WW"
+  ], 
+  "##features#platform#platform#model#min": "20ALCTO1WW", 
+  "##features#platform#platform#model#repeats": 10, 
+  "##features#platform#platform#name#all": [
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+    "LENOVO ThinkPad X240 (20ALCTO1WW)"
+  ], 
+  "##features#platform#platform#name#all_unique": [
+    "LENOVO ThinkPad X240 (20ALCTO1WW)"
+  ], 
+  "##features#platform#platform#name#min": "LENOVO ThinkPad X240 (20ALCTO1WW)", 
+  "##features#platform#platform#name#repeats": 10, 
+  "##features#platform#platform#vendor#all": [
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO", 
+    "LENOVO"
+  ], 
+  "##features#platform#platform#vendor#all_unique": [
+    "LENOVO"
+  ], 
+  "##features#platform#platform#vendor#min": "LENOVO", 
+  "##features#platform#platform#vendor#repeats": 10, 
+  "##features#platform.cpu#cpu#cpu_abi#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu#cpu_abi#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu#cpu_abi#min": "", 
+  "##features#platform.cpu#cpu#cpu_abi#repeats": 10, 
+  "##features#platform.cpu#cpu#cpu_features#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu#cpu_features#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu#cpu_features#min": "", 
+  "##features#platform.cpu#cpu#cpu_features#repeats": 10, 
+  "##features#platform.cpu#cpu#current_freq#0#all": [
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu#current_freq#0#all_unique": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu#current_freq#0#center": 1600.031, 
+  "##features#platform.cpu#cpu#current_freq#0#halfrange": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#0#max": 1600.031, 
+  "##features#platform.cpu#cpu#current_freq#0#mean": 1600.0309999999997, 
+  "##features#platform.cpu#cpu#current_freq#0#min": 1600.031, 
+  "##features#platform.cpu#cpu#current_freq#0#range": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#0#range_percent": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#0#repeats": 10, 
+  "##features#platform.cpu#cpu#current_freq#1#all": [
+    1599.937, 
+    1599.937, 
+    1599.937, 
+    1599.937, 
+    1599.937, 
+    1599.937, 
+    1599.937, 
+    1599.937, 
+    1599.937, 
+    1599.937
+  ], 
+  "##features#platform.cpu#cpu#current_freq#1#all_unique": [
+    1599.937
+  ], 
+  "##features#platform.cpu#cpu#current_freq#1#center": 1599.937, 
+  "##features#platform.cpu#cpu#current_freq#1#halfrange": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#1#max": 1599.937, 
+  "##features#platform.cpu#cpu#current_freq#1#mean": 1599.937, 
+  "##features#platform.cpu#cpu#current_freq#1#min": 1599.937, 
+  "##features#platform.cpu#cpu#current_freq#1#range": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#1#range_percent": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#1#repeats": 10, 
+  "##features#platform.cpu#cpu#current_freq#2#all": [
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031, 
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu#current_freq#2#all_unique": [
+    1600.031
+  ], 
+  "##features#platform.cpu#cpu#current_freq#2#center": 1600.031, 
+  "##features#platform.cpu#cpu#current_freq#2#halfrange": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#2#max": 1600.031, 
+  "##features#platform.cpu#cpu#current_freq#2#mean": 1600.0309999999997, 
+  "##features#platform.cpu#cpu#current_freq#2#min": 1600.031, 
+  "##features#platform.cpu#cpu#current_freq#2#range": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#2#range_percent": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#2#repeats": 10, 
+  "##features#platform.cpu#cpu#current_freq#3#all": [
+    1600.218, 
+    1600.218, 
+    1600.218, 
+    1600.218, 
+    1600.218, 
+    1600.218, 
+    1600.218, 
+    1600.218, 
+    1600.218, 
+    1600.218
+  ], 
+  "##features#platform.cpu#cpu#current_freq#3#all_unique": [
+    1600.218
+  ], 
+  "##features#platform.cpu#cpu#current_freq#3#center": 1600.218, 
+  "##features#platform.cpu#cpu#current_freq#3#halfrange": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#3#max": 1600.218, 
+  "##features#platform.cpu#cpu#current_freq#3#mean": 1600.2180000000003, 
+  "##features#platform.cpu#cpu#current_freq#3#min": 1600.218, 
+  "##features#platform.cpu#cpu#current_freq#3#range": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#3#range_percent": 0.0, 
+  "##features#platform.cpu#cpu#current_freq#3#repeats": 10, 
+  "##features#platform.cpu#cpu#max_freq#0#all": [
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#0#all_unique": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#0#center": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#0#halfrange": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#0#max": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#0#mean": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#0#min": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#0#range": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#0#range_percent": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#0#repeats": 10, 
+  "##features#platform.cpu#cpu#max_freq#1#all": [
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#1#all_unique": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#1#center": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#1#halfrange": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#1#max": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#1#mean": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#1#min": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#1#range": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#1#range_percent": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#1#repeats": 10, 
+  "##features#platform.cpu#cpu#max_freq#2#all": [
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#2#all_unique": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#2#center": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#2#halfrange": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#2#max": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#2#mean": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#2#min": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#2#range": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#2#range_percent": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#2#repeats": 10, 
+  "##features#platform.cpu#cpu#max_freq#3#all": [
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0, 
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#all_unique": [
+    2700.0
+  ], 
+  "##features#platform.cpu#cpu#max_freq#3#center": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#3#halfrange": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#3#max": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#3#mean": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#3#min": 2700.0, 
+  "##features#platform.cpu#cpu#max_freq#3#range": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#3#range_percent": 0.0, 
+  "##features#platform.cpu#cpu#max_freq#3#repeats": 10, 
+  "##features#platform.cpu#cpu#name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu#name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu#name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu#name#repeats": 10, 
+  "##features#platform.cpu#cpu#num_proc#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform.cpu#cpu#num_proc#all_unique": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu#num_proc#min": "4", 
+  "##features#platform.cpu#cpu#num_proc#repeats": 10, 
+  "##features#platform.cpu#cpu#sub_name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu#sub_name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu#sub_name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu#sub_name#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#address sizes#all": [
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform.cpu#cpu_misc#0#address sizes#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#apicid#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#apicid#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#apicid#min": "0", 
+  "##features#platform.cpu#cpu_misc#0#apicid#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#bogomips#all": [
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#bogomips#all_unique": [
+    "4788.55"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#bogomips#min": "4788.55", 
+  "##features#platform.cpu#cpu_misc#0#bogomips#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#cache size#all": [
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cache size#min": "3072 KB", 
+  "##features#platform.cpu#cpu_misc#0#cache size#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#cache_alignment#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cache_alignment#min": "64", 
+  "##features#platform.cpu#cpu_misc#0#cache_alignment#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#clflush size#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#clflush size#min": "64", 
+  "##features#platform.cpu#cpu_misc#0#clflush size#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#core id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#core id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#core id#min": "0", 
+  "##features#platform.cpu#cpu_misc#0#core id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#cpu MHz#all": [
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu MHz#min": "1600.031", 
+  "##features#platform.cpu#cpu_misc#0#cpu MHz#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#cpu cores#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu cores#min": "2", 
+  "##features#platform.cpu#cpu_misc#0#cpu cores#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#cpu family#all": [
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpu family#min": "6", 
+  "##features#platform.cpu#cpu_misc#0#cpu family#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#cpuid level#all": [
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#cpuid level#min": "13", 
+  "##features#platform.cpu#cpu_misc#0#cpuid level#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform.cpu#cpu_misc#0#flags#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#fpu#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#fpu#min": "yes", 
+  "##features#platform.cpu#cpu_misc#0#fpu#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#fpu_exception#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#fpu_exception#min": "yes", 
+  "##features#platform.cpu#cpu_misc#0#fpu_exception#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#initial apicid#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#initial apicid#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#initial apicid#min": "0", 
+  "##features#platform.cpu#cpu_misc#0#initial apicid#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#microcode#all": [
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#microcode#min": "0x1c", 
+  "##features#platform.cpu#cpu_misc#0#microcode#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#0#model name#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#model#all": [
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#model#min": "69", 
+  "##features#platform.cpu#cpu_misc#0#model#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#physical id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#physical id#min": "0", 
+  "##features#platform.cpu#cpu_misc#0#physical id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#power managemen#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#0#power managemen#min": "", 
+  "##features#platform.cpu#cpu_misc#0#power managemen#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#processor#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#processor#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#processor#min": "0", 
+  "##features#platform.cpu#cpu_misc#0#processor#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#siblings#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#siblings#min": "4", 
+  "##features#platform.cpu#cpu_misc#0#siblings#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#stepping#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#stepping#min": "1", 
+  "##features#platform.cpu#cpu_misc#0#stepping#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#vendor_id#all": [
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#vendor_id#min": "GenuineIntel", 
+  "##features#platform.cpu#cpu_misc#0#vendor_id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#0#wp#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#0#wp#min": "yes", 
+  "##features#platform.cpu#cpu_misc#0#wp#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#address sizes#all": [
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform.cpu#cpu_misc#1#address sizes#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#apicid#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#apicid#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#apicid#min": "1", 
+  "##features#platform.cpu#cpu_misc#1#apicid#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#bogomips#all": [
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#bogomips#all_unique": [
+    "4788.55"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#bogomips#min": "4788.55", 
+  "##features#platform.cpu#cpu_misc#1#bogomips#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#cache size#all": [
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cache size#min": "3072 KB", 
+  "##features#platform.cpu#cpu_misc#1#cache size#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#cache_alignment#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cache_alignment#min": "64", 
+  "##features#platform.cpu#cpu_misc#1#cache_alignment#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#clflush size#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#clflush size#min": "64", 
+  "##features#platform.cpu#cpu_misc#1#clflush size#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#core id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#core id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#core id#min": "0", 
+  "##features#platform.cpu#cpu_misc#1#core id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#cpu MHz#all": [
+    "1599.937", 
+    "1599.937", 
+    "1599.937", 
+    "1599.937", 
+    "1599.937", 
+    "1599.937", 
+    "1599.937", 
+    "1599.937", 
+    "1599.937", 
+    "1599.937"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpu MHz#all_unique": [
+    "1599.937"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpu MHz#min": "1599.937", 
+  "##features#platform.cpu#cpu_misc#1#cpu MHz#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#cpu cores#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpu cores#min": "2", 
+  "##features#platform.cpu#cpu_misc#1#cpu cores#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#cpu family#all": [
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpu family#min": "6", 
+  "##features#platform.cpu#cpu_misc#1#cpu family#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#cpuid level#all": [
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#cpuid level#min": "13", 
+  "##features#platform.cpu#cpu_misc#1#cpuid level#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform.cpu#cpu_misc#1#flags#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#fpu#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#fpu#min": "yes", 
+  "##features#platform.cpu#cpu_misc#1#fpu#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#fpu_exception#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#fpu_exception#min": "yes", 
+  "##features#platform.cpu#cpu_misc#1#fpu_exception#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#initial apicid#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#initial apicid#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#initial apicid#min": "1", 
+  "##features#platform.cpu#cpu_misc#1#initial apicid#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#microcode#all": [
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#microcode#min": "0x1c", 
+  "##features#platform.cpu#cpu_misc#1#microcode#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#1#model name#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#model#all": [
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#model#min": "69", 
+  "##features#platform.cpu#cpu_misc#1#model#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#physical id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#physical id#min": "0", 
+  "##features#platform.cpu#cpu_misc#1#physical id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#power managemen#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#1#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#1#power managemen#min": "", 
+  "##features#platform.cpu#cpu_misc#1#power managemen#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#processor#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#processor#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#processor#min": "1", 
+  "##features#platform.cpu#cpu_misc#1#processor#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#siblings#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#siblings#min": "4", 
+  "##features#platform.cpu#cpu_misc#1#siblings#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#stepping#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#stepping#min": "1", 
+  "##features#platform.cpu#cpu_misc#1#stepping#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#vendor_id#all": [
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#vendor_id#min": "GenuineIntel", 
+  "##features#platform.cpu#cpu_misc#1#vendor_id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#1#wp#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#1#wp#min": "yes", 
+  "##features#platform.cpu#cpu_misc#1#wp#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#address sizes#all": [
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform.cpu#cpu_misc#2#address sizes#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#apicid#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#apicid#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#apicid#min": "2", 
+  "##features#platform.cpu#cpu_misc#2#apicid#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#bogomips#all": [
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#bogomips#all_unique": [
+    "4788.55"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#bogomips#min": "4788.55", 
+  "##features#platform.cpu#cpu_misc#2#bogomips#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#cache size#all": [
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cache size#min": "3072 KB", 
+  "##features#platform.cpu#cpu_misc#2#cache size#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#cache_alignment#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cache_alignment#min": "64", 
+  "##features#platform.cpu#cpu_misc#2#cache_alignment#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#clflush size#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#clflush size#min": "64", 
+  "##features#platform.cpu#cpu_misc#2#clflush size#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#core id#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#core id#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#core id#min": "1", 
+  "##features#platform.cpu#cpu_misc#2#core id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#cpu MHz#all": [
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031", 
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu MHz#all_unique": [
+    "1600.031"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu MHz#min": "1600.031", 
+  "##features#platform.cpu#cpu_misc#2#cpu MHz#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#cpu cores#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu cores#min": "2", 
+  "##features#platform.cpu#cpu_misc#2#cpu cores#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#cpu family#all": [
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpu family#min": "6", 
+  "##features#platform.cpu#cpu_misc#2#cpu family#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#cpuid level#all": [
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#cpuid level#min": "13", 
+  "##features#platform.cpu#cpu_misc#2#cpuid level#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform.cpu#cpu_misc#2#flags#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#fpu#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#fpu#min": "yes", 
+  "##features#platform.cpu#cpu_misc#2#fpu#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#fpu_exception#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#fpu_exception#min": "yes", 
+  "##features#platform.cpu#cpu_misc#2#fpu_exception#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#initial apicid#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#initial apicid#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#initial apicid#min": "2", 
+  "##features#platform.cpu#cpu_misc#2#initial apicid#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#microcode#all": [
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#microcode#min": "0x1c", 
+  "##features#platform.cpu#cpu_misc#2#microcode#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#2#model name#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#model#all": [
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#model#min": "69", 
+  "##features#platform.cpu#cpu_misc#2#model#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#physical id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#physical id#min": "0", 
+  "##features#platform.cpu#cpu_misc#2#physical id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#power managemen#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#2#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#2#power managemen#min": "", 
+  "##features#platform.cpu#cpu_misc#2#power managemen#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#processor#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#processor#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#processor#min": "2", 
+  "##features#platform.cpu#cpu_misc#2#processor#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#siblings#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#siblings#min": "4", 
+  "##features#platform.cpu#cpu_misc#2#siblings#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#stepping#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#stepping#min": "1", 
+  "##features#platform.cpu#cpu_misc#2#stepping#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#vendor_id#all": [
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#vendor_id#min": "GenuineIntel", 
+  "##features#platform.cpu#cpu_misc#2#vendor_id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#2#wp#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#2#wp#min": "yes", 
+  "##features#platform.cpu#cpu_misc#2#wp#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#address sizes#all": [
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual", 
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#address sizes#all_unique": [
+    "39 bits physical, 48 bits virtual"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#address sizes#min": "39 bits physical, 48 bits virtual", 
+  "##features#platform.cpu#cpu_misc#3#address sizes#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#apicid#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#apicid#all_unique": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#apicid#min": "3", 
+  "##features#platform.cpu#cpu_misc#3#apicid#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#bogomips#all": [
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55", 
+    "4788.55"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#bogomips#all_unique": [
+    "4788.55"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#bogomips#min": "4788.55", 
+  "##features#platform.cpu#cpu_misc#3#bogomips#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#cache size#all": [
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB", 
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cache size#all_unique": [
+    "3072 KB"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cache size#min": "3072 KB", 
+  "##features#platform.cpu#cpu_misc#3#cache size#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#cache_alignment#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cache_alignment#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cache_alignment#min": "64", 
+  "##features#platform.cpu#cpu_misc#3#cache_alignment#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#clflush size#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#clflush size#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#clflush size#min": "64", 
+  "##features#platform.cpu#cpu_misc#3#clflush size#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#core id#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#core id#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#core id#min": "1", 
+  "##features#platform.cpu#cpu_misc#3#core id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#cpu MHz#all": [
+    "1600.218", 
+    "1600.218", 
+    "1600.218", 
+    "1600.218", 
+    "1600.218", 
+    "1600.218", 
+    "1600.218", 
+    "1600.218", 
+    "1600.218", 
+    "1600.218"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu MHz#all_unique": [
+    "1600.218"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu MHz#min": "1600.218", 
+  "##features#platform.cpu#cpu_misc#3#cpu MHz#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#cpu cores#all": [
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2", 
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu cores#all_unique": [
+    "2"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu cores#min": "2", 
+  "##features#platform.cpu#cpu_misc#3#cpu cores#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#cpu family#all": [
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6", 
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu family#all_unique": [
+    "6"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpu family#min": "6", 
+  "##features#platform.cpu#cpu_misc#3#cpu family#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#cpuid level#all": [
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13", 
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpuid level#all_unique": [
+    "13"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#cpuid level#min": "13", 
+  "##features#platform.cpu#cpu_misc#3#cpuid level#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#flags#all": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#flags#all_unique": [
+    "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#flags#min": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid", 
+  "##features#platform.cpu#cpu_misc#3#flags#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#fpu#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#fpu#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#fpu#min": "yes", 
+  "##features#platform.cpu#cpu_misc#3#fpu#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#fpu_exception#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#fpu_exception#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#fpu_exception#min": "yes", 
+  "##features#platform.cpu#cpu_misc#3#fpu_exception#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#initial apicid#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#initial apicid#all_unique": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#initial apicid#min": "3", 
+  "##features#platform.cpu#cpu_misc#3#initial apicid#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#microcode#all": [
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c", 
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#microcode#all_unique": [
+    "0x1c"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#microcode#min": "0x1c", 
+  "##features#platform.cpu#cpu_misc#3#microcode#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#model name#all": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#model name#all_unique": [
+    "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#model name#min": "Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz", 
+  "##features#platform.cpu#cpu_misc#3#model name#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#model#all": [
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69", 
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#model#all_unique": [
+    "69"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#model#min": "69", 
+  "##features#platform.cpu#cpu_misc#3#model#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#physical id#all": [
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0", 
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#physical id#all_unique": [
+    "0"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#physical id#min": "0", 
+  "##features#platform.cpu#cpu_misc#3#physical id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#power managemen#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#3#power managemen#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#cpu_misc#3#power managemen#min": "", 
+  "##features#platform.cpu#cpu_misc#3#power managemen#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#processor#all": [
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3", 
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#processor#all_unique": [
+    "3"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#processor#min": "3", 
+  "##features#platform.cpu#cpu_misc#3#processor#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#siblings#all": [
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4", 
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#siblings#all_unique": [
+    "4"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#siblings#min": "4", 
+  "##features#platform.cpu#cpu_misc#3#siblings#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#stepping#all": [
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1", 
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#stepping#all_unique": [
+    "1"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#stepping#min": "1", 
+  "##features#platform.cpu#cpu_misc#3#stepping#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#vendor_id#all": [
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel", 
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#vendor_id#all_unique": [
+    "GenuineIntel"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#vendor_id#min": "GenuineIntel", 
+  "##features#platform.cpu#cpu_misc#3#vendor_id#repeats": 10, 
+  "##features#platform.cpu#cpu_misc#3#wp#all": [
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes", 
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#wp#all_unique": [
+    "yes"
+  ], 
+  "##features#platform.cpu#cpu_misc#3#wp#min": "yes", 
+  "##features#platform.cpu#cpu_misc#3#wp#repeats": 10, 
+  "##features#platform.cpu#os#bits#all": [
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64", 
+    "64"
+  ], 
+  "##features#platform.cpu#os#bits#all_unique": [
+    "64"
+  ], 
+  "##features#platform.cpu#os#bits#min": "64", 
+  "##features#platform.cpu#os#bits#repeats": 10, 
+  "##features#platform.cpu#os#ck_os_base_uoa#all": [
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "##features#platform.cpu#os#ck_os_base_uoa#all_unique": [
+    ""
+  ], 
+  "##features#platform.cpu#os#ck_os_base_uoa#min": "", 
+  "##features#platform.cpu#os#ck_os_base_uoa#repeats": 10, 
+  "##features#platform.cpu#os#ck_os_uoa#all": [
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64", 
+    "linux-64"
+  ], 
+  "##features#platform.cpu#os#ck_os_uoa#all_unique": [
+    "linux-64"
+  ], 
+  "##features#platform.cpu#os#ck_os_uoa#min": "linux-64", 
+  "##features#platform.cpu#os#ck_os_uoa#repeats": 10, 
+  "##features#platform.cpu#os#name#all": [
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10", 
+    "Ubuntu 14.10"
+  ], 
+  "##features#platform.cpu#os#name#all_unique": [
+    "Ubuntu 14.10"
+  ], 
+  "##features#platform.cpu#os#name#min": "Ubuntu 14.10", 
+  "##features#platform.cpu#os#name#repeats": 10, 
+  "##features#platform.cpu#os#name_long#all": [
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic"
+  ], 
+  "##features#platform.cpu#os#name_long#all_unique": [
+    "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic"
+  ], 
+  "##features#platform.cpu#os#name_long#min": "Linux-3.16.0-41-generic-x86_64-with-Ubuntu-14.10-utopic", 
+  "##features#platform.cpu#os#name_long#repeats": 10, 
+  "##features#platform.cpu#os#name_short#all": [
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0", 
+    "Linux 3.16.0"
+  ], 
+  "##features#platform.cpu#os#name_short#all_unique": [
+    "Linux 3.16.0"
+  ], 
+  "##features#platform.cpu#os#name_short#min": "Linux 3.16.0", 
+  "##features#platform.cpu#os#name_short#repeats": 10
+}
