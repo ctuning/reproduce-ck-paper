@@ -174,6 +174,38 @@ More examples of reproducible, collaborative and live slambench experiments via 
 <img src="$#ck_root_url#$action=pull&common_func=yes&cid=2d41f89bcf32d4d4:be9fab019a546cef&filename=2d_points_time_vs_size_with_pareto.png" width="700" height="400" ><br>
 </center>
 
+<!------------------------------------------------------------------------------------------->
+<hr>
+
+<center>
+<p>
+<b>Non-interactive graph of analysis of execution time variation of <a href="$#ck_root_url#$wcid=b0ac08fe1d3c2615:shared-codelet-filter">image/neuron filter kernel</a> versus different frequency</b><br>
+<br>
+</center>
+
+CK scripts: <a href="$#ck_root_url#$wcid=84e27ad9dd12e734:8a75145cebf2fde2">reproduce.py</a>
+
+<ul>
+ <li>Raw experiments in CK: <a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:4508918f89812292">high frequency</a>, <a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:73e3d342be8807bc">low frequency</a>
+ <li>Average time (green line) doesn't make sense. Normality test also fails. So most of the time, researchers will simply skip this result.
+ <li>In CK, we analyze variation via gaussian KDE from scipy, which returns 2 expected values in the following graphs suggesting
+     that there are several states in experiments and hence some features are missing, that can separate these states. In our case,
+     the feature is frequency that was added to program pipeline. See paper for more details.
+</ul>
+
+<br>
+
+<center>
+<b>Density graph</b><br>
+<img src="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:8a75145cebf2fde2&filename=reproduce_ck_paper_variation_density_all.png" width="700" height="300" ><br>
+
+<b>Histogram graph</b><br>
+<img src="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:8a75145cebf2fde2&filename=reproduce_ck_paper_variation_hist_all.png" width="700" height="300" ><br>
+
+</center>
+
+<i><b>Note: </b>CK allows the community validate the results and share unexpected behavior in public cknowledge.org/repo 
+<a href="http://cknowledge.org/repo/web.php?wcid=bc0409fb61f0aa82:reproduce-ck-paper-filter-variation">here</a>.</i>
 
 <!------------------------------------------------------------------------------------------->
 <hr>
