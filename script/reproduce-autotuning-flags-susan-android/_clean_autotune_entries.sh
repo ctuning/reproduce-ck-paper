@@ -1,1 +1,1 @@
-ck rm experiment:demo-autotune-flags-susan-android-*
+ck rm experiment:reproduce-ck-paper-autotune-flags-susan-android-*

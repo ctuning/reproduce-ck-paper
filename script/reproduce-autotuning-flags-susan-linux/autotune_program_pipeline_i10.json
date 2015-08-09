@@ -19,7 +19,7 @@
    },
 
   "record":"yes",
-  "record_uoa":"demo-autotune-flags-susan-linux-i10",
+  "record_uoa":"reproduce-ck-paper-autotune-flags-susan-linux-i10",
 
   "features_keys_to_process":["##choices#*"],
 

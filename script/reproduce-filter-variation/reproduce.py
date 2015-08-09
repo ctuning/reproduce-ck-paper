@@ -45,7 +45,11 @@ def run(i):
     ck.out('You can find more details in our paper https://hal.inria.fr/hal-01054763')
 
     ck.out('')
-    ck.out('Note: please, check that SciPy and NumPy are installed!')
+    ck.out('Notes:')
+    ck.out(' * This script uses CK installed as a standard python package.')
+    ck.out('   If you haven\'t done it yet, please do it from CK root directory')
+    ck.out('   via sudo python setup.py install')
+    ck.out(' * Please, check that SciPy and NumPy are installed')
 
     ck.out('')
 

@@ -130,34 +130,134 @@ nev2=len(evx2)
 ratio0=evx0[1]/evx0[0]
 
 ####################################################################
+ratio1=-1
 if len(ftable1)>0 and len(ftable2)>0:
    ratio1=ftable1[0]/ftable2[0]
 
-   print ratio0, ratio1
-
 ####################################################################
-ck.out('All merged experimental results (high and low frequency):')
-ck.out('  Number of detected expected values: '+str(nev0))
-if nev0==2:
-   ck.out('    Result reproduced! EV1/EV2='+('%2.2f'%(ratio0))+' - should be high_freq/low_freq')
-else:
-   ck.out('    Result unexpected!')
+ck.out('')
+ck.out('Validation of experimental results on your machine and detection of unexpected behavior (crowdsourcing experimentation):')
 
+result={}
+
+xunexpected=False
+
+######################################
+ck.out('')
+ck.out('All merged experimental results (high and low frequency):')
+ck.out('  Number of detected expected values (should be 2): '+str(nev0))
+
+result['num_expected_values_all']=nev0
+unexpected=False
+if nev0==2:
+   ck.out('    Result reproduced!')
+else:
+   unexpected=True
+   xunexpected=True
+   ck.out('    Result unexpected!')
+result['unexpected_all']=unexpected
+
+######################################
+ck.out('')
+ck.out('  Ratio of Expected value for low freq/expected value for high freq')
+ck.out('    Should be approximately equal for high freq/low freq: '+'%2.2f'%(ratio0)+' vs '+'%2.2f'%(ratio1))
+
+result['char_expected_value_low_div_expected_value_high']=ratio0
+result['char_freq_low_div_freq_high']=ratio1
+
+dif=ratio0/ratio1
+
+result['char_ratio_expected_value_div_ratio_freq']=dif
+unexpected=False
+if dif<0.91 or dif>1.1:
+   unexpected=True
+   xunexpected=True
+   ck.out('    Result unexpected!')
+else:
+   ck.out('    Result reproduced!')
+result['unexpected_dif_between_ratios']=unexpected
+
+######################################
 ck.out('')
 ck.out('High frequency experimental results:')
-ck.out('  Number of detected expected values: '+str(nev1))
+ck.out('  Number of detected expected values (should be 1): '+str(nev1))
+
+result['num_expected_values_high']=nev1
+unexpected=False
 if nev1==1:
    ck.out('    Result reproduced!')
 else:
+   unexpected=True
+   xunexpected=True
    ck.out('    Result unexpected!')
+result['unexpected_high']=unexpected
 
+######################################
 ck.out('')
 ck.out('Low frequency experimental results:')
-ck.out('  Number of detected expected values: '+str(nev2))
+ck.out('  Number of detected expected values (should be 1): '+str(nev2))
+
+result['num_expected_values_low']=nev2
+unexpected=False
 if nev2==1:
    ck.out('    Result reproduced!')
 else:
+   unexpected=True
+   xunexpected=True
    ck.out('    Result unexpected!')
+result['unexpected_low']=unexpected
+
+# Sharing unexpected behavior
+if xunexpected:
+   # Read config json file
+   r=ck.load_json_file({'json_file':'reproduce_analyze.json'})
+   if r['return']>0: return r
+   dd=r['dict']
+
+   e_repo_uoa=dd.get("experiment_repo_uoa":"reproduce-ck-paper","")
+   e_remote_repo_uoa=dd.get("experiment_remote_repo_uoa","")
+   e_uoa=dd.get("experiment_uoa","")
+
+   ck.out('')
+   ck.out('Warning: unexpected behavior detected!')
+   r=ck.inp({'text':'Would you like to share this result with the community, author or Artifact Evaluation Committee via public "remote-ck" web service (Y/n): '})
+   x=r['string'].lower()
+   if x=='' or x=='yes' or x=='y':
+      ii={'action':'add',
+          'module_uoa':cfg['module_deps']['experiment'],
+
+          'repo_uoa':e_repo_uoa,
+          'experiment_repo_uoa':e_remote_repo_uoa,
+          'experiment_uoa':e_uoa,
+
+          'dict':{
+            'tags':['crowdsource experiments','ck-paper','filter','variation'],
+            'features':features,
+            'choices':xchoices,
+            'characteristics': {
+               'speedup_0':sd0,     
+               'speedup_1':sd1,
+               'execution_time_div_by_repeat_opt0_ds0':t0d0,
+               'execution_time_div_by_repeat_opt0_ds1':t0d1,
+               'execution_time_div_by_repeat_opt1_ds0':t1d0,
+               'execution_time_div_by_repeat_opt1_ds1':t1d1
+            }
+          }
+         }
+
+      r=ck.access(ii)
+      if r['return']>0: 
+         ck.err(r)
+         exit(r['return'])
+
+      ck.out('')
+      ck.out('  Results shared successfully!')
+
+      ck.out('')
+      ck.out('  You can see all shared results at http://cknowledge.org/repo/web.php?wcid=bc0409fb61f0aa82:8404df882462f978&subview=reproduce-ck-paper-filter')
+
+ck.out('')
+ck.out('Thank you for participating in experiment crowdsourcing!')
 
 exit(0)
 

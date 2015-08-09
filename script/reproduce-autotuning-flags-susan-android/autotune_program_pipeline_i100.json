@@ -19,7 +19,7 @@
    },
 
   "record":"yes",
-  "record_uoa":"demo-autotune-flags-susan-android-i100",
+  "record_uoa":"reproduce-ck-paper-autotune-flags-susan-android-i100",
 
   "features_keys_to_process":["##choices#*"],
 

@@ -1,1 +1,1 @@
-ck replay experiment:demo-autotune-flags-susan-android-best @replay_base_best.json
+ck replay experiment:reproduce-ck-paper-autotune-flags-susan-android-best @replay_base_best.json
