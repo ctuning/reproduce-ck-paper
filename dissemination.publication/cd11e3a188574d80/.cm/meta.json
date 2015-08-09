@@ -72,6 +72,7 @@
   "publish_iso_date": "2015-01-08", 
   "template": "live.html", 
   "title": "Collective Mind, Part II: Towards Performance- and Cost-Aware Software Engineering as a Natural Science", 
+  "tags":["ck-paper","reproducibility","artifacts"],
   "type": {
     "name": "workshop", 
     "peer_reviewed": "yes", 

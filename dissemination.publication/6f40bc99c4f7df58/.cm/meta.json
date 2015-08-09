@@ -80,6 +80,7 @@
     "http://iospress.metapress.com/content/f255p63828m8l384"
   ], 
   "live": "yes", 
+  "tags":["ck-paper","reproducibility","artifacts"],
   "local_bib": "doc.bib", 
   "local_doc": "doc.pdf", 
   "notes": [
