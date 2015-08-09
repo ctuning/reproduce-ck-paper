@@ -1,0 +1,34 @@
+{
+  "experiment_module_uoa":"experiment",
+  "data_uoa_list":["reproduce-ck-paper-variation-high","reproduce-ck-paper-variation-low"],
+  "ignore_graph_separation":"yes",
+
+  "flat_keys_list":[
+    "##characteristics#run#execution_time_kernel_0#all"
+  ],
+
+  "ignore_point_if_none":"yes",
+
+  "expand_list":"yes",
+
+  "plot_type":"mpl_1d_density",
+
+  "bins":100,
+  "cov_factor":0.3,
+
+  "title":"Powered by Collective Knowledge",
+
+  "axis_x_desc":"Execution time",
+  "axis_y_desc":"Density",
+
+  "plot_grid":"yes",
+
+  "mpl_image_size_x":"12",
+  "mpl_image_size_y":"6",
+  "mpl_image_dpi":"100",
+
+  "out_to_file":"reproduce_ck_paper_variation_density_all.png",
+
+  "save_table_to_json_file":"reproduce_ck_paper_variation_density_all_data.json",
+  "save_table_to_csv_file":"reproduce_ck_paper_variation_density_all_data.csv"
+}
