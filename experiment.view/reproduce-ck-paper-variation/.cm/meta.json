@@ -33,11 +33,11 @@
       "desc": "Number of logical cores"
     }, 
     {
-      "desc": "CPU min frequency"
+      "desc": "CPU min frequency",
       "format": "%9.0f"
     }, 
     {
-      "desc": "CPU max frequency"
+      "desc": "CPU max frequency",
       "format": "%9.0f"
     }, 
     {
