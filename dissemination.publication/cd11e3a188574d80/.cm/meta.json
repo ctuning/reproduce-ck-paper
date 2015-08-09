@@ -81,7 +81,13 @@
     {
       "title": "Some reddit discussions", 
       "url": "https://www.reddit.com/r/programming/comments/3bh9v0/so_all_software_engineers_need_is_a_collective"
-    }
+    },
+    {
+      "bold":"yes",
+      "italic": "yes", 
+      "title": "CK-powered interactive article with all shared artifacts for reproducibility at cknowledge.org/repo",
+      "url":"http://cknowledge.org/repo/web.php?wcid=29db2248aba45e59:cd11e3a188574d80"
+    } 
   ], 
   "when": "January 2015", 
   "where": "18th International Workshop on Compilers for Parallel Computing (CPC'15), London, UK",
