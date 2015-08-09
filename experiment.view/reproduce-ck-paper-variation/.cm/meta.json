@@ -34,9 +34,11 @@
     }, 
     {
       "desc": "CPU min frequency"
+      "format": "%9.0f"
     }, 
     {
       "desc": "CPU max frequency"
+      "format": "%9.0f"
     }, 
     {
       "desc": "Number of expected values (should be 2)"
