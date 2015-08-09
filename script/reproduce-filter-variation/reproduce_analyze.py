@@ -26,9 +26,20 @@ ii={"action":"get",
     "flat_keys_list":["##characteristics#run#execution_time_kernel_0#all"],
     "ignore_point_if_none":"yes",
     "ignore_graph_separation":"yes",
+    "load_json_files":["features"],
     "expand_list":"yes"}
 r=ck.access(ii)
 if r['return']>0: ck.err(r)
+
+features={}
+xchoices={}
+
+points=r.get('points',[])
+if len(points)>0:
+   x=points[0].get('features',{})
+   features=x.get('features',{})
+   xchoices=x.get('choices',{})
+
 xctable0=r.get('table',{}).get('0',[])
 if len(xctable0)==0:
    ck.err({'return':1,'error':'no expeirmental results found'})
@@ -101,6 +112,8 @@ for q in yctable2:
     q0=q[0]
     ftable2.append(q0)
 
+result={}
+
 ####################################################################
 # Apply statistics
 r=ck.access({'action':'analyze',
@@ -134,11 +147,12 @@ ratio1=-1
 if len(ftable1)>0 and len(ftable2)>0:
    ratio1=ftable1[0]/ftable2[0]
 
+   result['freq_max']=ftable1[0]
+   result['freq_min']=ftable2[0]
+
 ####################################################################
 ck.out('')
 ck.out('Validation of experimental results on your machine and detection of unexpected behavior (crowdsourcing experimentation):')
-
-result={}
 
 xunexpected=False
 
@@ -211,10 +225,12 @@ result['unexpected_low']=unexpected
 if xunexpected:
    # Read config json file
    r=ck.load_json_file({'json_file':'reproduce_analyze.json'})
-   if r['return']>0: return r
+   if r['return']>0: 
+      ck.err(r)
+      exit(r['return'])
    dd=r['dict']
 
-   e_repo_uoa=dd.get("experiment_repo_uoa":"reproduce-ck-paper","")
+   e_repo_uoa=dd.get("experiment_repo_uoa","")
    e_remote_repo_uoa=dd.get("experiment_remote_repo_uoa","")
    e_uoa=dd.get("experiment_uoa","")
 
@@ -224,24 +240,22 @@ if xunexpected:
    x=r['string'].lower()
    if x=='' or x=='yes' or x=='y':
       ii={'action':'add',
-          'module_uoa':cfg['module_deps']['experiment'],
+          'module_uoa':'experiment',
 
           'repo_uoa':e_repo_uoa,
           'experiment_repo_uoa':e_remote_repo_uoa,
           'experiment_uoa':e_uoa,
 
+          'sort_keys':'yes',
+
           'dict':{
+            'dict':{'subview_uoa':'reproduce-ck-paper-variation'},
+
             'tags':['crowdsource experiments','ck-paper','filter','variation'],
+
             'features':features,
             'choices':xchoices,
-            'characteristics': {
-               'speedup_0':sd0,     
-               'speedup_1':sd1,
-               'execution_time_div_by_repeat_opt0_ds0':t0d0,
-               'execution_time_div_by_repeat_opt0_ds1':t0d1,
-               'execution_time_div_by_repeat_opt1_ds0':t1d0,
-               'execution_time_div_by_repeat_opt1_ds1':t1d1
-            }
+            'characteristics': result
           }
          }
 

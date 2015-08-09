@@ -1,0 +1,58 @@
+{
+  "flat_keys": [
+    "##choices#host_os", 
+    "##choices#target_os", 
+    "##features#platform#cpu#name", 
+    "##features#platform#cpu#sub_name", 
+    "##features#platform#cpu#num_proc", 
+    "##characteristics#freq_min", 
+    "##characteristics#freq_max", 
+    "##characteristics#num_expected_values_all", 
+    "##characteristics#char_expected_value_low_div_expected_value_high", 
+    "##characteristics#char_freq_low_div_freq_high", 
+    "##characteristics#char_ratio_expected_value_div_ratio_freq"
+  ], 
+  "flat_keys_desc": [
+    {
+      "desc": "Host OS", 
+      "module_uoa": "0440cb72c2bc5cc6", 
+      "type": "uoa"
+    }, 
+    {
+      "desc": "Target OS", 
+      "module_uoa": "0440cb72c2bc5cc6", 
+      "type": "uoa"
+    }, 
+    {
+      "desc": "CPU name"
+    }, 
+    {
+      "desc": "CPU sub-name"
+    }, 
+    {
+      "desc": "Number of logical cores"
+    }, 
+    {
+      "desc": "CPU min frequency"
+    }, 
+    {
+      "desc": "CPU max frequency"
+    }, 
+    {
+      "desc": "Number of expected values (should be 2)"
+    }, 
+    {
+      "desc": "High freq / Low Freq (ratio0)", 
+      "format": "%4.2f"
+    }, 
+    {
+      "desc": "Expected value 2 / expected value 1 (ratio1)", 
+      "format": "%4.2f"
+    }, 
+    {
+      "desc": "ratio0/ratio1 (should be 1)", 
+      "format": "%1.5f"
+    }
+  ], 
+  "no_replay": "yes"
+}

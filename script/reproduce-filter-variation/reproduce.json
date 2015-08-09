@@ -1,6 +1,6 @@
 {
   "add_to_pipeline_max":{
-   "cpu_freq":"1700000",
+   "cpu_freq":"max",
    "gpu_freq":"max"
   },
   "add_to_pipeline_min":{
