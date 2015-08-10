@@ -1,0 +1,26 @@
+{
+  "added": {
+    "author": "Grigori Fursin", 
+    "author_email": "Grigori.Fursin@cTuning.org", 
+    "author_webpage": "http://cTuning.org/lab/people/gfursin", 
+    "copyright": "See CK Copyright.txt for copyright details", 
+    "engine": "CK", 
+    "iso_datetime": "2015-08-10T20:41:38.733610", 
+    "license": "See CK LICENSE.txt for licensing details", 
+    "version": [
+      "1", 
+      "2", 
+      "0605"
+    ]
+  }, 
+  "meta": {}, 
+  "points": "1", 
+  "subview_uoa": "143ce35aac4950a9", 
+  "tags": [
+    "crowdsource experiments", 
+    "ck-paper", 
+    "filter", 
+    "if-conversion", 
+    "speedup"
+  ]
+}
