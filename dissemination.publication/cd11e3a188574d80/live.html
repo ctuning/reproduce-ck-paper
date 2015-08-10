@@ -260,6 +260,53 @@ CK datasets:
    </tr>
   </table>
 
+<p>
+<i>Lenovo X240; Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz; Ubuntu 14.04 64bit; GCC 5.2.0 (<a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:c792a74d78b19246">all info in CK</a>)</i>
+
+  <table border="1">
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Dataset image-raw-bin-fgg-office-day-gray:</td>
+    <td>Dataset image-raw-bin-fgg-office-night-gray:</td>
+   </tr>
+  <tr>
+    <td>Optimization:</td>
+    <td>Binary size:</td>
+    <td>min time (s); exp time (s); var (%):</td>
+    <td>min time (s); exp time (s); var (%):</td>
+   </tr>
+  <tr>
+    <td>-O3</td>
+    <td>10776</td>
+    <td>      4.622 ;       4.632 ;    0.8%</td>
+    <td>      4.630 ;       4.631 ;    0.2%<b><span style="color:#FF0000";>(slower than GCC 4.4.4 -O3 -fno-if-conversion)</span></td>
+   </tr>
+  <tr>
+    <td>-O3 -fno-if-conversion</td>
+    <td>10776</td>
+    <td>      4.629 ;       4.649 ;    0.8%</td>
+    <td>      4.610 ;       4.626 ;    1.1%<b><span style="color:#FF0000";>(slower than GCC 4.4.4 -O3 -fno-if-conversion)</span></td>
+   </tr>
+  <tr>
+    <td>-O2</td>
+    <td>10568</td>
+    <td>      4.599 ;       4.610 ;    0.6%</td>
+    <td>      4.597 ;       4.603 ;    0.4%</td>
+   </tr>
+  <tr>
+    <td>-O1</td>
+    <td>10032</td>
+    <td>      4.613 ;       4.616 ;    0.2%</td>
+    <td>      4.605 ;       4.616 ;    0.8%</td>
+   </tr>
+  <tr>
+    <td>-Os</td>
+    <td>10088</td>
+    <td>      4.609 ;       4.630 ;    1.4%</td>
+    <td>      4.608 ;       4.615 ;    0.4%</td>
+   </tr>
+  </table>
 
 </center>
 
