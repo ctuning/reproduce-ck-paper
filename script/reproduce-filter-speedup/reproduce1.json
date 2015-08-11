@@ -16,12 +16,12 @@
   "stat_repeat":4,
   "repeat":1000,
   "add_to_pipeline":{
-   "cpu_freq":"1700000",
+   "cpu_freq":"max",
    "gpu_freq":"max"
   },
 
   "force_record":"yes",
   "experiment_repo_uoa":"reproduce-ck-paper",
   "experiment_remote_repo_uoa":"reproduce-ck-paper",
-  "experiment_uoa":"reproduce-ck-paper-filter-optimization-local-gcc-5.2.0"
+  "experiment_uoa":"reproduce-ck-paper-filter-optimization-local-gcc-4.9.2-arm"
 }

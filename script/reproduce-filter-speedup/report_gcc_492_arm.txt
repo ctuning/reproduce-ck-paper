@@ -1,0 +1,7 @@
+                                               Dataset image-raw-bin-fgg-office-day-gray:  Dataset image-raw-bin-fgg-office-night-gray:  
+Optimization:           Binary size:  MD5SUM:  min time (s); exp time (s); var (%):        min time (s); exp time (s); var (%):          
+-O3                     7416                         7.396 ;       7.513 ;    2.9%               7.390 ;       7.464 ;    2.6%           
+-O3 -fno-if-conversion  7424                         7.345 ;       7.455 ;    3.8%               7.384 ;       7.490 ;    2.6%           
+-O2                     7100                         7.398 ;       7.926 ;   39.2%               7.450 ;       7.514 ;    2.3%           
+-O1                     7072                         7.404 ;       7.444 ;    1.4%               7.389 ;       7.443 ;    2.9%           
+-Os                     6292                         7.367 ;       7.409 ;    1.5%               7.375 ;       7.479 ;    2.7%           
