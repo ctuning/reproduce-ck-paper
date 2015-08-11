@@ -165,7 +165,10 @@ CK datasets:
 </table>
 
 <p>
-<i>Lenovo X240; Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz; Ubuntu 14.04 64bit; GCC 4.4.4 (<a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:f9607cb4d3383376">all info in CK</a>)</i>
+<i>Lenovo X240; Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz; Ubuntu 14.04 64bit; GCC 4.4.4 
+(CK public repo: <a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:f9607cb4d3383376">all experiments</a>, 
+<a href="$#ck_root_url#$wcid=36ebc331048475bb:ae4015ad50f6974f">compiler description</a>,
+<a href="$#ck_root_url#$wcid=36ebc331048475bb:">all compilers</a>)</i>
 
   <table border="1">
   <tr>
@@ -212,8 +215,18 @@ CK datasets:
    </tr>
   </table>
 
+<BR>
+<b>Note: CK allows the community to continue validating above results and share unexpected behavior in public cknowledge.org/repo 
+<a href="http://cknowledge.org/repo/web.php?wcid=bc0409fb61f0aa82:reproduce-ck-paper-filter-optimization">here</a>. See some
+of such shared results below:</b>
+<BR>
+
+
 <p>
-<i>Lenovo X240; Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz; Ubuntu 14.04 64bit; GCC 4.9.1 (<a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:1814383993c4d02b">all info in CK</a>)</i>
+<i>Lenovo X240; Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz; Ubuntu 14.04 64bit; GCC 4.9.1 
+(CK public repo: <a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:1814383993c4d02b">all experiments</a>, 
+<a href="$#ck_root_url#$wcid=36ebc331048475bb:2a7072446aaa0544">compiler description</a>,
+<a href="$#ck_root_url#$wcid=36ebc331048475bb:">all compilers</a>)</i>
 
   <table border="1">
   <tr>
@@ -261,7 +274,10 @@ CK datasets:
   </table>
 
 <p>
-<i>Lenovo X240; Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz; Ubuntu 14.04 64bit; GCC 5.2.0 (<a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:c792a74d78b19246">all info in CK</a>)</i>
+<i>Lenovo X240; Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz; Ubuntu 14.04 64bit; <b>GCC 5.2.0</b>
+(CK public repo: <a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:c792a74d78b19246">all experiments</a>, 
+<a href="$#ck_root_url#$wcid=36ebc331048475bb:aff616f4c8d81fdf">compiler description</a>,
+<a href="$#ck_root_url#$wcid=36ebc331048475bb:">all compilers</a>)</i>
 
   <table border="1">
   <tr>
@@ -308,12 +324,59 @@ CK datasets:
    </tr>
   </table>
 
-</center>
+<p>
+<i>Just for comparison during crowd-benchmarking: Samsung Chromebook 2; Samsung EXYNOS5; ARM Cortex A15/A7; ARM Mali-T628; Ubuntu 12.04 32bit; GCC 4.9.2 
+(CK public repo: <a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:1048e0a14ce3d8bb">all experiments</a>, 
+<a href="$#ck_root_url#$wcid=36ebc331048475bb:2a7072446aaa0544">compiler description</a>,
+<a href="$#ck_root_url#$wcid=36ebc331048475bb:">all compilers</a>)</i>
 
-<BR>
-<i><b>Note: </b>CK allows the community validate the results and share unexpected behavior in public cknowledge.org/repo 
-<a href="http://cknowledge.org/repo/web.php?wcid=bc0409fb61f0aa82:reproduce-ck-paper-filter-optimization">here</a>.
-<BR>
+  <table border="1">
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Dataset image-raw-bin-fgg-office-day-gray:</td>
+    <td>Dataset image-raw-bin-fgg-office-night-gray:</td>
+   </tr>
+  <tr>
+    <td>Optimization:</td>
+    <td>Binary size:</td>
+    <td>min time (s); exp time (s); var (%):</td>
+    <td>min time (s); exp time (s); var (%):</td>
+   </tr>
+  <tr>
+    <td>-O3</td>
+    <td>7416</td>
+    <td>      7.396 ;       7.513 ;    2.9%</td>
+    <td>      7.390 ;       7.464 ;    2.6%</td>
+   </tr>
+  <tr>
+    <td>-O3 -fno-if-conversion</td>
+    <td>7424</td>
+    <td>      7.345 ;       7.455 ;    3.8%</td>
+    <td>      7.384 ;       7.490 ;    2.6%</td>
+   </tr>
+  <tr>
+    <td>-O2</td>
+    <td>7100</td>
+    <td>      7.398 ;       7.926 ;   39.2%</td>
+    <td>      7.450 ;       7.514 ;    2.3%</td>
+   </tr>
+  <tr>
+    <td>-O1</td>
+    <td>7072</td>
+    <td>      7.404 ;       7.444 ;    1.4%</td>
+    <td>      7.389 ;       7.443 ;    2.9%</td>
+   </tr>
+  <tr>
+    <td>-Os</td>
+    <td>6292</td>
+    <td>      7.367 ;       7.409 ;    1.5%</td>
+    <td>      7.375 ;       7.479 ;    2.7%</td>
+   </tr>
+  </table>
+ 
+
+</center>
 
 <hr>
 
