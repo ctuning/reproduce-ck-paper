@@ -374,7 +374,57 @@ of such shared results below:</b>
     <td>      7.375 ;       7.479 ;    2.7%</td>
    </tr>
   </table>
- 
+
+<hr>
+
+<p>
+<b>Interactive graph of <a href="$#ck_root_url#$wcid=b0ac08fe1d3c2615:6a7145744fa93c7e">slambench v1.1 (OpenCL)</a> multi-objective algorithm autotuning 
+(FPS or performance vs accuracy or any other exposed characteristic)</b><br>
+<br>
+<i><a href="$#ck_root_url#$wcid=2d41f89bcf32d4d4:3b1b261d30f3934a">Reproduce/reuse/replay/discuss via CK (interactive graphs, experiment tables)</a></i><br>
+
+</center>
+
+<ul>
+ <li>Samsung ChromeBook 2; Samsung EXYNOS5; ARM Cortex A15/A7; ARM Mali-T628; Ubuntu 12.04; video 640x480
+ <li>Clang 3.6.0 -O3
+ <li>Big green dot: default algorithm configuration
+ <li>Small blue dots: random algorithm configurations 
+      (<a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:64fbdfa1d9c28942&filename=algorithm_exploration.json">see CK JSON autotuning description with ranges</a> or
+       <a href="$#ck_root_url#$wcid=84e27ad9dd12e734:64fbdfa1d9c28942">all scripts</a>):
+  <ul>
+   <li>Param c (compute-size-ratio, default 1)
+   <li>Param r (integration-rate, default 1)
+   <li>Param l (icp threshold)
+   <li>Param m (default is 0.1)
+   <li>Param y1 (pyramid-levels X, default=10)
+   <li>Param y2 (pyramid-levels Y, default=5)
+   <li>Param y3 (pyramid-levels Z, default=4)
+   <li>Param v (volume-resolution, default=256)
+  </ul>
+ <li>Big red dots: Pareto frontier 
+ <li>Requires 2 more CK repositories for reproducibility:
+  <ul>
+   <li>ck pull reproduce-pamela-project
+   <li>ck pull reproduce-pamela-project-medium-dataset
+  </ul>
+ <li>Table with Pareto results is available <a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:85d4702af59fc432">here</a>
+ <li>Table with crowdbenchmarking results across multiple shared platforms vs FPS is available <a href="$#ck_root_url#$subview=17f4334bf785af5b&wcid=bc0409fb61f0aa82:fb8db7bfa6a1a11d&table_sort=14">here</a>
+</ul>
+
+<center>
+
+<div id="ck_interactive_a6eb74c75ae8565f">
+$#ck_include_start#${"cid":"2d41f89bcf32d4d4:3b1b261d30f3934a", "where":"div#ck_interactive_a6eb74c75ae8565f", "html":"2d_points_fps_vs_accuracy_with_pareto_interactive.html", "style":"2d_points_fps_vs_accuracy_with_pareto_interactive.style"}$#ck_include_stop#$
+</div>
+
+<i>Note, that with minimal changes, we can monitor and balance any characteristics exposed via CK such
+as energy (currently on Odroid platforms), code size, compilation time, and anything else
+across multiple platforms on Android, Linux, Windows, MacOS, etc.
+We can also tune any parameter exposed via CK such as compiler flags/passes, hardware configurations
+such as frequency or used cores, OpenCL parameters such as worksize, CUDA/OpenMP/MPI parameters
+and algorithm parameters. The community can gradually add and share more parameters and characteristics
+for tuning.</i>
 
 </center>
 
