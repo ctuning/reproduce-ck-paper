@@ -1,0 +1,34 @@
+{
+  "affiliations": {
+    "1": {
+      "name": "dividiti, UK"
+    }, 
+    "2": {
+      "name": "cTuning Foundation, France"
+    }
+  }, 
+  "authors": [
+    {
+      "affiliation": "1", 
+      "name": "Anton Lokhmotov",
+      "url": "https://www.linkedin.com/in/lokhmotov"
+    },
+    {
+      "affiliation": "1,2", 
+      "name": "Grigori Fursin", 
+      "url": "http://fursin.net/research"
+    } 
+  ], 
+  "live": "yes", 
+  "publish_iso_date": "2015-08-12", 
+  "top":"no",
+  "template": "live.html", 
+  "title": "Interactive report on analyzing and autotuning OpenCL HOG and SlamBench applications across multiple platforms", 
+  "tags":["ck-paper","reproducibility","artifacts"],
+  "type": {
+    "name": "workshop", 
+    "peer_reviewed": "yes", 
+    "scope": "international"
+  }, 
+  "when": "August 2015" 
+}
