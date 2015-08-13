@@ -375,15 +375,18 @@ of such shared results below:</b>
    </tr>
   </table>
 
+</center>
+
 <!------------------------------------------------------------------------------------------->
 <hr>
 
-<p>
-<b>Interactive graph of <a href="$#ck_root_url#$wcid=b0ac08fe1d3c2615:b93bc750890706bc">HOG (OpenCL)</a> analysis for different software and hardware configurations 
-(CPU vs GPU with memory transfer vs GPU only versus experiment number)</b><br>
-<br>
+<h1>Appendix: extra examples of universal autotuning and machine learning via CK</h1>
 
-</center>
+<center>
+ <p>
+ <b>Interactive graph of <a href="$#ck_root_url#$wcid=b0ac08fe1d3c2615:6a7145744fa93c7e">slambench (OpenCL)</a> 
+    multi-objective algorithm autotuning (FPS vs accuracy or any other characteristics with Pareto frontier)</b><br><br>
+</center>         
 
 <ul>
  <li>Samsung ChromeBook 2; Samsung EXYNOS5; ARM Cortex A15/A7; ARM Mali-T628; Ubuntu 12.04; video 640x480
@@ -429,6 +432,9 @@ such as frequency or used cores, OpenCL parameters such as worksize, CUDA/OpenMP
 and algorithm parameters. The community can gradually add and share more parameters and characteristics
 for tuning.</i>
 
+<br>
+<br>
+
 <!------------------------------------------------------------------------------------------->
 <hr>
 
@@ -451,6 +457,7 @@ for tuning.</i>
  <li><span style="color:#0000FF;">Blue line: calc_histogram kernel CPU time (s.)</span>
  <li><span style="color:#FF0000;">Red line: calc_histogram kernel GPU with memory transfer time (s.)</span>
  <li><span style="color:#FF7F00;">Yellow line: calc_histogram kernel GPU time (s.)</span>
+ <li><span style="color:#00FF00;">Green dashed line: adaptation threshold (left - better to run on CPU; right - better to run on GPU)</span>
  <li>Tuned/varied parameters
   <ul>
     <li>GWS_X
@@ -497,7 +504,29 @@ for tuning.</i>
 <BR>
 <i><b>Note: </b>CK allows the community validate the results and share unexpected behavior in public cknowledge.org/repo 
 <a href="http://cknowledge.org/repo/web.php?wcid=bc0409fb61f0aa82:reproduce-ck-paper-filter-variation">here</a>.</i>
-<BR>
+
+
+<br>
+<br>
+
+<!------------------------------------------------------------------------------------------->
+<hr>
+
+<center>
+<p>
+<b>3 interactive graphs of (CPU time) / (GPU with memory transfer time) for above HOG application vs experiment number used 
+for further predictive analytics to enable predictive scheduling at run-time 
+(see <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IwcnpkwAAAAJ&citation_for_view=IwcnpkwAAAAJ:qjMakFHDy7sC">our older paper</a>
+for motivation)</b>.
+</center>
+<br>
+
+<ul>
+ <li><a href="$#ck_root_url#$wcid=2d41f89bcf32d4d4:f923af43c8b1e45b&subgraph=reproduce_ck_paper_hog_predictive_sheduling_t604">Samsung Chromebook 1; GPU ARM T604; 276 points</a>
+ <li><a href="$#ck_root_url#$wcid=2d41f89bcf32d4d4:f923af43c8b1e45b&subgraph=reproduce_ck_paper_hog_predictive_sheduling_t628_as_t604">Samsung Chromebook 2; GPU ARM T628; 276 points (the same as on T604)</a>
+ <li><a href="$#ck_root_url#$wcid=2d41f89bcf32d4d4:f923af43c8b1e45b&subgraph=reproduce_ck_paper_hog_predictive_sheduling_t628">Samsung Chromebook 2; GPU ARM T628; 460 points (extra points)</a>
+</ul>
+
 
 
 <!------------------------------------------------------------------------------------------->
