@@ -375,13 +375,13 @@ of such shared results below:</b>
    </tr>
   </table>
 
+<!------------------------------------------------------------------------------------------->
 <hr>
 
 <p>
-<b>Interactive graph of <a href="$#ck_root_url#$wcid=b0ac08fe1d3c2615:6a7145744fa93c7e">slambench v1.1 (OpenCL)</a> multi-objective algorithm autotuning 
-(FPS or performance vs accuracy or any other exposed characteristic)</b><br>
+<b>Interactive graph of <a href="$#ck_root_url#$wcid=b0ac08fe1d3c2615:b93bc750890706bc">HOG (OpenCL)</a> analysis for different software and hardware configurations 
+(CPU vs GPU with memory transfer vs GPU only versus experiment number)</b><br>
 <br>
-<i><a href="$#ck_root_url#$wcid=2d41f89bcf32d4d4:3b1b261d30f3934a">Reproduce/reuse/replay/discuss via CK (interactive graphs, experiment tables)</a></i><br>
 
 </center>
 
@@ -405,11 +405,12 @@ of such shared results below:</b>
  <li>Big red dots: Pareto frontier 
  <li>Requires 2 more CK repositories for reproducibility:
   <ul>
-   <li>ck pull reproduce-pamela-project
-   <li>ck pull reproduce-pamela-project-medium-dataset
+   <li>ck pull <a href="http://github.com/ctuning/reproduce-pamela-project">reproduce-pamela-project</a>
+   <li>ck pull <a href="http://github.com/ctuning/reproduce-pamela-project-medium-dataset">reproduce-pamela-project-medium-dataset</a>
   </ul>
- <li>Table with Pareto results is available <a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:85d4702af59fc432">here</a>
- <li>Table with crowdbenchmarking results across multiple shared platforms vs FPS is available <a href="$#ck_root_url#$subview=17f4334bf785af5b&wcid=bc0409fb61f0aa82:fb8db7bfa6a1a11d&reverse_table_sort=14">here</a>
+ <li>Note: we did not yet implement visualization variation in D3 graphs - help is appreciated!
+ <li><b>Table with Pareto results is available <a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:85d4702af59fc432">here</a></b>
+ <li><b>Table with crowdbenchmarking results across multiple shared platforms vs FPS is available <a href="$#ck_root_url#$subview=17f4334bf785af5b&wcid=bc0409fb61f0aa82:fb8db7bfa6a1a11d&reverse_table_sort=14">here</a></b>
 </ul>
 
 <center>
@@ -417,6 +418,8 @@ of such shared results below:</b>
 <div id="ck_interactive_a6eb74c75ae8565f">
 $#ck_include_start#${"cid":"2d41f89bcf32d4d4:3b1b261d30f3934a", "where":"div#ck_interactive_a6eb74c75ae8565f", "html":"2d_points_fps_vs_accuracy_with_pareto_interactive.html", "style":"2d_points_fps_vs_accuracy_with_pareto_interactive.style"}$#ck_include_stop#$
 </div>
+
+</center>
 
 <i>Note, that with minimal changes, we can monitor and balance any characteristics exposed via CK such
 as energy (currently on Odroid platforms), code size, compilation time, and anything else
@@ -426,11 +429,82 @@ such as frequency or used cores, OpenCL parameters such as worksize, CUDA/OpenMP
 and algorithm parameters. The community can gradually add and share more parameters and characteristics
 for tuning.</i>
 
+<!------------------------------------------------------------------------------------------->
+<hr>
+
+<center>
+<p>
+<b>Non-interactive graph of analysis of CPU/GPU with memory transfer and GPU only time of <a href="$#ck_root_url#$wcid=b0ac08fe1d3c2615:b93bc750890706bc">HOG image processing applications 
+(machine learning algorithms)</a> versus different OpenCL optimizations and hardware configurations</b><br>
+<br>
 </center>
 
+<ul>
+ <li>Samsung ChromeBook 1/2; ARM Cortex A15/A7; ARM Mali-T604/T628; Debian; random images; calc_histogram CPU/OpenCL kernel
+ <li>Example of experiments not executed via CK but exported to CK by Anton Lokhmotov 
+     from his scripts in January 2015 (before CK was mature enough) to take advantage
+     of predictive analytics (active learning, decision trees, predictive scheduling).
+     However, since June 2015, it is possible to perform the same experimentation
+     fully in CK (see CK <a href="http://github.com/ctuning/ck/wiki">Getting Started Guide HOG examples</a>).
+ <li>ARM Mali OpenCL 5.0 (default optimization)
+
+ <li><span style="color:#0000FF;">Blue line: calc_histogram kernel CPU time (s.)</span>
+ <li><span style="color:#FF0000;">Red line: calc_histogram kernel GPU with memory transfer time (s.)</span>
+ <li><span style="color:#FF7F00;">Yellow line: calc_histogram kernel GPU time (s.)</span>
+ <li>Tuned/varied parameters
+  <ul>
+    <li>GWS_X
+    <li>GWS_Y
+    <li>GWS_Z
+    <li>LWS_X
+    <li>LWS_Y
+    <li>LWS_Z
+    <li>OFFSET_X
+    <li>OFFSET_Y
+    <li>OFFSET_Z
+    <li>CPU frequency
+    <li>GPU frequency
+    <li>image cols
+    <li>image rows
+    <li>worksize
+  </ul>
+ <li>Requires 2 more CK repository for reproducibility:
+  <ul>
+   <li>ck pull <a href="http://github.com/ctuning/reproduce-carp-project">reproduce-carp-project</a>
+   <li>ck pull <a href="http://github.com/ctuning/reproduce-ck-paper-large-experiments">reproduce-ck-paper-large-experiments</a>
+  </ul>
+ <li>Raw experiments
+  <ul>
+   <li><a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:fd54cd4b3b73b72b">hog-mali-t604</a>
+   <li><a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:5db4344ff858f3f5">hog-mali-t628-as-t604</a>
+   <li><a href="$#ck_root_url#$wcid=bc0409fb61f0aa82:3bfd697a48fbba16">hog-mali-t628</a>
+  </ul>
+
+
+</ul>
+
+<br>
+
+<center>
+<b>Samsung ChromeBook 1; ARM A7; ARM Mali T604</b><br>
+<img src="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:c47f9890b1518d2f&filename=plot_t604_sorted_with_variation_all.png" width="800" height="350" ><br>
+
+<b>Samsung ChromeBook 2; ARM A15/A7; ARM Mali T628</b><br>
+<img src="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:c47f9890b1518d2f&filename=plot_t628_sorted_with_variation_all.png" width="800" height="350" ><br>
+
+</center>
+
+<BR>
+<i><b>Note: </b>CK allows the community validate the results and share unexpected behavior in public cknowledge.org/repo 
+<a href="http://cknowledge.org/repo/web.php?wcid=bc0409fb61f0aa82:reproduce-ck-paper-filter-variation">here</a>.</i>
+<BR>
+
+
+<!------------------------------------------------------------------------------------------->
 <hr>
 
 <i>Note: we are gradually converting all the code and data related to this paper
 from the deprecated Collective Mind Format to the new Collective Knowledge Framework.</i>
 
 <br>
+<BR>
