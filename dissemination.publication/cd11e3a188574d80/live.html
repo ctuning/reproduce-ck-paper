@@ -132,6 +132,8 @@ Documentation with all examples is also available at <a href="http://github.com/
 <!------------------------------------------------------------------------------------------->
 <hr>
 
+<H1>P1</H1>
+
 <center>
 
 <B>Reproducing adaptive filter experiments (collaboratively finding features which are not in the system to enable run-time adaptation):</B>
@@ -380,7 +382,9 @@ of such shared results below:</b>
 <!------------------------------------------------------------------------------------------->
 <hr>
 
-<h1>Appendix: extra examples of universal autotuning and machine learning via CK</h1>
+<h1>Appendix: extra reproducible examples of universal autotuning, predictive analytics, active learning and run-time adaptation via CK</h1>
+
+<H1>P2</H1>
 
 <center>
  <p>
@@ -437,6 +441,8 @@ for tuning.</i>
 
 <!------------------------------------------------------------------------------------------->
 <hr>
+
+<H1>P3</H1>
 
 <center>
 <p>
@@ -512,13 +518,16 @@ for tuning.</i>
 <!------------------------------------------------------------------------------------------->
 <hr>
 
+<H1>P4</H1>
+
 <center>
 <p>
 <b>3 interactive graphs of (CPU time) / (GPU with memory transfer time) for above HOG application vs experiment number used 
 for further predictive analytics to enable predictive scheduling at run-time 
-(see <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IwcnpkwAAAAJ&citation_for_view=IwcnpkwAAAAJ:qjMakFHDy7sC">our older paper</a>
+(see <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IwcnpkwAAAAJ&citation_for_view=IwcnpkwAAAAJ:qjMakFHDy7sC">our paper</a>
 for motivation)</b>.
 </center>
+
 <br>
 
 <ul>
@@ -527,7 +536,367 @@ for motivation)</b>.
  <li><a href="$#ck_root_url#$wcid=2d41f89bcf32d4d4:f923af43c8b1e45b&subgraph=reproduce_ck_paper_hog_predictive_sheduling_t628">Samsung Chromebook 2; GPU ARM T628; 460 points (extra points)</a>
 </ul>
 
+<!------------------------------------------------------------------------------------------->
+<hr>
 
+<H1>P5</H1>
+
+<center>
+<p>
+<b>Building predictive models via CK (scikit-learn and decision trees with different features and depth)</b>
+</center>
+
+<br>
+<br>
+The unification of experiments in CK allows to easily
+connect experimental results with various powerful machine learning techniques to get help
+in understanding correlations between <i><b>'characteristics', 'features', 'choices'
+and the 'state'</b></i>. Furthermore, researchers and the community can focus their effort on 
+explaining unexpected behavior (can be replayed in CK), finding missing features (where model 
+fails explaining results) and improving models to make best predictions.  
+<br>
+<br>
+Next, we demonstrate such example, by first building predictive model for adaptive CPU/GPU scheduling
+for above HOG example fro Samsung Chromebook 1, then trying to reuse it for Samsung Chromebook 2,
+then building new model for Samsung Chromebook 2, finding better features (combinations of
+existing ones or new ones that were even not in the system) and getting to nearly 99% prediction rate
+at least on the current setup (it can be continuously improved by the community of via active learning -
+see our previous papers for more details [<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IwcnpkwAAAAJ&citation_for_view=IwcnpkwAAAAJ:qjMakFHDy7sC">1</a>],
+[<a href="$#ck_root_url#$wcid=29db2248aba45e59:6f40bc99c4f7df58">2</a>]).
+
+<br>
+Experimental setup (see above):<br>
+<br>
+
+<b>Objective function (decision):</b>
+ <ul>
+  <li>CPU/GPU COPY > 1.07 (true/false)? Needed for predictive run-time scheduling
+ </ul>
+
+<b>SF1: Features (set 1):</b>
+ <ul>
+  <li>worksize
+ </ul>
+
+<b>SF2: Features (set 2, includes set 1):</b>
+ <ul>
+  <li>GWS0 
+  <li>GWS1 
+  <li>GWS2 
+  <li>cpu_freq 
+  <li>gpu_freq
+  <li>image cols 
+  <li>image rows
+  <li>image size
+ </ul>
+
+<b>SF3: Designed features (set 3, includes set 2):</b>
+ <ul>
+  <li>image_size_div_by_cpu_freq
+  <li>image_size_div_by_gpu_freq
+  <li>cpu_freq_div_by_gpu
+  <li>image_size_div_by_cpu_div_by_gpu_freq
+  <li>image_size_div_by_cpu_freq
+ </ul>
+
+<br>
+<center>
+Example of a decision tree built for Chromebook 1 to schedule HOG kernel at run-time either on CPU or GPU
+with set 2 and depth 3 (achiving 98% correct predictions on 296 points and 100% on 20 points):
+
+
+<img src="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-second-set-of-features-depth3/model-sklearn-dtc.model.png" width="800">
+
+<br>
+<a href="$#ck_root_url#$wcid=84e27ad9dd12e734:f4b5b8fded3ce933">Scripts to build/validate above model in CK (t604-second-set-of-features-depth3)</a>
+<br>
+<br>
+
+</center>
+<i>Note that a few features were enough to make nearly perfect correlations 
+(to some extent, decision tree can be used as PCA to quickly and continuously explain 
+correlations while exposing unexpected behavior to researchers in the workgroup
+or to the comunity to find more features and their combinations or improve
+models).</i>
+
+<br>
+<br>
+
+<H1>P6</H1>
+
+<center>
+<b>Table with correct prediction rate for adaptive CPU/GPU scheduling of HOG kernel via CK on two platforms</b><br>
+</center>
+<br>
+Results have either 2 or 3 numbers:<br>
+Prediction rate with training n 20 points / Prediction rate with training on 276 points (/ Prediction rate with training on 460 points)<br>
+<br>
+It is useful to see decision tree refinement during active learning (improving model on the fly when more points are available).
+Click on the prediction rate number to see the decision tree in png (or change png to pdf in URL to see it in scalable pdf).
+Note, that such CK generated decision tree can also be converted to C to be integrateed inside adaptive wrappers for kernels.
+<br>
+<br>
+
+<center>
+<table border="1" cellpadding="5" cellspacing="0">
+ <tr>
+  <td align="center">
+  </td>
+
+  <td align="center">
+   <b>Feature set 1</b>
+  </td>
+  <td colspan="4" align="center">
+   <b>Feature set 2</b>
+  </td>
+  <td colspan="5" align="center">
+   <b>Feature set 3</b>
+  </td>
+ <tr>
+
+ <tr>
+  <td align="center">
+   <b>Platform</b>
+  </td>
+
+  <td align="center">
+   <b>Depth 2</b>
+  </td>
+
+  <td align="center">
+   <b>Depth 2</b>
+  </td>
+  <td align="center">
+   <b>Depth 3</b>
+  </td>
+  <td align="center">
+   <b>Depth 4</b>
+  </td>
+  <td align="center">
+   <b>Depth 5</b>
+  </td>
+
+  <td align="center">
+   <b>Depth 2</b>
+  </td>
+  <td align="center">
+   <b>Depth 3</b>
+  </td>
+  <td align="center">
+   <b>Depth 4</b>
+  </td>
+  <td align="center">
+   <b>Depth 5</b>
+  </td>
+  <td align="center">
+   <b>Depth 6</b>
+  </td>
+ <tr>
+
+
+ <tr>
+  <td>
+   Samsung Chromebook 1 (Mali T604); own models
+  </td>
+ 
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-first-set-of-features-small/model-sklearn-dtc.model.png">
+    95.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-first-set-of-features/model-sklearn-dtc.model.png">
+    97.8%</a> 
+  </td>
+
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-second-set-of-features-depth2-small/model-sklearn-dtc.model.png">
+    97.8%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-second-set-of-features-depth2/model-sklearn-dtc.model.png">
+    97.8%</a> 
+  </td>
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-second-set-of-features-depth3-small/model-sklearn-dtc.model.png">
+    100.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-second-set-of-features-depth3/model-sklearn-dtc.model.png">
+    97.8%</a> 
+  </td>
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-second-set-of-features-depth4-small/model-sklearn-dtc.model.png">
+    100.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-second-set-of-features-depth4/model-sklearn-dtc.model.png">
+    99.3%</a> 
+  </td>
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-second-set-of-features-depth5-small/model-sklearn-dtc.model.png">
+    100.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-second-set-of-features-depth5/model-sklearn-dtc.model.png">
+    99.6%</a>
+  </td>
+
+  <td align="center">
+  </td>
+  <td align="center">
+  </td>
+  <td align="center">
+  </td>
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-third-set-of-features-depth5-small/model-sklearn-dtc.model.png">
+    100.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-third-set-of-features-depth5/model-sklearn-dtc.model.png">
+    100.0%</a> 
+  </td>
+  <td align="center">
+  </td>
+ <tr>
+
+ <tr>
+  <td>
+   Samsung Chromebook 2 (Mali T628); models from Chromebook 1
+  </td>
+ 
+  <td align="center">
+    51.1% /
+    51.7%
+  </td>
+
+  <td align="center">
+  </td>
+  <td align="center">
+  </td>
+  <td align="center">
+  </td>
+  <td align="center">
+   30.0% /
+   51.5%
+  </td>
+
+  <td align="center">
+  </td>
+  <td align="center">
+  </td>
+  <td align="center">
+  </td>
+  <td align="center">
+   30.0% /
+   51.8% /
+   52.6%
+  </td>
+  <td align="center">
+  </td>
+ <tr>
+
+
+ <tr>
+  <td>
+   Samsung Chromebook 2 (Mali T628); own models
+  </td>
+ 
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-first-set-of-features-small/model-sklearn-dtc.model.png">
+    85.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-first-set-of-features/model-sklearn-dtc.model.png">
+    82.3%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-first-set-of-features-more-points/model-sklearn-dtc.model.png">
+    88.3%</a> 
+  </td>
+
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth2-small/model-sklearn-dtc.model.png">
+    95.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth2/model-sklearn-dtc.model.png">
+    90.2%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth2-more-points/model-sklearn-dtc.model.png">
+    93.0%</a> 
+  </td>
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth3-small/model-sklearn-dtc.model.png">
+    95.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth3/model-sklearn-dtc.model.png">
+    91.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth3-more-points/model-sklearn-dtc.model.png">
+    93.5%</a> 
+  </td>
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth4-small/model-sklearn-dtc.model.png">
+    95.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth4/model-sklearn-dtc.model.png">
+    90.2%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth4-more-points/model-sklearn-dtc.model.png">
+    93.0%</a> 
+  </td>
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth5-small/model-sklearn-dtc.model.png">
+    95.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth5/model-sklearn-dtc.model.png">
+    90.2%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-second-set-of-features-depth5-more-points/model-sklearn-dtc.model.png">
+    93.0%</a> 
+  </td>
+
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth2-small/model-sklearn-dtc.model.png">
+    95.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth2/model-sklearn-dtc.model.png">
+    90.2%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth2-more-points/model-sklearn-dtc.model.png">
+    93.0%</a> 
+  </td>
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth3-small/model-sklearn-dtc.model.png">
+    100.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth3/model-sklearn-dtc.model.png">
+    95.3%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth3-more-points/model-sklearn-dtc.model.png">
+    96.1%</a> 
+  </td>
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth4-small/model-sklearn-dtc.model.png">
+    100.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth4/model-sklearn-dtc.model.png">
+    98.2%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth4-more-points/model-sklearn-dtc.model.png">
+    98.3%</a> 
+  </td>
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth5-small/model-sklearn-dtc.model.png">
+    100.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth5/model-sklearn-dtc.model.png">
+    99.3%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth5-more-points/model-sklearn-dtc.model.png">
+    98.9%</a> 
+  </td>
+  <td align="center">
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth6-small/model-sklearn-dtc.model.png">
+    100.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth6/model-sklearn-dtc.model.png">
+    100.0%</a> /
+    <a href="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t628-third-set-of-features-depth6-more-points/model-sklearn-dtc.model.png">
+    99.6%</a> 
+  </td>
+
+ <tr>
+
+
+</table>
+
+
+
+
+
+
+</center>
+
+<br>
+
+<b>Above results support our wrapper based approach (computational species) across various
+most-time consuming kernels and libaries combined with exposed features and automatically
+built and continuously refined decision trees via CK as described in this paper and 
+<a href="$#ck_root_url#$wcid=29db2248aba45e59:6f40bc99c4f7df58#$">its first part</a>.
+They also demonstrate that it is possible to use CK to balance decision tree's prediction 
+rate (accruacy) versus size and speed to ensure that the ulitmiate decision tree 
+implemented in C and embedded in a kernel wrapper is fast and compact enough.
+</b>
+
+<br>
+<br>
 
 <!------------------------------------------------------------------------------------------->
 <hr>
@@ -536,4 +905,4 @@ for motivation)</b>.
 from the deprecated Collective Mind Format to the new Collective Knowledge Framework.</i>
 
 <br>
-<BR>
+<br>
