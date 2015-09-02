@@ -29,11 +29,12 @@
     }, 
     {
       "affiliation": "4", 
-      "name": "07b8b4bd98945c99"
+      "name": "07b8b4bd98945c99",
+      "url":"https://www.hipeac.net/~anton"
     }
   ], 
   "bib_ref": "cm:29db2248aba45e59:cd11e3a188574d80", 
-  "cor_author_email": "Grigori.Fursin@cTuning.org", 
+  "cor_author_email": "", 
   "document_urls": [
     "http://arxiv.org/abs/1506.06256"
   ], 
