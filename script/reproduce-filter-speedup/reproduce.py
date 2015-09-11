@@ -3,9 +3,9 @@
 #  may depend on image features and hence require run-time adaptation)
 #
 # See CK LICENSE.txt for licensing details
-# See CK Copyright.txt for copyright details
+# See CK COPYRIGHT.txt for copyright details
 #
-# Developer: Grigori Fursin, Grigori.Fursin@cTuning.org, http://cTuning.org/lab/people/gfursin
+# Developer: Grigori Fursin, Grigori.Fursin@cTuning.org, http://fursin.net
 #
 
 import os
