@@ -1,14 +1,4 @@
 {
-  "cm_classes_uoa": [
-    "62a455f8c8042f90", 
-    "c1e2a3e075864c4e", 
-    "1ad5573104f578a1"
-  ], 
-  "cm_dependencies": {
-    "classes": []
-  }, 
-  "cm_dissemination": {}, 
-  "cm_properties": {}, 
   "dataset_files": [
     "data.bin",
     "data_orig.jpg"

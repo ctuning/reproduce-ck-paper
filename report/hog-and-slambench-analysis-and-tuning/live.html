@@ -1,17 +1,18 @@
 <!------------------------------------------------------------------------------------------->
 <hr>
 
-<H2>Interactive report on analyzing and autotuning OpenCL HOG and SlamBench applications across multiple platforms</H2>
-
 <ul>
- <li><a href="http://arxiv.org/abs/1506.06256">Related article on ArXiv</a>
+ <li><a href="http://arxiv.org/abs/1506.06256">Related CPC'15 open article in ArXiv with PDF</a>
+ <li><a href="$#ck_root_url#$action=pull&common_func=yes&cid=29db2248aba45e59:cd11e3a188574d80&filename=doc.bib">CPC'15 article BIB</a>
+ <li><a href="https://github.com/ctuning/ck/wiki">Wiki describing how to reproduce some experiments via CK</a>
+ <li><a href="http://www.tetracom.eu">Partially funded by TETRACOM project</a>
  <li><a href="http://github.com/ctuning/ck">Related Collective Knowledge infrastructure and repository (CK)</a>
- <li><a href="http://c-mind.org/repo">Related Collective Mind infrastructure and repository (deprecated for CK)</a>
  <li>Extends our previous work: <a href="https://hal.inria.fr/inria-00436029">1</a>, 
       <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=IwcnpkwAAAAJ:hqOjcs7Dif8C">2</a>,
       <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=IwcnpkwAAAAJ:qjMakFHDy7sC">3</a>,
       <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=IwcnpkwAAAAJ:9yKSN-GCB0IC">4</a>,
       <a href="https://hal.inria.fr/hal-00685276">5</a>
+ <li><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=IwcnpkwAAAAJ:isC4tDSrTZIC">Supports our open publication model</a>
 </ul>
 
 <!------------------------------------------------------------------------------------------->
@@ -46,85 +47,23 @@
 <!------------------------------------------------------------------------------------------->
 <hr>
 
-<b>Abstract</b>
+<H2>Artifact and workflow sharing via open-source Collective Knowledge Infrastructure</H2>
+
+Please, check out our <a href="http://github.com/ctuning/ck/wiki/Motivation">motivation</a> 
+to develop <a href="http://github.com/ctuning/ck">free, open-source and customizable 
+Collective Knowledge Infrastructure (CK)</a> for collaborative artifacts and workflow sharing and reuse. 
 
 <p>
-Nowadays, engineers have to develop software often without even
-knowing which hardware it will eventually run on in numerous
-mobile phones, tablets, desktops, laptops, data centers,
-supercomputers and cloud services.
+CK allows to organize and share artifacts (code and data) as reusable Python components
+with simple JSON API and meta-description:
 
-Unfortunately, optimizing compilers are not keeping pace with
-ever increasing complexity of ever changing computer systems
-anymore and may produce severely underperforming executable codes
-while wasting expensive resources and energy.
-
-<p>
-
-We present the first to our knowledge practical, collaborative
-and publicly available solution to this problem.
-
-We help the software engineering community gradually implement 
-and share light-weight wrappers around any software piece with 
-more than one implementation or optimization choice available.
-
-These wrappers are connected with a public <a href="http://c-mind.org">
-Collective Mind autotuning infrastructure and repository of 
-knowledge</a>&nbsp;<sup>*</sup>&nbsp;
-to continuously monitor all important characteristics of these pieces
-(<i>computational species</i>) across numerous existing hardware
-configurations in realistic environments together with randomly
-selected optimizations.
-
-At the same time, <a href="http://c-mind.org/cmn">Collective Mind Node</a>
-allows to easily crowdsource time-consuming autotuning across
-existing Android-based mobile device including commodity
-mobile phones and tables. 
+<br>
+<center>
+<img src="https://github.com/ctuning/ck-guide-images/raw/master/image-mess.png">
+</center>
+<br>
 
 <p>
-
-Similar to natural sciences, we can now continuously track all
-winning solutions (optimizations for a given hardware such
-as compiler flags, OpenCL/CUDA/OpenMP/MPI/skeleton parameters,
-number of threads and any other exposed by users) that minimize
-all costs of a computation (execution time, energy spent, code
-size, failures, memory and storage footprint, optimization time,
-faults, contentions, inaccuracy and so on) of a given species
-on a Pareto frontier along with any unexpected behavior
-at <a href="http://c-mind.org/repo">c-mind.org/repo</a>.
-
-Furthermore, the community can continuously classify solutions, 
-prune redundant ones, and correlate them with various features
-of software, its inputs (data sets) and used hardware either
-manually (similar to Wikipedia) or using available big data 
-analytics and machine learning techniques.
-
-<p>
-
-Our approach can also help computer engineering community create 
-the first public, realistic, large, diverse, distributed, representative,
-and continuously evolving benchmark with related optimization
-knowledge while gradually covering all possible software and
-hardware to be able to predict best optimizations and improve
-compilers depending on usage scenarios and requirements.
-
-Such continuously growing collective knowledge accessible via
-simple web service can become an integral part of the practical
-software and hardware co-design of self-tuning computer systems 
-as we demonstrate in several real usage scenarios validated 
-in industry.
-
-<p>
-
-<sup>*</sup>
-<i>
-Note that we have moved all our developments to a newer, smaller, 
-simpler and faster version of Collective Mind aka Collective Knowledge or CK. 
-This open source, BSD-licensed framework with a live repository is avialable here:
-<a href="http://github.com/ctuning/ck">http://github.com/ctuning/ck</a> 
-and <a href="http://cknowledge.org/repo">http://cknowledge.org/repo</a>.
-Documentation with all examples is also available at <a href="http://github.com/ctuning/ck/wiki">http://github.com/ctuning/ck/wiki</a>.
-</i>
 
 <!------------------------------------------------------------------------------------------->
 <hr>
@@ -138,30 +77,33 @@ Documentation with all examples is also available at <a href="http://github.com/
 <p>
 CK scripts: <a href="$#ck_root_url#$wcid=84e27ad9dd12e734:25483ab234fb4deb">reproduce-filter-speedup</a>
 
+<br>
 <p>
 
-CK datasets:
-
-<table border="1" cellpadding="5" cellspacing="0">
+<table border="0" cellpadding="5" cellspacing="0">
  <tr>
   <td align="center" valign="top">
-   Data set <a href="$#ck_root_url#$wcid=8a7141c59cd335f5:c8848a1b1fb1775e">"image-raw-bin-fgg-office-day-gray"</a> 
-   &nbsp;&nbsp;(<a href="$#ck_root_url#$wcid=87b55c4f4a2482da:c8848a1b1fb1775e">features</a>)
+   <b>Data set 1</b><br>
+   <a href="$#ck_root_url#$wcid=8a7141c59cd335f5:c8848a1b1fb1775e"><i>image-raw-bin-fgg-office-day-gray</i></a><br> 
+   (<a href="$#ck_root_url#$wcid=87b55c4f4a2482da:c8848a1b1fb1775e">features</a>)
   </td>
   <td align="center" valign="top">
-   Data set <a href="$#ck_root_url#$wcid=8a7141c59cd335f5:0045c9b59e84318b">"image-raw-bin-fgg-office-night-gray"</a>
-   &nbsp;&nbsp;(<a href="$#ck_root_url#$wcid=87b55c4f4a2482da:0045c9b59e84318b">features</a>)
+   <b>Data set 2 (unexpected behavior)</b><br>
+   <a href="$#ck_root_url#$wcid=8a7141c59cd335f5:0045c9b59e84318b"><i>image-raw-bin-fgg-office-night-gray</i></a><br>
+   (<a href="$#ck_root_url#$wcid=87b55c4f4a2482da:0045c9b59e84318b">features</a>)
   </td>
  </tr>
  <tr>
   <td align="center" valign="top">
-   <img src="$#ck_root_url#$action=pull&common_func=yes&cid=8a7141c59cd335f5:c8848a1b1fb1775e&filename=data_orig.jpg" width="100">
+   <img src="$#ck_root_url#$action=pull&common_func=yes&cid=8a7141c59cd335f5:c8848a1b1fb1775e&filename=data_orig.jpg" width="320">
   </td>
   <td align="center" valign="top">
-   <img src="$#ck_root_url#$action=pull&common_func=yes&cid=8a7141c59cd335f5:0045c9b59e84318b&filename=data_orig.jpg" width="100">
+   <img src="$#ck_root_url#$action=pull&common_func=yes&cid=8a7141c59cd335f5:0045c9b59e84318b&filename=data_orig.jpg" width="320">
   </td>
  </tr>
 </table>
+
+<br>
 
 <p>
 <i>Lenovo X240; Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz; Ubuntu 14.04 64bit; GCC 4.4.4<br> 
