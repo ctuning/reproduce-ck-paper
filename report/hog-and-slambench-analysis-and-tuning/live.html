@@ -54,12 +54,38 @@ to develop <a href="http://github.com/ctuning/ck">free, open-source and customiz
 Collective Knowledge Infrastructure (CK)</a> for collaborative artifacts and workflow sharing and reuse. 
 
 <p>
-CK allows to organize and share artifacts (code and data) as reusable Python components
+Briefly, CK allows to organize and share artifacts (code and data) as reusable Python components
 with simple JSON API and meta-description:
 
 <br>
 <center>
 <img src="https://github.com/ctuning/ck-guide-images/raw/master/image-mess.png">
+<br>
+<br>
+<img src="https://github.com/ctuning/ck-guide-images/raw/master/image-ck-repos.png">
+</center>
+<br>
+
+<p>
+
+Such components can be easily connected into experimental workflows (pipelines)
+as LEGO (TM) to quickly validate research ideas, crowdsource experimentation, 
+apply predictive analytics, share as standard zip archive or via GITHUB/Bitbucket 
+for artifact evaluation at conferences, workshops and journals, 
+or enable live and interactive articles, etc:
+
+<br>
+<center>
+<img src="https://github.com/ctuning/ck-guide-images/raw/master/image-ck-in-one-slide.png">
+<br>
+<br>
+<b>CK open format can be used as a template for artifact evaluation:</b><br>
+<br>
+<img src="https://github.com/ctuning/ck-guide-images/raw/master/image-general-workflow.png">
+<br>
+<br>
+<img src="https://github.com/ctuning/ck-guide-images/raw/master/image-ck-workflow2.png">
+
 </center>
 <br>
 
@@ -72,7 +98,8 @@ with simple JSON API and meta-description:
 
 <center>
 
-<B>Reproducing adaptive filter experiments (collaboratively finding features which are not in the system to enable run-time adaptation):</B>
+<B>Reproducing adaptive filter experiments (collaboratively finding features which are not in the system to enable run-time adaptation) 
+via <a href="http://github.com/ctuning/ck/wiki">CK</a>:</B>
 
 <p>
 CK scripts: <a href="$#ck_root_url#$wcid=84e27ad9dd12e734:25483ab234fb4deb">reproduce-filter-speedup</a>
@@ -539,7 +566,7 @@ Experimental setup (see above):<br>
 <br>
 <center>
 Example of a decision tree built for Chromebook 1 to schedule HOG kernel at run-time either on CPU or GPU
-with set 2 and depth 3 (achiving 98% correct predictions on 296 points and 100% on 20 points):
+with set 2 and depth 3 (achieving 98% correct predictions on 296 points and 100% on 20 points):
 
 
 <img src="$#ck_root_url#$action=pull&common_func=yes&cid=84e27ad9dd12e734:f4b5b8fded3ce933&filename=t604-second-set-of-features-depth3/model-sklearn-dtc.model.png" width="800">
@@ -553,7 +580,7 @@ with set 2 and depth 3 (achiving 98% correct predictions on 296 points and 100% 
 <i>Note that a few features were enough to make nearly perfect correlations 
 (to some extent, decision tree can be used as PCA to quickly and continuously explain 
 correlations while exposing unexpected behavior to researchers in the workgroup
-or to the comunity to find more features and their combinations or improve
+or to the community to find more features and their combinations or improve
 models).</i>
 
 <br>
@@ -570,7 +597,7 @@ Prediction rate with training n 20 points / Prediction rate with training on 276
 <br>
 It is useful to see decision tree refinement during active learning (improving model on the fly when more points are available).
 Click on the prediction rate number to see the decision tree in png (or change png to pdf in URL to see it in scalable pdf).
-Note, that such CK generated decision tree can also be converted to C to be integrateed inside adaptive wrappers for kernels.
+Note, that such CK generated decision tree can also be converted to C to be integrated inside adaptive wrappers for kernels.
 <br>
 <br>
 
@@ -824,11 +851,11 @@ Note, that such CK generated decision tree can also be converted to C to be inte
 <br>
 
 <b>Above results support our wrapper based approach (computational species) across various
-most-time consuming kernels and libaries combined with exposed features and automatically
+most-time consuming kernels and libraries combined with exposed features and automatically
 built and continuously refined decision trees via CK as described in this paper and 
 <a href="$#ck_root_url#$wcid=29db2248aba45e59:6f40bc99c4f7df58#$">its first part</a>.
 They also demonstrate that it is possible to use CK to balance decision tree's prediction 
-rate (accruacy) versus size and speed to ensure that the ulitmiate decision tree 
+rate (accuracy) versus size and speed to ensure that the ultimate decision tree 
 implemented in C and embedded in a kernel wrapper is fast and compact enough.
 </b>
 
