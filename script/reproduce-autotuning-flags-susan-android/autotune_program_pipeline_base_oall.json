@@ -9,11 +9,10 @@
      {"type":"loop"}
   ],
 
-  "iterations":10,
+  "iterations":-1,
 
   "pipeline_update":{
-     "repeat":200,
-     "select_best_base_flag_for_first_iteration":"yes"
+     "repeat":200
    },
 
   "record":"yes",
