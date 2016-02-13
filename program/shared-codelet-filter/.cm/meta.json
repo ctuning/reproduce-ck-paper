@@ -53,9 +53,11 @@
     "6ae25b646cad4322"
   ], 
   "tags": [
+    "small",
     "demo", 
     "program", 
-    "lang-c"
+    "lang-c",
+    "crowd-tuning"
   ], 
   "target_file": "a"
 }
