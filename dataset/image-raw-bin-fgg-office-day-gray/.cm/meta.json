@@ -1,7 +1,6 @@
 {
   "dataset_files": [
-    "data.bin",
-    "data_orig.jpg"
+    "data.bin"
   ], 
   "tags": [
     "dataset", 

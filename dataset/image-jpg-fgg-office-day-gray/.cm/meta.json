@@ -1,0 +1,11 @@
+{
+  "dataset_files": [
+    "data_orig.jpg"
+  ], 
+  "tags": [
+    "dataset", 
+    "image", 
+    "raw-bin", 
+    "rgb"
+  ]
+}
