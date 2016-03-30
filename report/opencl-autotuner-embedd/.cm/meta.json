@@ -1,0 +1,38 @@
+{
+  "affiliations": {
+    "1": {
+      "name": "dividiti, UK"
+    }, 
+    "2": {
+      "name": "cTuning Foundation, France"
+    }
+  }, 
+  "authors": [
+    {
+      "affiliation": "1", 
+      "name": "Anton Lokhmotov", 
+      "url": "https://www.linkedin.com/in/lokhmotov"
+    }, 
+    {
+      "affiliation": "1,2", 
+      "name": "Grigori Fursin", 
+      "url": "http://fursin.net/research"
+    }
+  ], 
+  "live": "yes", 
+  "publish_iso_date": "2015-08-12", 
+  "tags": [
+    "ck-paper", 
+    "reproducibility", 
+    "artifacts"
+  ], 
+  "template": "live.html", 
+  "title": "Live CK report with shared artifacts and iteractive graphs: analyzing, autotuning and adapting OpenCL applications (HOG and SLAMBench) across heterogeneous platforms", 
+  "top": "no", 
+  "type": {
+    "name": "workshop", 
+    "peer_reviewed": "yes", 
+    "scope": "international"
+  }, 
+  "when": "August 2015"
+}
