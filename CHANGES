@@ -1,3 +1,6 @@
+* 2016.04.25 FGG: moving quit outdated Android Aux tools package here
+             (normally, this functionality should be in platform.init?)
+
 * 2016.03.26 FGG: adding program static MILEPOST features
 
 * 2015.12.11 FGG: renaming repo "reproduce-pamela-project-medium-dataset" to "reproduce-pamela-project-small-dataset"

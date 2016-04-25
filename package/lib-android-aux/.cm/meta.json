@@ -1,0 +1,32 @@
+{
+  "end_full_path": {
+    "linux": "bin/perf", 
+    "win": "bin\\perf",
+    "mingw": "bin\\perf",
+    "android":"bin$#sep#$perf"
+  }, 
+  "customize": {
+    "extra_dir": "", 
+    "split_version": [
+      1, 
+      0
+    ], 
+    "version": "1.0"
+  }, 
+  "only_for_host_os_tags": [
+    "windows", 
+    "linux"
+  ], 
+  "only_for_target_os_tags": [
+    "android"
+  ], 
+  "process_script": "process", 
+  "soft_uoa": "e088ecb44b41acdb", 
+  "suggested_path": "lib-android-aux", 
+  "tags": [
+    "lib", 
+    "android", 
+    "aux", 
+    "v1.0"
+  ]
+}
