@@ -1,17 +1,13 @@
 {
-  "end_full_path": {
-    "linux": "bin/perf", 
-    "win": "bin\\perf",
-    "mingw": "bin\\perf",
-    "android":"bin$#sep#$perf"
-  }, 
   "customize": {
     "extra_dir": "", 
-    "split_version": [
-      1, 
-      0
-    ], 
     "version": "1.0"
+  }, 
+  "end_full_path": {
+    "android": "bin$#sep#$perf", 
+    "linux": "bin/perf", 
+    "mingw": "bin\\perf", 
+    "win": "bin\\perf"
   }, 
   "only_for_host_os_tags": [
     "windows", 
