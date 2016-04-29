@@ -6,6 +6,7 @@
   "compile_deps": {
     "compiler": {
       "local": "yes", 
+      "name": "C++ compiler", 
       "tags": "compiler,lang-c"
     }
   }, 
@@ -53,10 +54,10 @@
     "6ae25b646cad4322"
   ], 
   "tags": [
-    "small",
+    "small", 
     "demo", 
     "program", 
-    "lang-c",
+    "lang-c", 
     "crowd-tuning"
   ], 
   "target_file": "a"
