@@ -25,7 +25,11 @@ duoa='c8848a1b1fb1775e' # "image-raw-bin-fgg-office-day-gray" can be used, but U
 ######################################################################
 def run(i):
 
-    curdir=os.getcwd()
+    try:
+        curdir=os.getcwd()
+    except OSError:
+        os.chdir('..')
+        curdir=os.getcwd()
 
     ck.out('')
     ck.out('Variation in results of the same experiments is not always considered')

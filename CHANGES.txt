@@ -1,3 +1,0 @@
-* 2015.12.11 renaming repo "reproduce-pamela-project-medium-dataset" to "reproduce-pamela-project-small-dataset"
-
-
