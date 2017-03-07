@@ -1,7 +1,8 @@
-CK repository to reproduce paper
-================================
+CK repository to reproduce our recent papers
+============================================
 
-Shared artifacts to reproduce and extend techniques from
+Shared artifacts in the [Collective Knowledge Format](https://github.com/ctuning/ck) 
+with JSON API and JSON meta information to reproduce and extend techniques from
 the following papers on "Collective Mind" and "Collective Knowledge":
 
 * http://arxiv.org/abs/1506.06256
@@ -11,19 +12,27 @@ the following papers on "Collective Mind" and "Collective Knowledge":
 
 Status
 ======
-THIS REPOSITORY IS NOT STABLE AND IS 
-IN ACTIVE DEVELOPMENT. PLEASE, USE IT 
-AT YOUR OWN RISK UNTIL OFFICIAL RELEASE!
+This is more a proof-of-concept repository. You can find reproducible workflows
+and articles in the CK format from the latest computer systems' conferences
+[here](http://cTuning.org/ae).
+
+For example, check out this reusable and customizable artifact from [CGO'17](http://cgo.org/cgo2017) 
+with automatic cross-platform software installation and web-based experimental dashboard powered 
+by the CK framework: 
+* [GitHub CK repo](https://github.com/SamAinsworth/reproduce-cgo2017-paper)
+* [Paper with artifact appendix](http://cTuning.org/resources/paper-with-distinguished-ck-artifact-and-ae-appendix-cgo2017.pdf)
+* [PDF snapshot of the interactive CK dashboard](https://github.com/SamAinsworth/reproduce-cgo2017-paper/files/618737/ck-aarch64-dashboard.pdf)
+* [CK concepts](https://michel-steuwer.github.io/About-CK)
 
 Authors
 =======
 
-* Grigori Fursin, cTuning foundation (France) / dividiti (UK), Grigori.Fursin@cTuning.org
-* Anton Lokhmotov, dividiti (UK), anton@dividiti.com
+* [Grigori Fursin](http://fursin.net/research.html), dividiti/cTuning foundation
+* [Anton Lokhmotov](https://www.hipeac.net/~anton), dividiti
 
 Prerequisites
 =============
-* Collective Knowledge Framework: http://github.com/ctuning/ck
+* [Collective Knowledge Framework](http://github.com/ctuning/ck)
 
 Installation
 ============
@@ -77,3 +86,9 @@ as Python package using "ck setup kernel --install):
 > cd script/reproduce-filter-variation
 
 > python reproduce2.py
+
+Feedback
+========
+* https://groups.google.com/forum/#!forum/collective-knowledge
+
+![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-validated-by-the-community-simple.png)
