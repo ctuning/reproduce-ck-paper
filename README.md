@@ -20,7 +20,7 @@ For example, check out this reusable and customizable artifact from [CGO'17](htt
 with automatic cross-platform software installation and web-based experimental dashboard powered 
 by the CK framework: 
 * [GitHub CK repo](https://github.com/SamAinsworth/reproduce-cgo2017-paper)
-* [Paper with artifact appendix](http://cTuning.org/resources/paper-with-distinguished-ck-artifact-and-ae-appendix-cgo2017.pdf)
+* [Paper with artifact appendix](http://cTuning.org/ae/resources/paper-with-distinguished-ck-artifact-and-ae-appendix-cgo2017.pdf)
 * [PDF snapshot of the interactive CK dashboard](https://github.com/SamAinsworth/reproduce-cgo2017-paper/files/618737/ck-aarch64-dashboard.pdf)
 * [CK concepts](https://michel-steuwer.github.io/About-CK)
 
