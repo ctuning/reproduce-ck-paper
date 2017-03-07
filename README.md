@@ -1,6 +1,10 @@
 CK repository to reproduce our recent papers
 ============================================
 
+[![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-powered-by-ck.png)](http://cKnowledge.org)
+[![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-validated-by-the-community-simple.png)](http://cTuning.org)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 Shared artifacts in the [Collective Knowledge Format](https://github.com/ctuning/ck) 
 with JSON API and JSON meta information to reproduce and extend techniques from
 the following papers on "Collective Mind" and "Collective Knowledge":
@@ -90,5 +94,3 @@ as Python package using "ck setup kernel --install):
 Feedback
 ========
 * https://groups.google.com/forum/#!forum/collective-knowledge
-
-![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-validated-by-the-community-simple.png)
