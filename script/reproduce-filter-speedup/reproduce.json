@@ -3,6 +3,8 @@
     "flags": [
       "-O3", 
       "-O3 -fno-if-conversion",
+      "-O3 -fno-if-conversion2",
+      "-O3 -fno-if-conversion -fno-if-conversion2",
       "-O2",
       "-O1",
       "-Os"
@@ -16,6 +18,7 @@
   "stat_repeat":4,
   "repeat":1000,
   "add_to_pipeline":{
+   "no_state_check":"yes",
    "cpu_freq":"max",
    "gpu_freq":"max"
   }
