@@ -24,7 +24,12 @@
         "raw-bin", 
         "rgb"
       ], 
-      "hot_functions": [], 
+      "hot_functions": [
+        {
+          "name": "filter_codelet", 
+          "percent": "98"
+        }
+      ], 
       "ignore_return_code": "no", 
       "run_time": {
         "fine_grain_timer_file": "tmp-ck-timer.json", 
