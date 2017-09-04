@@ -22,7 +22,12 @@
         "raw-bin", 
         "rgb"
       ], 
-      "hot_functions": [], 
+      "hot_functions": [
+        {
+          "name": "filter_codelet", 
+          "percent": "98"
+        }
+      ], 
       "ignore_return_code": "no", 
       "run_time": {
         "run_cmd_main": "$#BIN_FILE#$ $#dataset_path#$$#dataset_filename#$", 
