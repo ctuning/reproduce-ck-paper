@@ -1,0 +1,18 @@
+{
+  "dataset_uid": "709b60c71ae4c228", 
+  "dataset_uoa": "image-ppm-fgg-office-night-gray", 
+  "features": {
+    "compression": "", 
+    "format": "PPM", 
+    "height": 1536, 
+    "mode": "RGB", 
+    "raw_info": {}, 
+    "total_size": 7077905, 
+    "width": 1536
+  }, 
+  "tags": [
+    "dataset", 
+    "image", 
+    "ppm"
+  ]
+}

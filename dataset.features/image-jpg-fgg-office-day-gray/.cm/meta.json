@@ -1,0 +1,20 @@
+{
+  "dataset_uid": "b20d4d2aa62c0a38", 
+  "dataset_uoa": "image-jpg-fgg-office-day-gray", 
+  "features": {
+    "compression": "", 
+    "format": "JPEG", 
+    "height": 1536, 
+    "mode": "L", 
+    "total_size": 587085, 
+    "width": 1536, 
+    "xdpi": 72, 
+    "ydpi": 72
+  }, 
+  "tags": [
+    "dataset", 
+    "image", 
+    "jpeg", 
+    "jpg"
+  ]
+}

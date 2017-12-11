@@ -1,0 +1,21 @@
+{
+  "dataset_uid": "c9da12c288148ab9", 
+  "dataset_uoa": "image-jpg-fgg-office-night-gray", 
+  "features": {
+    "compression": "", 
+    "format": "JPEG", 
+    "height": 1536, 
+    "mode": "L", 
+    "total_size": 235166, 
+    "width": 1536, 
+    "xdpi": 72, 
+    "ydpi": 72
+  }, 
+  "tags": [
+    "dataset", 
+    "image", 
+    "jpeg", 
+    "jpg", 
+    "small"
+  ]
+}
