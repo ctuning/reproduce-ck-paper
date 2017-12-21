@@ -1,0 +1,76 @@
+{
+  "backup_data_uid": "4f998899226d33c3", 
+  "build_compiler_vars": {
+    "XOPENME": ""
+  }, 
+  "compile_deps": {
+    "compiler": {
+      "local": "yes", 
+      "name": "C++ compiler", 
+      "tags": "compiler,lang-c"
+    }
+  }, 
+  "compiler_env": "CK_CC", 
+  "data_name": "shared-codelet-filter5", 
+  "extra_ld_vars": "$<<CK_EXTRA_LIB_M>>$", 
+  "main_language": "c", 
+  "process_in_tmp": "yes", 
+  "program": "yes", 
+  "run_cmds": {
+    "default": {
+      "dataset_tags": [
+        "dataset", 
+        "image", 
+        "raw-bin", 
+        "rgb"
+      ], 
+      "hot_functions": [
+        {
+          "name": "filter_codelet", 
+          "percent": "98"
+        }
+      ], 
+      "ignore_return_code": "no", 
+      "run_time": {
+        "fine_grain_timer_file": "tmp-ck-timer.json", 
+        "run_cmd_main": "$#BIN_FILE#$ $#dataset_path#$$#dataset_filename#$", 
+        "run_cmd_out1": "tmp-output1.tmp", 
+        "run_cmd_out2": "tmp-output2.tmp", 
+        "run_correctness_output_files": [
+          "tmp-output2.tmp",
+          "image_output.bin" 
+        ], 
+        "run_input_files": [], 
+        "run_output_files": [
+          "image_output.bin", 
+          "tmp-ck-timer.json"
+        ]
+      }
+    }
+  }, 
+  "run_vars": {
+    "CT_REPEAT_MAIN": "1"
+  }, 
+  "source_files": [
+    "ctuning.c", 
+    "filter.c", 
+    "filter_codelet.c"
+  ], 
+  "species": [
+    "6ae25b646cad4322"
+  ], 
+  "tags": [
+    "small", 
+    "demo", 
+    "program", 
+    "lang-c", 
+    "crowd-tuning"
+  ], 
+  "use_compile_script": "yes",
+  "compile_cmds": {
+    "default": {
+     "cmd": "../ck-compile$#script_ext#$"
+   }
+  },
+  "target_file": "a"
+}
