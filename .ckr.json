@@ -1,18 +1,19 @@
 {
-  "data_name": "Reproducible and interactive papers with all shared artifacts for our CK papers", 
-  "data_alias": "reproduce-ck-paper", 
-  "data_uid": "8f3741434566b104", 
-  "data_uoa": "reproduce-ck-paper", 
+  "data_alias": "reproduce-ck-paper",
+  "data_name": "Reproducible and interactive papers with all shared artifacts for our CK papers",
+  "data_uid": "8f3741434566b104",
+  "data_uoa": "reproduce-ck-paper",
   "dict": {
+    "desc": "Customizable CK workflows and portable CK packages for the past CK paper.",
     "repo_deps": [
       {
         "repo_uoa": "ctuning-programs"
-      }, 
+      },
       {
         "repo_uoa": "ck-dissemination-modules"
       }
-    ], 
-    "url": "https://github.com/ctuning/reproduce-ck-paper", 
-    "shared": "git"
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/reproduce-ck-paper"
   }
 }
